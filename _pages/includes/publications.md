@@ -2,8 +2,6 @@
 
 > You can also find my articles on my [Google Scholar profile](https://scholar.google.com/citations?user=VA9mUOsAAAAJ). Note: \* indicates equal contribution; \† indicates the corresponding author.
 
-<<<<<<< Updated upstream
-=======
 <!-- CARD -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv</div><img src='images/paper/card_icml26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -73,18 +71,13 @@ Qing Yang, Zhenghao Liu†, Junxin Wang, Yangfan Du, `Pengcheng Huang`, Tong Xia
 </div>
 
 
->>>>>>> Stashed changes
 <!-- PamramMute_nips -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='images/paper/parammute_nips25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 # ParamMute: Suppressing Knowledge-Critical FFNs for Faithful Retrieval-Augmented Generation
 
-<<<<<<< Updated upstream
-`Pengcheng Huang`, Zhenghao Liu*, Yukun Yan, Xiaoyuan Yi, Hao Chen, Zhiyuan Liu, Maosong Sun, Tong Xiao, Ge Yu, Chenyan Xiong
-=======
 `Pengcheng Huang`, Zhenghao Liu†, Yukun Yan, Xiaoyuan Yi, Hao Chen, Zhiyuan Liu, Maosong Sun, Tong Xiao, Ge Yu, Chenyan Xiong
->>>>>>> Stashed changes
 
 [**📄PDF**](https://arxiv.org/pdf/2502.15543)
 
@@ -98,11 +91,7 @@ Qing Yang, Zhenghao Liu†, Junxin Wang, Yangfan Du, `Pengcheng Huang`, Tong Xia
 
 # Knowledge Intensive Agents
 
-<<<<<<< Updated upstream
-Zhenghao Liu*, `Pengcheng Huang`, Zhipeng Xu, Xinze Li, Shuliang Liu, Chunyi Peng, Haidong Xin, Yukun Yan, Shuo Wang, Xu Han, Zhiyuan Liu, Maosong Sun, Yu Gu, Ge Yu
-=======
 Zhenghao Liu†, `Pengcheng Huang`, Zhipeng Xu, Xinze Li, Shuliang Liu, Chunyi Peng, Haidong Xin, Yukun Yan, Shuo Wang, Xu Han, Zhiyuan Liu, Maosong Sun, Yu Gu, Ge Yu
->>>>>>> Stashed changes
 
 [**📄PDF**](https://papers.ssrn.com/sol3/Delivery.cfm/81afde5f-fbd1-4635-b582-7ac104b3322a-MECA.pdf?abstractid=5459034&mirid=1)
 
@@ -117,11 +106,7 @@ Zhenghao Liu†, `Pengcheng Huang`, Zhipeng Xu, Xinze Li, Shuliang Liu, Chunyi P
 
 # Pc-sampler: Position-aware calibration of decoding bias in masked diffusion models
 
-<<<<<<< Updated upstream
-`Pengcheng Huang`, Shuhao Liu, Zhenghao Liu*, Yukun Yan, Shuo Wang, Zulong Chen, Tong Xiao
-=======
 `Pengcheng Huang`, Tianming Liu, Zhenghao Liu†, Yukun Yan, Shuo Wang, Tong Xiao, Zulong Chen, Maosong Sun
->>>>>>> Stashed changes
 
 [**📄PDF**](https://arxiv.org/abs/2508.13021)
 
@@ -135,11 +120,7 @@ Zhenghao Liu†, `Pengcheng Huang`, Zhipeng Xu, Xinze Li, Shuliang Liu, Chunyi P
 
 # ExpandR: Teaching Dense Retrievers Beyond Queries with LLM Guidance
 
-<<<<<<< Updated upstream
-Sijia Yao, `Pengcheng Huang`, Zhenghao Liu*, Yu Gu, Yukun Yan, Shi Yu, Ge Yu
-=======
 Sijia Yao*, `Pengcheng Huang*`, Zhenghao Liu†, Yu Gu, Yukun Yan, Shi Yu, Ge Yu
->>>>>>> Stashed changes
 
 
 [**📄PDF**](https://arxiv.org/abs/2502.17057)
@@ -170,11 +151,7 @@ Hao Chen, Yukun Yan, Sen Mei, Wanxiang Che, Zhenghao Liu, Qi Shi, Xinze Li, Yuch
 
 # Position IDs Matter: An Enhanced Position Layout for Efficient Context Compression in Large Language Models
 
-<<<<<<< Updated upstream
-Runsong Zhao, Xin Liu, Xinyu Liu, `Pengcheng Huang`, Chunyang Xiao, Tong Xiao*, Jingbo Zhu
-=======
 Runsong Zhao, Xin Liu, Xinyu Liu, `Pengcheng Huang`, Chunyang Xiao, Tong Xiao†, Jingbo Zhu
->>>>>>> Stashed changes
 
 [**📄PDF**](https://arxiv.org/abs/2409.14364)
 
@@ -188,11 +165,7 @@ Runsong Zhao, Xin Liu, Xinyu Liu, `Pengcheng Huang`, Chunyang Xiao, Tong Xiao†
 
 # Forgetting curve: A reliable method for evaluating memorization capability for long-context models
 
-<<<<<<< Updated upstream
-Xinyu Liu, Runsong Zhao, `Pengcheng Huang`, Chunyang Xiao, Bei Li, Jingang Wang, Tong Xiao*, Jingbo Zhu
-=======
 Xinyu Liu, Runsong Zhao, `Pengcheng Huang`, Chunyang Xiao, Bei Li, Jingang Wang, Tong Xiao†, Jingbo Zhu
->>>>>>> Stashed changes
 
 [**📄PDF**](https://arxiv.org/abs/2410.04727)
 
@@ -207,11 +180,7 @@ Xinyu Liu, Runsong Zhao, `Pengcheng Huang`, Chunyang Xiao, Bei Li, Jingang Wang,
 
 # Translate-and-Revise: Boosting Large Language Models for Constrained Translation
 
-<<<<<<< Updated upstream
-`Pengcheng Huang`, Yongyu Mu, Yuzhang Wu, Bei Li, Chunyang Xiao, Tong Xiao*, Jingbo Zhu
-=======
 `Pengcheng Huang`, Yongyu Mu, Yuzhang Wu, Bei Li, Chunyang Xiao, Tong Xiao†, Jingbo Zhu
->>>>>>> Stashed changes
 
 [**📄PDF**](https://aclanthology.org/2024.ccl-1.82/)
 
