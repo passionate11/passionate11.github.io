@@ -3,7 +3,7 @@ permalink: /
 title: "Pengcheng Huang"
 seo_title: "Pengcheng Huang | LLMs, Parametric Knowledge, and Foundation Models"
 description: "Pengcheng Huang is a Ph.D. student in Computer Science at Northeastern University, working on Large Language Models, parametric knowledge, and foundation models."
-sidebar_description: "Ph.D. student at Northeastern University, working on LLMs, parametric knowledge, and foundation models."
+sidebar_description: "Working on LLMs, parametric knowledge, and foundation models."
 image: "/images/android-chrome-512x512.png"
 schema_type: "ProfilePage"
 lang: "en"

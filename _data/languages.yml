@@ -8,3 +8,12 @@ main:
   nav_locale: "en"
   home_label: "Homepage"
   indexable: true
+- key: "zh"
+  label: "中文"
+  button_label: "中"
+  path: "/zh/"
+  lang: "zh-CN"
+  hreflang: "zh-CN"
+  nav_locale: "zh_cn"
+  home_label: "首页"
+  indexable: true
