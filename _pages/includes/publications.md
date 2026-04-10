@@ -4,6 +4,48 @@
 
 > You can also find my articles on my [Google Scholar profile](https://scholar.google.com/citations?user=VA9mUOsAAAAJ). Note: \* indicates equal contribution; \† indicates the corresponding author.
 
+<!-- Uncode_acl -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/paper/uncode_acl26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+# Empirical Analysis of Decoding Biases in Masked Diffusion Models
+
+`Pengcheng Huang`, Tianming Liu, Zhenghao Liu†, Yukun Yan, Shuo Wang, Tong Xiao, Zulong Chen, Maosong Sun
+
+[**📄PDF**](https://arxiv.org/abs/2508.13021)
+
+- This work reveals two systematic decoding biases in Masked Diffusion Models — a rigid boundary bias that forces a fixed boundary‑first unmasking order regardless of task structure, and a trivial token bias that disproportionately prioritizes high‑frequency yet semantically uninformative tokens — and proposes Uncode, a lightweight decoding calibration framework incorporating a positional trajectory prior and a semantic informativeness prior to reshape unmasking priorities, consistently outperforming existing decoding strategies by over 7% on average across seven reasoning and planning benchmarks while achieving performance comparable to autoregressive models of similar scale.
+
+</div>
+</div>
+
+<!-- longmab_acl26 -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/paper/acl26_longmab.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+# Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Long-Context LLM Preference Optimization
+
+Shaohua Duan\*, `Pengcheng Huang*`, Xinze Li\*, Zhenghao Liu†, Xiaoyuan Yi, Yukun Yan, Shuo Wang, Yu Gu, Ge Yu, Maosong Sun
+
+[**📄PDF**](https://arxiv.org/abs/2508.13993)
+
+- This work proposes LongMab, a framework that treats divided context chunks as arms of a Multi‑Armed Bandit and leverages a UCB‑guided rollout strategy to progressively identify the most informative chunk combinations for sampling high‑quality, diverse responses, which are then used to construct effective preference pairs for DPO training, achieving over 4% average improvement on long‑context reasoning benchmarks across both Llama and Qwen.
+</div>
+</div>
+
+<!-- attn floating mdm -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/paper/attn_floating_acl26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+# Revealing the Attention Floating Mechanism in Masked Diffusion Models
+
+Xin Dai, `Pengcheng Huang`, Zhenghao Liu†, Shuo Wang, Yukun Yan, Chaojun Xiao, Yu Gu, Ge Yu, Maosong Sun
+
+[**📄PDF**](https://arxiv.org/pdf/2601.07894)
+
+- This paper investigates the internal attention behaviors of Masked Diffusion Models (MDMs), identifying a unique "Attention Floating" mechanism where attention anchors dynamically shift across layers and denoising steps, which provides a mechanistic explanation for their superior in-context learning performance compared to autoregressive models.
+</div>
+</div>
+
 <!-- CARD -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv</div><img src='images/paper/card_icml26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -32,6 +74,7 @@ Xingjie Gao*, `Pengcheng Huang*`, Zhenghao Liu†, Yukun Yan, Shuo Wang, Zulong 
 </div>
 
 
+
 <!-- sac iclr -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/paper/sac_iclr26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -45,21 +88,9 @@ Xin Liu*, Runsong Zhao*, `Pengcheng Huang`, Xinyu Liu, Junyi Xiao, Chunyang Xiao
 </div>
 </div>
 
-<!-- attn floating mdm -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv</div><img src='images/paper/attn_floating_acl26.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-# Revealing the Attention Floating Mechanism in Masked Diffusion Models
-
-Xin Dai, `Pengcheng Huang`, Zhenghao Liu†, Shuo Wang, Yukun Yan, Chaojun Xiao, Yu Gu, Ge Yu, Maosong Sun
-
-[**📄PDF**](https://arxiv.org/pdf/2601.07894)
-
-- This paper investigates the internal attention behaviors of Masked Diffusion Models (MDMs), identifying a unique "Attention Floating" mechanism where attention anchors dynamically shift across layers and denoising steps, which provides a mechanistic explanation for their superior in-context learning performance compared to autoregressive models.
-</div>
-</div>
 
 <!-- speech grpo -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv</div><img src='images/paper/speech_grpo.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCNN 2026</div><img src='images/paper/speech_grpo.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 # RLAIF-SPA: Optimizing LLM-based Emotional Speech Synthesis via RLAIF
 
@@ -102,19 +133,7 @@ Zhenghao Liu†, `Pengcheng Huang`, Zhipeng Xu, Xinze Li, Shuliang Liu, Chunyi P
 </div>
 
 
-<!-- PC_sampler_aaai -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv</div><img src='images/paper/Pc_sampler_aaai26.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
-# Pc-sampler: Position-aware calibration of decoding bias in masked diffusion models
-
-`Pengcheng Huang`, Tianming Liu, Zhenghao Liu†, Yukun Yan, Shuo Wang, Tong Xiao, Zulong Chen, Maosong Sun
-
-[**📄PDF**](https://arxiv.org/abs/2508.13021)
-
-- This work discovered that mainstream uncertainty‑based decoding in Masked Diffusion Models suffers from both a lack of global trajectory control and a strong early bias toward trivial tokens, and PC‑Sampler remedies this by using a position‑aware pathway planner together with a confidence calibration mechanism to boost informativeness, delivering over 10% gains on average while significantly narrowing the performance gap with autoregressive models.
-</div>
-</div>
 
 <!-- Expandr_EMNLP_oral -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2025 Oral</div><img src='images/paper/expandr_emnlp25.png' alt="sym" width="100%"></div></div>
