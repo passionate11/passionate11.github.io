@@ -1,3 +1,5 @@
+<span class='anchor' id='awards'></span>
+
 # 🏆 Awards
 
 - *2024.05* 🥇First Prize of Excellent Student Scholarship.

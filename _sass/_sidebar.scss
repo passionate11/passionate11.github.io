@@ -7,26 +7,18 @@
    ========================================================================== */
 
 .sidebar {
-  -webkit-transform: translate3d(0, 0 , 0);
-          transform: translate3d(0, 0 , 0);
-
-  @include clearfix();
   margin-bottom: 1em;
 
-  @include breakpoint($large) {
-    @include span(2 of 12);
+  @media (min-width: $large) {
+    position: sticky;
+    top: 4em;
+    align-self: start;
     opacity: 1;
-    -webkit-transition: opacity 0.2s ease-in-out;
-            transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
 
     &:hover {
       opacity: 1;
     }
-  }
-
-
-  @include breakpoint($x-large) {
-    padding-right: 0;
   }
 
   h2, h3, h4, h5, h6 {
@@ -52,15 +44,14 @@
 .sidebar__right {
   margin-bottom: 1em;
 
-  @include breakpoint($large) {
+  @media (min-width: $large) {
     position: relative;
     float: right;
     width: $right-sidebar-width-narrow;
-    margin-left: span(0.5 of 12);
     z-index: 10;
   }
 
-  @include breakpoint($x-large) {
+  @media (min-width: $x-large) {
     width: $right-sidebar-width;
   }
 }
@@ -69,36 +60,50 @@
    Author profile and links
    ========================================================================== */
 .profile_box{
-  @include breakpoint($large) {
+  @media (min-width: $large) {
     display: block;
   }
   display: flex;
   justify-content: flex-start;
   align-content: flex-start;
   align-items: center;
+
+  @media (max-width: ($large - 1px)) {
+    display: grid;
+    grid-template-columns: clamp(72px, 22vw, 88px) minmax(0, 1fr);
+    align-items: center;
+    column-gap: clamp(0.7rem, 2.6vw, 0.95rem);
+    row-gap: clamp(0.65rem, 2.4vw, 0.85rem);
+  }
 }
 
 .author__avatar {
   display: table-cell;
   vertical-align: top;
   width: 75px;
-  // set width only, for non-square avatars
-  // height: 36px;
 
-  @include breakpoint($large) {
+  @media (min-width: $large) {
     display: block;
     width: auto;
     height: auto;
   }
 
+  @media (max-width: ($large - 1px)) {
+    width: clamp(72px, 22vw, 88px);
+  }
+
   img {
     max-width: 175px;
-    min-width: 75px;
+    min-width: 0;
     border-radius: 50%;
 
-    @include breakpoint($large) {
+    @media (min-width: $large) {
       padding: 5px;
       border: 1px solid $border-color;
+    }
+
+    @media (max-width: ($large - 1px)) {
+      width: 100%;
     }
   }
 }
@@ -108,38 +113,46 @@
   vertical-align: top;
   padding-left: 10px;
   min-width: 120px;
-  // padding-right: 25px;
   line-height: 1;
 
-  @include breakpoint($large) {
+  @media (min-width: $large) {
     display: block;
     width: 100%;
     padding-left: 0;
     padding-right: 0;
+  }
+
+  @media (max-width: ($large - 1px)) {
+    min-width: 0;
+    padding-left: 0;
   }
 }
 
 .author__name {
   margin: 0;
 
-  @include breakpoint($large) {
+  @media (min-width: $large) {
     margin-top: 10px;
     margin-bottom: 10px;
   }
 }
 
 .sidebar .author__name {
-  @include breakpoint($medium) {
+  @media (min-width: $medium) {
     font-size: $type-size-3;
   }
   font-family: $sans-serif;
   font-size: $type-size-4;
+
+  @media (max-width: ($large - 1px)) {
+    font-size: clamp(1.2rem, 4.6vw, 1.45rem);
+  }
 }
 
 .author__bio {
   margin: 0;
 
-  @include breakpoint($large) {
+  @media (min-width: $large) {
     margin-top: 10px;
     margin-bottom: 20px;
   }
@@ -151,7 +164,6 @@
   vertical-align: middle;
   font-family: $sans-serif;
   z-index: 10;
-  position: relative;
   margin-left: auto;
   cursor: pointer;
 
@@ -161,15 +173,23 @@
     }
   }
 
-  @include breakpoint($large) {
+  @media (min-width: $large) {
     display: block;
+  }
+
+  @media (max-width: ($large - 1px)) {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+    grid-column: 1 / -1;
+    cursor: default;
   }
 
   button {
     margin-bottom: 0;
     width: 120px;
     padding: 0.5em;
-    @include breakpoint($large) {
+    @media (min-width: $large) {
       display: none;
     }
   }
@@ -189,7 +209,7 @@
   box-shadow: 0 0 10px rgba(#000, 0.25);
   cursor: default;
 
-  @include breakpoint($large) {
+  @media (min-width: $large) {
     display: block;
     position: relative;
     margin: 0;
@@ -197,6 +217,21 @@
     border: 0;
     background: transparent;
     box-shadow: none;
+  }
+
+  @media (max-width: ($large - 1px)) {
+    display: none !important;
+    position: static !important;
+    inset: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    max-height: 0 !important;
+    overflow: hidden !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
   }
 
   &:before {
@@ -211,7 +246,7 @@
     border-color: $border-color transparent;
     z-index: 0;
 
-    @include breakpoint($large) {
+    @media (min-width: $large) {
       display: none;
     }
   }
@@ -228,7 +263,7 @@
     border-color: #fff transparent;
     z-index: 1;
 
-    @include breakpoint($large) {
+    @media (min-width: $large) {
       display: none;
     }
   }
@@ -257,6 +292,8 @@
   padding: .25em;
   font-size: 1.75em;
   display: block;
+  position: relative;
+  z-index: 1;
   a {
     color: inherit;
     text-decoration: none;
@@ -264,7 +301,22 @@
       text-decoration: underline;
     }
   }
-  @include breakpoint($large) {
+  @media (min-width: $large) {
     display: none;
+  }
+
+  @media (max-width: ($large - 1px)) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.4rem 0.55rem;
+    width: 100%;
+    padding: 0;
+    font-size: 1.45em;
+    line-height: 1;
+
+    a {
+      margin: 0;
+    }
   }
 }

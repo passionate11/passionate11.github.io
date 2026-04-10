@@ -1,0 +1,10 @@
+main:
+- key: "en"
+  label: "English"
+  button_label: "EN"
+  path: "/"
+  lang: "en"
+  hreflang: "en"
+  nav_locale: "en"
+  home_label: "Homepage"
+  indexable: true

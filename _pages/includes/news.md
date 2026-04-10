@@ -1,3 +1,5 @@
+<span class='anchor' id='news'></span>
+
 # 🔥 News
 
 - `2026-01`: &nbsp;🎉 One paper accepted to *ICLR 2026*
