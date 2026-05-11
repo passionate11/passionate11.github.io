@@ -8,7 +8,7 @@
 # Site Settings
 title: "Pengcheng Huang"
 description: "Researching Large Language Models, parametric knowledge, and foundation models"
-url: ""
+url: "https://passionate11.github.io"
 baseurl: ""
 lang: "en"
 locale: "en_US"
@@ -28,7 +28,7 @@ social:
 google_analytics_id: # get google_analytics_id from https://analytics.google.com/analytics/
 
 # SEO Related
-google_site_verification: # get google_site_verification from https://search.google.com/search-console/about
+google_site_verification: "Wcuyn2axK3H36ag3cyhkcfQB4VTJC08hYjZ97N5JzPo"
 bing_site_verification: # get bing_site_verification from https://www.bing.com/webmasters/about
 baidu_site_verification: # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
 
