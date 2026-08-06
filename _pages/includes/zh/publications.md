@@ -118,6 +118,9 @@ Qing Yang, Zhenghao Liu†, Junxin Wang, Yangfan Du, `Pengcheng Huang`, Tong Xia
 </div>
 </div>
 
+<details class="more-papers">
+<summary>展开其余 6 篇论文</summary>
+
 <!-- rag_survey -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AI Open 2025</div><img src='images/paper/survey.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -208,3 +211,5 @@ Xinyu Liu, Runsong Zhao, `Pengcheng Huang`, Chunyang Xiao, Bei Li, Jingang Wang,
 - 本文发现大语言模型在约束翻译中常忽略或违反指定的词汇或结构约束，提出 Translate-and-Revise，通过添加修订过程让模型识别未满足的约束并修正输出，约束翻译准确率提升约 15%，超越神经机器翻译基线。
 </div>
 </div>
+
+</details>

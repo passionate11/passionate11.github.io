@@ -3,7 +3,7 @@
 ---
 
 <div class="page-info-bar">
-<span><i class="fas fa-clock"></i> 最后更新：2026-04-10</span>
+<span><i class="fas fa-clock"></i> 最后更新：{{ site.time | date: "%Y-%m-%d" }}</span>
 <span class="info-sep">·</span>
 <span><i class="fab fa-weixin"></i> PcHuang_1031</span>
 <span class="info-sep">·</span>

@@ -118,6 +118,9 @@ Qing Yang, Zhenghao Liu†, Junxin Wang, Yangfan Du, `Pengcheng Huang`, Tong Xia
 </div>
 </div>
 
+<details class="more-papers">
+<summary>Show 6 more publications</summary>
+
 <!-- rag_survey -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AI Open 2025</div><img src='images/paper/survey.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -208,3 +211,5 @@ Xinyu Liu, Runsong Zhao, `Pengcheng Huang`, Chunyang Xiao, Bei Li, Jingang Wang,
 - This work discovers that large language models (LLMs) prompted for constrained translation often ignore or violate specified lexical or structural constraints—partly because they’re overly confident and let their own fluency priorities override constraint satisfaction—and Translate‑and‑Revise remedies this by adding a revision process that prompts the model to identify unmet constraints and correct its output, yielding ~15% improvement in constraint translation accuracy and surpassing NMT baselines.
 </div>
 </div>
+
+</details>

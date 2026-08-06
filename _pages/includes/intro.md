@@ -3,7 +3,7 @@ I am a first-year Ph.D. student in Computer Science at [Northeastern University]
 ---
 
 <div class="page-info-bar">
-<span><i class="fas fa-clock"></i> Last Updated: 2026-04-10</span>
+<span><i class="fas fa-clock"></i> Last Updated: {{ site.time | date: "%Y-%m-%d" }}</span>
 <span class="info-sep">·</span>
 <span><i class="fab fa-weixin"></i> PcHuang_1031</span>
 <span class="info-sep">·</span>
