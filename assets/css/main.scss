@@ -96,8 +96,9 @@ html {
         order: 1;
 
         h1 {
-            font-size: 1.02em;
-            font-weight: 650;
+            font-family: Georgia, "Times New Roman", Times, serif;
+            font-size: 1.08em;
+            font-weight: 600;
             margin-top: 0.3em;
             border-bottom: none !important;
             padding-bottom: 0 !important;
@@ -109,7 +110,7 @@ html {
         }
 
         h1 + p code {
-            color: #2D3748;
+            color: var(--c-accent-warm, #B87333);
             font-weight: 700;
             background: transparent;
             border: none;
@@ -184,6 +185,37 @@ html {
         &::after {
             content: '▴';
         }
+    }
+}
+
+// Research interests card in the sidebar.
+.author__interests {
+    margin: 0.2em 0 1.2em;
+    padding: 0.85em 1em;
+    background: #F5F7FA;
+    border: 1px solid var(--c-border, #E5E9EF);
+    border-radius: 8px;
+    white-space: normal;
+}
+
+.author__interests-title {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 0.95em;
+    font-weight: 600;
+    color: var(--c-text, #374151);
+    margin-bottom: 0.5em;
+}
+
+.author__interests-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+        padding: 0.16em 0;
+        font-size: 0.88em;
+        line-height: 1.45;
+        color: var(--c-text-muted, #6B7580);
     }
 }
 

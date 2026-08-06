@@ -12,7 +12,7 @@
 
 `Pengcheng Huang`, Tianming Liu, Zhenghao Liu†, Yukun Yan, Shuo Wang, Tong Xiao, Zulong Chen, Maosong Sun
 
-[![arXiv](https://img.shields.io/badge/arXiv-2508.13021-b31b1b.svg)](https://arxiv.org/abs/2508.13021) [![GitHub Stars](https://img.shields.io/github/stars/NEUIR/Uncode)](https://github.com/NEUIR/Uncode)
+[arXiv](https://arxiv.org/abs/2508.13021) · [Code](https://github.com/NEUIR/Uncode)
 
 - This work reveals two systematic decoding biases in Masked Diffusion Models — rigid boundary bias and trivial token bias — and proposes Uncode, a lightweight calibration framework that reshapes unmasking priorities via positional and semantic priors, outperforming existing decoding strategies by over 7% on average and achieving performance comparable to autoregressive models.
 
@@ -27,7 +27,7 @@
 
 Shaohua Duan\*, `Pengcheng Huang*`, Xinze Li\*, Zhenghao Liu†, Xiaoyuan Yi, Yukun Yan, Shuo Wang, Yu Gu, Ge Yu, Maosong Sun
 
-[![arXiv](https://img.shields.io/badge/arXiv-2508.13993-b31b1b.svg)](https://arxiv.org/abs/2508.13993) [![GitHub Stars](https://img.shields.io/github/stars/NEUIR/LongMab-PO)](https://github.com/NEUIR/LongMab-PO)
+[arXiv](https://arxiv.org/abs/2508.13993) · [Code](https://github.com/NEUIR/LongMab-PO)
 
 - This work proposes LongMab, a framework that treats divided context chunks as arms of a Multi‑Armed Bandit and leverages a UCB‑guided rollout strategy to progressively identify the most informative chunk combinations for sampling high‑quality, diverse responses, which are then used to construct effective preference pairs for DPO training, achieving over 4% average improvement on long‑context reasoning benchmarks across both Llama and Qwen.
 </div>
@@ -40,7 +40,7 @@ Shaohua Duan\*, `Pengcheng Huang*`, Xinze Li\*, Zhenghao Liu†, Xiaoyuan Yi, Yu
 
 Xin Dai, `Pengcheng Huang`, Zhenghao Liu†, Shuo Wang, Yukun Yan, Chaojun Xiao, Yu Gu, Ge Yu, Maosong Sun
 
-[![arXiv](https://img.shields.io/badge/arXiv-2601.07894-b31b1b.svg)](https://arxiv.org/abs/2601.07894) [![GitHub Stars](https://img.shields.io/github/stars/NEUIR/Attention-Floating)](https://github.com/NEUIR/Attention-Floating)
+[arXiv](https://arxiv.org/abs/2601.07894) · [Code](https://github.com/NEUIR/Attention-Floating)
 
 - This paper investigates the internal attention behaviors of Masked Diffusion Models (MDMs), identifying a unique "Attention Floating" mechanism where attention anchors dynamically shift across layers and denoising steps, which provides a mechanistic explanation for their superior in-context learning performance compared to autoregressive models.
 </div>
@@ -53,7 +53,7 @@ Xin Dai, `Pengcheng Huang`, Zhenghao Liu†, Shuo Wang, Yukun Yan, Chaojun Xiao,
 
 Junhao Ruan, Bei Li, Yongjing Yin, `Pengcheng Huang`, Xin Chen, Jingang Wang, Xunliang Cai, Tong Xiao†, JingBo Zhu
 
-[![arXiv](https://img.shields.io/badge/arXiv-2601.22031-b31b1b.svg)](https://arxiv.org/abs/2601.22031)
+[arXiv](https://arxiv.org/abs/2601.22031)
 
 - This paper introduces Causal Autoregressive Diffusion (CARD), a framework that unifies the training efficiency of autoregressive models with the high-throughput parallel inference of diffusion models by using a strictly causal attention mask and a dynamic decoding mechanism.
 </div>
@@ -67,7 +67,7 @@ Junhao Ruan, Bei Li, Yongjing Yin, `Pengcheng Huang`, Xin Chen, Jingang Wang, Xu
 
 Xingjie Gao*, `Pengcheng Huang*`, Zhenghao Liu†, Yukun Yan, Shuo Wang, Zulong Chen, Chen Qian, Ge Yu, Yu Gu
 
-[![arXiv](https://img.shields.io/badge/arXiv-2601.12762-b31b1b.svg)](https://arxiv.org/abs/2601.12762) [![GitHub Stars](https://img.shields.io/github/stars/NEUIR/ToolMaster)](https://github.com/NEUIR/ToolMaster)
+[arXiv](https://arxiv.org/abs/2601.12762) · [Code](https://github.com/NEUIR/ToolMaster)
 
 - This paper proposes ToolMaster, a framework that enables LLMs to master complex tool usage by shifting from passive imitation of expert trajectories to an active trial-and-execution paradigm, where models learn to explore and self-correct through direct environment interaction.
 </div>
@@ -82,7 +82,7 @@ Xingjie Gao*, `Pengcheng Huang*`, Zhenghao Liu†, Yukun Yan, Shuo Wang, Zulong 
 
 Xin Liu*, Runsong Zhao*, `Pengcheng Huang`, Xinyu Liu, Junyi Xiao, Chunyang Xiao, Tong Xiao†, Shengxiang Gao, Zhengtao Yu, Jingbo Zhu
 
-[![arXiv](https://img.shields.io/badge/arXiv-2510.08907-b31b1b.svg)](https://arxiv.org/abs/2510.08907)
+[arXiv](https://arxiv.org/abs/2510.08907)
 
 - This paper introduces Semantic-Anchor Compression (SAC), a novel method that achieves efficient context compression for LLMs by directly selecting and aggregating information into contextual "anchor tokens," bypassing the limitations of traditional autoencoding-based training.
 </div>
@@ -96,7 +96,7 @@ Xin Liu*, Runsong Zhao*, `Pengcheng Huang`, Xinyu Liu, Junyi Xiao, Chunyang Xiao
 
 Qing Yang, Zhenghao Liu†, Junxin Wang, Yangfan Du, `Pengcheng Huang`, Tong Xiao
 
-[![arXiv](https://img.shields.io/badge/arXiv-2510.14628-b31b1b.svg)](https://arxiv.org/abs/2510.14628)
+[arXiv](https://arxiv.org/abs/2510.14628)
 
 - This paper proposes RLAIF-SPA, a framework that enhances the emotional expressiveness and prosodic naturalness of LLM-based speech synthesis by using Reinforcement Learning from AI Feedback to optimize semantic accuracy and fine-grained prosodic alignment.
 
@@ -112,7 +112,7 @@ Qing Yang, Zhenghao Liu†, Junxin Wang, Yangfan Du, `Pengcheng Huang`, Tong Xia
 
 `Pengcheng Huang`, Zhenghao Liu†, Yukun Yan, Xiaoyuan Yi, Hao Chen, Zhiyuan Liu, Maosong Sun, Tong Xiao, Ge Yu, Chenyan Xiong
 
-[![arXiv](https://img.shields.io/badge/arXiv-2502.15543-b31b1b.svg)](https://arxiv.org/abs/2502.15543)
+[arXiv](https://arxiv.org/abs/2502.15543)
 
 - This work presents ParamMute, a novel framework for enhancing the faithfulness of Retrieval-Augmented Generation. By identifying and suppressing unfaithfulness-associated feed-forward networks (FFNs), and incorporating a knowledge preference adaptation module, ParamMute effectively steers language models to better leverage retrieved evidence, paving the way for more reliable and trustworthy RAG systems.
 </div>
@@ -147,7 +147,7 @@ Zhenghao Liu†, `Pengcheng Huang`, Zhipeng Xu, Xinze Li, Shuliang Liu, Chunyi P
 Sijia Yao*, `Pengcheng Huang*`, Zhenghao Liu†, Yu Gu, Yukun Yan, Shi Yu, Ge Yu
 
 
-[![arXiv](https://img.shields.io/badge/arXiv-2502.17057-b31b1b.svg)](https://arxiv.org/abs/2502.17057) [![GitHub Stars](https://img.shields.io/github/stars/NEUIR/ExpandR)](https://github.com/NEUIR/ExpandR)
+[arXiv](https://arxiv.org/abs/2502.17057) · [Code](https://github.com/NEUIR/ExpandR)
 
 - This work introduces ExpandR, a unified framework that jointly trains a large language model (LLM) and a dense retriever by having the LLM generate rich query expansions and optimizing both expansion generation (via Direct Preference Optimization with combined rewards for retrieval utility and consistency) and retriever ranking performance at the same time, resulting in >5% boost over strong baselines on retrieval benchmarks.
 </div>
@@ -162,7 +162,7 @@ Sijia Yao*, `Pengcheng Huang*`, Zhenghao Liu†, Yu Gu, Yukun Yan, Shi Yu, Ge Yu
 
 Hao Chen, Yukun Yan, Sen Mei, Wanxiang Che, Zhenghao Liu, Qi Shi, Xinze Li, Yuchun Fan, `Pengcheng Huang`, Qiushi Xiong, Zhiyuan Liu, Maosong Sun
 
-[![arXiv](https://img.shields.io/badge/arXiv-2505.24388-b31b1b.svg)](https://arxiv.org/abs/2505.24388)
+[arXiv](https://arxiv.org/abs/2505.24388)
 
 - This work discovered that RAG systems often under‐utilize retrieved documents because critical evidence (“clues”) is implicit, dispersed, or obscured by noise, and ClueAnchor addresses this by first extracting key clues from the retrieved content, generating multiple reasoning paths under different knowledge configurations (internal, external, and clue‑anchored), and then using reward‑based preference optimization to select the most effective path — yielding much better reasoning completeness and robustness.
 </div>
@@ -177,7 +177,7 @@ Hao Chen, Yukun Yan, Sen Mei, Wanxiang Che, Zhenghao Liu, Qi Shi, Xinze Li, Yuch
 
 Runsong Zhao, Xin Liu, Xinyu Liu, `Pengcheng Huang`, Chunyang Xiao, Tong Xiao†, Jingbo Zhu
 
-[![arXiv](https://img.shields.io/badge/arXiv-2409.14364-b31b1b.svg)](https://arxiv.org/abs/2409.14364)
+[arXiv](https://arxiv.org/abs/2409.14364)
 
 - This work identifies that existing LLM context‑compression methods like ICAE suffer from suboptimal position identifier layouts for compressed tokens and that the auto‑encoding loss alone insufficiently promotes memorization; it then proposes spreading position identifiers uniformly across input and introducing a “compression loss” focused purely on memorization, enabling much higher compression ratios (up to ~15× vs 4×) while retaining reconstruction and downstream performance.
 </div>
@@ -191,7 +191,7 @@ Runsong Zhao, Xin Liu, Xinyu Liu, `Pengcheng Huang`, Chunyang Xiao, Tong Xiao†
 
 Xinyu Liu, Runsong Zhao, `Pengcheng Huang`, Chunyang Xiao, Bei Li, Jingang Wang, Tong Xiao†, Jingbo Zhu
 
-[![arXiv](https://img.shields.io/badge/arXiv-2410.04727-b31b1b.svg)](https://arxiv.org/abs/2410.04727)
+[arXiv](https://arxiv.org/abs/2410.04727)
 
 - This work discovered that existing methods for measuring memorization in long‑context models (e.g. via perplexity or “needle in a haystack” tasks) are unreliable—being overly sensitive to prompts, corpora, or downstream tasks—and proposes the Forgetting Curve, a prompt‑free, robust metric based on comparing copy accuracy vs. LM accuracy over prefixes to more faithfully capture a model’s memory over long contexts, revealing that many claimed context extension techniques may not truly improve memorization for very long inputs.
 </div>

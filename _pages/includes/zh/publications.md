@@ -12,7 +12,7 @@
 
 `Pengcheng Huang`, Tianming Liu, Zhenghao Liu†, Yukun Yan, Shuo Wang, Tong Xiao, Zulong Chen, Maosong Sun
 
-[![arXiv](https://img.shields.io/badge/arXiv-2508.13021-b31b1b.svg)](https://arxiv.org/abs/2508.13021) [![GitHub Stars](https://img.shields.io/github/stars/NEUIR/Uncode)](https://github.com/NEUIR/Uncode)
+[arXiv](https://arxiv.org/abs/2508.13021) · [代码](https://github.com/NEUIR/Uncode)
 
 - 本文揭示了掩码扩散模型中基于不确定性解码的两个系统性偏差——刚性边界偏差和无意义词偏差，并提出 Uncode，一个通过位置轨迹先验和语义信息先验重塑解码优先级的轻量级校准框架，平均性能提升超过 7%，达到与同规模自回归模型可比的效果。
 
@@ -27,7 +27,7 @@
 
 Shaohua Duan\*, `Pengcheng Huang*`, Xinze Li\*, Zhenghao Liu†, Xiaoyuan Yi, Yukun Yan, Shuo Wang, Yu Gu, Ge Yu, Maosong Sun
 
-[![arXiv](https://img.shields.io/badge/arXiv-2508.13993-b31b1b.svg)](https://arxiv.org/abs/2508.13993) [![GitHub Stars](https://img.shields.io/github/stars/NEUIR/LongMab-PO)](https://github.com/NEUIR/LongMab-PO)
+[arXiv](https://arxiv.org/abs/2508.13993) · [代码](https://github.com/NEUIR/LongMab-PO)
 
 - 本文提出 LongMab，将长上下文分块视为多臂老虎机的臂，通过 UCB 引导的采样策略渐进识别最具信息量的分块组合，生成高质量多样化响应并构建偏好对用于 DPO 训练，在 Llama 和 Qwen 上平均提升超 4%。
 </div>
@@ -40,7 +40,7 @@ Shaohua Duan\*, `Pengcheng Huang*`, Xinze Li\*, Zhenghao Liu†, Xiaoyuan Yi, Yu
 
 Xin Dai, `Pengcheng Huang`, Zhenghao Liu†, Shuo Wang, Yukun Yan, Chaojun Xiao, Yu Gu, Ge Yu, Maosong Sun
 
-[![arXiv](https://img.shields.io/badge/arXiv-2601.07894-b31b1b.svg)](https://arxiv.org/abs/2601.07894) [![GitHub Stars](https://img.shields.io/github/stars/NEUIR/Attention-Floating)](https://github.com/NEUIR/Attention-Floating)
+[arXiv](https://arxiv.org/abs/2601.07894) · [代码](https://github.com/NEUIR/Attention-Floating)
 
 - 本文研究了掩码扩散模型的内部注意力行为，发现了独特的"注意力漂浮"机制——注意力锚点在层和去噪步之间动态漂移，为其优于自回归模型的上下文学习能力提供了机理层面的解释。
 </div>
@@ -53,7 +53,7 @@ Xin Dai, `Pengcheng Huang`, Zhenghao Liu†, Shuo Wang, Yukun Yan, Chaojun Xiao,
 
 Junhao Ruan, Bei Li, Yongjing Yin, `Pengcheng Huang`, Xin Chen, Jingang Wang, Xunliang Cai, Tong Xiao†, JingBo Zhu
 
-[![arXiv](https://img.shields.io/badge/arXiv-2601.22031-b31b1b.svg)](https://arxiv.org/abs/2601.22031)
+[arXiv](https://arxiv.org/abs/2601.22031)
 
 - 本文提出因果自回归扩散模型（CARD），通过严格的因果注意力掩码和动态解码机制，将自回归模型的训练效率与扩散模型的高吞吐并行推理统一在一个框架中。
 </div>
@@ -67,7 +67,7 @@ Junhao Ruan, Bei Li, Yongjing Yin, `Pengcheng Huang`, Xin Chen, Jingang Wang, Xu
 
 Xingjie Gao*, `Pengcheng Huang*`, Zhenghao Liu†, Yukun Yan, Shuo Wang, Zulong Chen, Chen Qian, Ge Yu, Yu Gu
 
-[![arXiv](https://img.shields.io/badge/arXiv-2601.12762-b31b1b.svg)](https://arxiv.org/abs/2601.12762) [![GitHub Stars](https://img.shields.io/github/stars/NEUIR/ToolMaster)](https://github.com/NEUIR/ToolMaster)
+[arXiv](https://arxiv.org/abs/2601.12762) · [代码](https://github.com/NEUIR/ToolMaster)
 
 - 本文提出 ToolMaster，通过将被动模仿专家轨迹转变为主动试错执行的范式，使大语言模型在与环境的直接交互中学习探索和自我纠正，从而掌握复杂工具使用。
 </div>
@@ -82,7 +82,7 @@ Xingjie Gao*, `Pengcheng Huang*`, Zhenghao Liu†, Yukun Yan, Shuo Wang, Zulong 
 
 Xin Liu*, Runsong Zhao*, `Pengcheng Huang`, Xinyu Liu, Junyi Xiao, Chunyang Xiao, Tong Xiao†, Shengxiang Gao, Zhengtao Yu, Jingbo Zhu
 
-[![arXiv](https://img.shields.io/badge/arXiv-2510.08907-b31b1b.svg)](https://arxiv.org/abs/2510.08907)
+[arXiv](https://arxiv.org/abs/2510.08907)
 
 - 本文提出语义锚点压缩（SAC），一种无需自编码训练的上下文压缩方法，通过直接选择并聚合信息到上下文"锚点词"中，实现高效的大语言模型上下文压缩。
 </div>
@@ -96,7 +96,7 @@ Xin Liu*, Runsong Zhao*, `Pengcheng Huang`, Xinyu Liu, Junyi Xiao, Chunyang Xiao
 
 Qing Yang, Zhenghao Liu†, Junxin Wang, Yangfan Du, `Pengcheng Huang`, Tong Xiao
 
-[![arXiv](https://img.shields.io/badge/arXiv-2510.14628-b31b1b.svg)](https://arxiv.org/abs/2510.14628)
+[arXiv](https://arxiv.org/abs/2510.14628)
 
 - 本文提出 RLAIF-SPA，通过基于 AI 反馈的强化学习优化语义准确性和细粒度韵律对齐，提升大语言模型语音合成的情感表现力和韵律自然度。
 
@@ -112,7 +112,7 @@ Qing Yang, Zhenghao Liu†, Junxin Wang, Yangfan Du, `Pengcheng Huang`, Tong Xia
 
 `Pengcheng Huang`, Zhenghao Liu†, Yukun Yan, Xiaoyuan Yi, Hao Chen, Zhiyuan Liu, Maosong Sun, Tong Xiao, Ge Yu, Chenyan Xiong
 
-[![arXiv](https://img.shields.io/badge/arXiv-2502.15543-b31b1b.svg)](https://arxiv.org/abs/2502.15543)
+[arXiv](https://arxiv.org/abs/2502.15543)
 
 - 本文提出 ParamMute，通过识别并抑制与不忠实生成相关的前馈网络（FFN），并引入知识偏好适配模块，有效引导语言模型更好地利用检索到的证据，提升检索增强生成的忠实性。
 </div>
@@ -147,7 +147,7 @@ Zhenghao Liu†, `Pengcheng Huang`, Zhipeng Xu, Xinze Li, Shuliang Liu, Chunyi P
 Sijia Yao*, `Pengcheng Huang*`, Zhenghao Liu†, Yu Gu, Yukun Yan, Shi Yu, Ge Yu
 
 
-[![arXiv](https://img.shields.io/badge/arXiv-2502.17057-b31b1b.svg)](https://arxiv.org/abs/2502.17057) [![GitHub Stars](https://img.shields.io/github/stars/NEUIR/ExpandR)](https://github.com/NEUIR/ExpandR)
+[arXiv](https://arxiv.org/abs/2502.17057) · [代码](https://github.com/NEUIR/ExpandR)
 
 - 本文提出 ExpandR，一个联合训练大语言模型和稠密检索器的统一框架，通过让 LLM 生成丰富的查询扩展，并同时优化扩展生成和检索排序性能，在检索基准上比强基线提升超 5%。
 </div>
@@ -162,7 +162,7 @@ Sijia Yao*, `Pengcheng Huang*`, Zhenghao Liu†, Yu Gu, Yukun Yan, Shi Yu, Ge Yu
 
 Hao Chen, Yukun Yan, Sen Mei, Wanxiang Che, Zhenghao Liu, Qi Shi, Xinze Li, Yuchun Fan, `Pengcheng Huang`, Qiushi Xiong, Zhiyuan Liu, Maosong Sun
 
-[![arXiv](https://img.shields.io/badge/arXiv-2505.24388-b31b1b.svg)](https://arxiv.org/abs/2505.24388)
+[arXiv](https://arxiv.org/abs/2505.24388)
 
 - 本文发现 RAG 系统常因关键证据隐含、分散或被噪声掩盖而未能充分利用检索文档，ClueAnchor 通过提取关键线索、在不同知识配置下生成多条推理路径，再通过基于奖励的偏好优化选择最优路径，显著提升推理完整性和鲁棒性。
 </div>
@@ -177,7 +177,7 @@ Hao Chen, Yukun Yan, Sen Mei, Wanxiang Che, Zhenghao Liu, Qi Shi, Xinze Li, Yuch
 
 Runsong Zhao, Xin Liu, Xinyu Liu, `Pengcheng Huang`, Chunyang Xiao, Tong Xiao†, Jingbo Zhu
 
-[![arXiv](https://img.shields.io/badge/arXiv-2409.14364-b31b1b.svg)](https://arxiv.org/abs/2409.14364)
+[arXiv](https://arxiv.org/abs/2409.14364)
 
 - 本文发现现有 LLM 上下文压缩方法（如 ICAE）在压缩词的位置编码布局上存在缺陷，提出将位置标识符均匀分布并引入专注记忆的"压缩损失"，将压缩比从 4 倍提升至约 15 倍，同时保持重建和下游任务性能。
 </div>
@@ -191,7 +191,7 @@ Runsong Zhao, Xin Liu, Xinyu Liu, `Pengcheng Huang`, Chunyang Xiao, Tong Xiao†
 
 Xinyu Liu, Runsong Zhao, `Pengcheng Huang`, Chunyang Xiao, Bei Li, Jingang Wang, Tong Xiao†, Jingbo Zhu
 
-[![arXiv](https://img.shields.io/badge/arXiv-2410.04727-b31b1b.svg)](https://arxiv.org/abs/2410.04727)
+[arXiv](https://arxiv.org/abs/2410.04727)
 
 - 本文发现现有长上下文模型的记忆能力评估方法（如困惑度、"大海捞针"任务）不够可靠，提出遗忘曲线——一种基于拷贝准确率与语言模型准确率对比的无提示鲁棒指标，更忠实地衡量模型对长上下文的记忆能力。
 </div>

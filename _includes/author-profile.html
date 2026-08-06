@@ -21,6 +21,15 @@
       {% if profile_description %}
         <li><div style="white-space: normal; margin-bottom: 1em;">{{ profile_description }}</div></li>
       {% endif %}
+      {% assign interests = page.research_interests | default: author.knows_about %}
+      {% if interests %}
+        <li class="author__interests">
+          <div class="author__interests-title">{{ page.research_interests_title | default: "Research Interests" }}</div>
+          <ul class="author__interests-list">
+            {% for item in interests %}<li>{{ item }}</li>{% endfor %}
+          </ul>
+        </li>
+      {% endif %}
       {% if author.location %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
       {% endif %}
