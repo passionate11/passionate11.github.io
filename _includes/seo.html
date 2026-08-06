@@ -108,7 +108,19 @@
     "@id": {{ site.url | append: "/#person" | jsonify }},
     "name": {{ site.author.name | default: site.title | jsonify }},
     "url": {{ site.url | jsonify }},
-    "description": {{ site.description | jsonify }}{% if site.author.avatar %},
+    "description": {{ site.description | jsonify }}{% if site.author.alternate_name %},
+    "alternateName": {{ site.author.alternate_name | jsonify }}{% endif %}{% if site.author.job_title %},
+    "jobTitle": {{ site.author.job_title | jsonify }}{% endif %}{% if site.author.affiliation %},
+    "affiliation": {
+      "@type": "CollegeOrUniversity",
+      "name": {{ site.author.affiliation | jsonify }}{% if site.author.affiliation_url %},
+      "url": {{ site.author.affiliation_url | jsonify }}{% endif %}
+    }{% endif %}{% if site.author.alumni_of %},
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": {{ site.author.alumni_of | jsonify }}
+    }{% endif %}{% if site.author.knows_about %},
+    "knowsAbout": {{ site.author.knows_about | jsonify }}{% endif %}{% if site.author.avatar %},
     "image": {{ site.author.avatar | absolute_url | jsonify }}{% endif %}{% if site.author.email %},
     "email": {{ "mailto:" | append: site.author.email | jsonify }}{% endif %}{% if site.author.location %},
     "homeLocation": {

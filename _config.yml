@@ -23,6 +23,7 @@ social:
     - "https://github.com/passionate11"
     - "https://dblp.org/pid/129/2239-4"
     - "https://orcid.org/0009-0006-1236-5500"
+    - "https://openreview.net/profile?id=~Pengcheng_Huang3"
 
 # google analytics
 google_analytics_id: # get google_analytics_id from https://analytics.google.com/analytics/
@@ -35,6 +36,16 @@ baidu_site_verification: # get baidu_site_verification from https://ziyuan.baidu
 # Site Author
 author:
   name: "Pengcheng Huang"
+  alternate_name: "黄鹏程"
+  job_title: "Ph.D. Student in Computer Science"
+  affiliation: "Northeastern University"
+  affiliation_url: "https://www.neu.edu.cn/"
+  alumni_of: "Northeastern University"
+  knows_about:
+    - "Large Language Models"
+    - "Foundation Models"
+    - "LLM Agents"
+    - "Natural Language Processing"
   avatar: "/images/android-chrome-512x512.png"
   bio: "CS Ph.D. student at Northeastern (China)."
   location: "Beijing, China"
