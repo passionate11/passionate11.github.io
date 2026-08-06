@@ -3,7 +3,7 @@ permalink: /zh/
 title: "黄鹏程"
 seo_title: "黄鹏程 | 大语言模型、参数化知识与基础模型"
 description: "黄鹏程，东北大学计算机科学与工程学院博士生，研究方向为大语言模型、参数化知识与基础模型。"
-sidebar_description: "研究方向：大语言模型、参数化知识与基础模型。"
+sidebar_description: "研究方向：大语言模型、基础模型与 LLM 智能体。"
 image: "/images/android-chrome-512x512.png"
 schema_type: "ProfilePage"
 lang: "zh-CN"
