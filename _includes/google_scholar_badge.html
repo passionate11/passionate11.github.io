@@ -2,7 +2,7 @@
 <a class="scholar-badge" href="{{ scholar_url }}" aria-label="Google Scholar citations">
   <span class="scholar-badge__label">
     <i class="ai ai-google-scholar" aria-hidden="true"></i>
-    <span>citations</span>
+    <span>{{ include.label | default: "citations" }}</span>
   </span>
   <span class="scholar-badge__value" id="total_cit" aria-live="polite">{{ include.fallback | default: "31" }}</span>
 </a>
