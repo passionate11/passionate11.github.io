@@ -77,6 +77,22 @@ Shaohua Duan\*, `Pengcheng Huang*`, Xinze Li\*, Zhenghao Liu†, Xiaoyuan Yi, Yu
 </div>
 </div>
 
+<!-- sac iclr -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/paper/sac_iclr26.png' alt="Autoencoding-free context compression for llms via contextual semantic anchors" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+## Autoencoding-free context compression for llms via contextual semantic anchors
+
+Xin Liu*, Runsong Zhao*, `Pengcheng Huang`, Xinyu Liu, Junyi Xiao, Chunyang Xiao, Tong Xiao†, Shengxiang Gao, Zhengtao Yu, Jingbo Zhu
+
+[arXiv](https://arxiv.org/abs/2510.08907)
+
+- 本文提出语义锚点压缩（SAC），一种无需自编码训练的上下文压缩方法，通过直接选择并聚合信息到上下文"锚点词"中，实现高效的大语言模型上下文压缩。
+</div>
+</div>
+
+<details class="more-papers">
+<summary>展开其余 13 篇论文</summary>
+
 <!-- Tool master -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv</div><img src='images/paper/toolmaster_acl26.png' alt="Teaching LLMs to Learn Tool Trialing and Execution through Environment Interaction" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -89,9 +105,6 @@ Xingjie Gao*, `Pengcheng Huang*`, Zhenghao Liu†, Yukun Yan, Shuo Wang, Zulong 
 - 本文提出 ToolMaster，通过将被动模仿专家轨迹转变为主动试错执行的范式，使大语言模型在与环境的直接交互中学习探索和自我纠正，从而掌握复杂工具使用。
 </div>
 </div>
-
-<details class="more-papers">
-<summary>展开其余 13 篇论文</summary>
 
 <!-- spark_arxiv26 -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv</div><img src='images/paper/spark_arxiv26.png' alt="SPARK: Adaptive Parametric Knowledge Participation for Faithful Retrieval-Augmented Generation" width="100%"></div></div>
@@ -133,19 +146,6 @@ Runsong Zhao, Xin Liu, Xinyu Liu, `Pengcheng Huang`, Chunyang Xiao, Tong Xiao†
 [arXiv](https://arxiv.org/abs/2409.14364)
 
 - 本文发现现有 LLM 上下文压缩方法（如 ICAE）在压缩词的位置编码布局上存在缺陷，提出将位置标识符均匀分布并引入专注记忆的"压缩损失"，将压缩比从 4 倍提升至约 15 倍，同时保持重建和下游任务性能。
-</div>
-</div>
-
-<!-- sac iclr -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/paper/sac_iclr26.png' alt="Autoencoding-free context compression for llms via contextual semantic anchors" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-## Autoencoding-free context compression for llms via contextual semantic anchors
-
-Xin Liu*, Runsong Zhao*, `Pengcheng Huang`, Xinyu Liu, Junyi Xiao, Chunyang Xiao, Tong Xiao†, Shengxiang Gao, Zhengtao Yu, Jingbo Zhu
-
-[arXiv](https://arxiv.org/abs/2510.08907)
-
-- 本文提出语义锚点压缩（SAC），一种无需自编码训练的上下文压缩方法，通过直接选择并聚合信息到上下文"锚点词"中，实现高效的大语言模型上下文压缩。
 </div>
 </div>
 
