@@ -32,8 +32,8 @@ Several researchers share the name Pengcheng Huang. This one is the NLP / LLM re
 ## Other publications
 
 - [Revealing the Attention Floating Mechanism in Masked Diffusion Models (Findings of ACL 2026)](https://aclanthology.org/2026.findings-acl.404/)
-- [MemoryCard: Topic-Aware Multi-Modal Clue Compression for Long-Video Question Answering (arXiv 2026)](https://arxiv.org/abs/2606.05917)
-- [HybridThinker: Efficient Chain-of-Thought Reasoning via Compressed Memory and Transient Thought Steps (arXiv 2026)](https://arxiv.org/abs/2606.03768)
+- [MemoryCard: Topic-Aware Multi-Modal Clue Compression for Long-Video Question Answering (EMNLP 2026)](https://arxiv.org/abs/2606.05917)
+- [HybridThinker: Efficient Chain-of-Thought Reasoning via Compressed Memory and Transient Thought Steps (EMNLP 2026)](https://arxiv.org/abs/2606.03768)
 - [MemoSight: Unifying Context Compression and Multi Token Prediction for Reasoning Acceleration (arXiv 2026)](https://arxiv.org/abs/2604.14889)
 - [Causal Autoregressive Diffusion Language Model (arXiv 2026)](https://arxiv.org/abs/2601.22031)
 - [Autoencoding-free Context Compression for LLMs via Contextual Semantic Anchors (ICLR 2026)](https://arxiv.org/abs/2510.08907)

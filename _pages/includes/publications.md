@@ -232,7 +232,7 @@ Qing Yang, Zhenghao Liu†, Junxin Wang, Yangfan Du, `Pengcheng Huang`, Tong Xia
 </div>
 
 <!-- memorycard_arxiv26 -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv</div><img src='images/paper/memorycard_arxiv26.png' alt="MemoryCard: Topic-Aware Multi-Modal Clue Compression for Long-Video Question Answering" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2026</div><img src='images/paper/memorycard_arxiv26.png' alt="MemoryCard: Topic-Aware Multi-Modal Clue Compression for Long-Video Question Answering" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 ## MemoryCard: Topic-Aware Multi-Modal Clue Compression for Long-Video Question Answering
@@ -262,7 +262,7 @@ Xinyu Liu, Xin Liu, Bo Jin, Runsong Zhao, `Pengcheng Huang`, Junhao Ruan, Bei Li
 </div>
 
 <!-- hybridthinker_arxiv26 -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv</div><img src='images/paper/hybridthinker_arxiv26.png' alt="HybridThinker: Efficient Chain-of-Thought Reasoning via Compressed Memory and Transient Thought Steps" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2026</div><img src='images/paper/hybridthinker_arxiv26.png' alt="HybridThinker: Efficient Chain-of-Thought Reasoning via Compressed Memory and Transient Thought Steps" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 ## HybridThinker: Efficient Chain-of-Thought Reasoning via Compressed Memory and Transient Thought Steps
