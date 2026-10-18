@@ -12,7 +12,7 @@
 
 `Pengcheng Huang`, Tianming Liu, Zhenghao Liu†, Yukun Yan, Shuo Wang, Tong Xiao, Zulong Chen, Maosong Sun
 
-[arXiv](https://arxiv.org/abs/2508.13021) · [Code](https://github.com/NEUIR/Uncode)
+[arXiv](https://arxiv.org/abs/2508.13021) · [Code](https://github.com/NEUIR/Uncode) · [Project Page](https://passionate11.github.io/Uncode-project-page/)
 
 - This work reveals two systematic decoding biases in Masked Diffusion Models — rigid boundary bias and trivial token bias — and proposes Uncode, a lightweight calibration framework that reshapes unmasking priorities via positional and semantic priors, outperforming existing decoding strategies by over 7% on average and achieving performance comparable to autoregressive models.
 
@@ -110,9 +110,9 @@ Qing Yang, Zhenghao Liu†, Junxin Wang, Yangfan Du, `Pengcheng Huang`, Tong Xia
 
 ## ParamMute: Suppressing Knowledge-Critical FFNs for Faithful Retrieval-Augmented Generation
 
-`Pengcheng Huang`, Zhenghao Liu†, Yukun Yan, Xiaoyuan Yi, Hao Chen, Zhiyuan Liu, Maosong Sun, Tong Xiao, Ge Yu, Chenyan Xiong
+`Pengcheng Huang`, Zhenghao Liu†, Yukun Yan, Haiyan Zhao, Xiaoyuan Yi, Hao Chen, Zhiyuan Liu, Maosong Sun, Tong Xiao, Ge Yu, Chenyan Xiong
 
-[arXiv](https://arxiv.org/abs/2502.15543)
+[arXiv](https://arxiv.org/abs/2502.15543) · [Code](https://github.com/OpenBMB/ParamMute) · [Project Page](https://passionate11.github.io/ParamMute-project-page/)
 
 - This work presents ParamMute, a novel framework for enhancing the faithfulness of Retrieval-Augmented Generation. By identifying and suppressing unfaithfulness-associated feed-forward networks (FFNs), and incorporating a knowledge preference adaptation module, ParamMute effectively steers language models to better leverage retrieved evidence, paving the way for more reliable and trustworthy RAG systems.
 </div>
@@ -199,14 +199,14 @@ Xinyu Liu, Runsong Zhao, `Pengcheng Huang`, Chunyang Xiao, Bei Li, Jingang Wang,
 
 
 <!-- TAR_CCL -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CCL 2025</div><img src='images/paper/tar_ccl24.png' alt="Translate-and-Revise: Boosting Large Language Models for Constrained Translation" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CCL 2024</div><img src='images/paper/tar_ccl24.png' alt="Translate-and-Revise: Boosting Large Language Models for Constrained Translation" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 ## Translate-and-Revise: Boosting Large Language Models for Constrained Translation
 
 `Pengcheng Huang`, Yongyu Mu, Yuzhang Wu, Bei Li, Chunyang Xiao, Tong Xiao†, Jingbo Zhu
 
-[**📄PDF**](https://aclanthology.org/2024.ccl-1.82/)
+[arXiv](https://arxiv.org/abs/2407.13164) · [PDF](https://aclanthology.org/2024.ccl-1.82/) · [Project Page](https://passionate11.github.io/Translate-and-Revise-project-page/)
 
 - This work discovers that large language models (LLMs) prompted for constrained translation often ignore or violate specified lexical or structural constraints—partly because they’re overly confident and let their own fluency priorities override constraint satisfaction—and Translate‑and‑Revise remedies this by adding a revision process that prompts the model to identify unmet constraints and correct its output, yielding ~15% improvement in constraint translation accuracy and surpassing NMT baselines.
 </div>
