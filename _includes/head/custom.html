@@ -106,7 +106,8 @@
   /* =========================================================
      SECTION HEADINGS — academic style
      ========================================================= */
-  .page__content > h1 {
+  .page__content > h1,
+  .page__content > h2 {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 1.42em;
     font-weight: 600;
@@ -118,7 +119,8 @@
     position: relative;
     letter-spacing: 0.01em;
   }
-  .page__content > h1::after {
+  .page__content > h1::after,
+  .page__content > h2::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -129,7 +131,8 @@
     border-radius: 1px;
     transition: width 0.3s var(--ease);
   }
-  .page__content > h1:hover::after {
+  .page__content > h1:hover::after,
+  .page__content > h2:hover::after {
     width: 56px;
   }
 
@@ -344,7 +347,8 @@
   .page__content[dir="rtl"] a {
     unicode-bidi: isolate;
   }
-  .page__content[dir="rtl"] > h1::after {
+  .page__content[dir="rtl"] > h1::after,
+  .page__content[dir="rtl"] > h2::after {
     left: auto;
     right: 0;
   }

@@ -1,6 +1,6 @@
 <span class='anchor' id='publications'></span>
 
-# 📝 论文发表
+## 📝 论文发表
 
 > 更多文章请参见我的 [Google Scholar 主页](https://scholar.google.com/citations?user=VA9mUOsAAAAJ)。注：\* 表示共同一作；\† 表示通讯作者。
 

@@ -1,6 +1,6 @@
 <span class='anchor' id='internships'></span>
 
-# 💻 实习经历
+## 💻 实习经历
 
 - *2025.3 - 至今*, [THUNLP（清华大学自然语言处理实验室）](https://nlp.csai.tsinghua.edu.cn/)，北京
 - *2025.3 - 至今*, [面壁智能（ModelBest）](https://modelbest.cn/)，北京。从事基础模型通用 agentic 能力提升相关工作，如 [OpenClaw](https://github.com/OpenCLaw)、Claude Code 等

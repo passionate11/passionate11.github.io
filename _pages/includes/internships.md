@@ -1,6 +1,6 @@
 <span class='anchor' id='internships'></span>
 
-# 💻 Internships
+## 💻 Internships
 
 - *2025.3 - now*, [THUNLP](https://nlp.csai.tsinghua.edu.cn/), Beijing. Visiting Ph.D. Student.
 - *2025.3 - now*, [ModelBest](https://modelbest.cn/), Beijing. Working on improving foundation model general agentic capabilities, e.g., [OpenClaw](https://github.com/OpenCLaw), Claude Code, etc.

@@ -1,6 +1,6 @@
 <span class='anchor' id='publications'></span>
 
-# 📝 Publications 
+## 📝 Publications
 
 > You can also find my articles on my [Google Scholar profile](https://scholar.google.com/citations?user=VA9mUOsAAAAJ). Note: \* indicates equal contribution; \† indicates the corresponding author.
 
