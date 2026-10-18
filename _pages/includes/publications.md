@@ -12,9 +12,9 @@
 
 `Pengcheng Huang`, Tianming Liu, Zhenghao Liu†, Yukun Yan, Shuo Wang, Tong Xiao, Zulong Chen, Maosong Sun
 
-[arXiv](https://arxiv.org/abs/2508.13021) · [Code](https://github.com/NEUIR/Uncode) · [Project Page](https://passionate11.github.io/Uncode-project-page/)
+[ACL Anthology](https://aclanthology.org/2026.acl-long.311/) · [arXiv](https://arxiv.org/abs/2508.13021) · [Code](https://github.com/NEUIR/Uncode) · [Project Page](https://passionate11.github.io/Uncode-project-page/)
 
-- This work reveals two systematic decoding biases in Masked Diffusion Models — rigid boundary bias and trivial token bias — and proposes Uncode, a lightweight calibration framework that reshapes unmasking priorities via positional and semantic priors, outperforming existing decoding strategies by over 7% on average and achieving performance comparable to autoregressive models.
+- This work reveals two systematic decoding biases in Masked Diffusion Models — rigid boundary bias and trivial token bias — and proposes Uncode (a.k.a. PC-Sampler, the name of its arXiv v1), a lightweight calibration framework that reshapes unmasking priorities via positional and semantic priors, outperforming existing decoding strategies by over 7% on average and achieving performance comparable to autoregressive models.
 
 </div>
 </div>
@@ -112,9 +112,9 @@ Qing Yang, Zhenghao Liu†, Junxin Wang, Yangfan Du, `Pengcheng Huang`, Tong Xia
 
 `Pengcheng Huang`, Zhenghao Liu†, Yukun Yan, Haiyan Zhao, Xiaoyuan Yi, Hao Chen, Zhiyuan Liu, Maosong Sun, Tong Xiao, Ge Yu, Chenyan Xiong
 
-[arXiv](https://arxiv.org/abs/2502.15543) · [Code](https://github.com/OpenBMB/ParamMute) · [Project Page](https://passionate11.github.io/ParamMute-project-page/)
+[NeurIPS](https://openreview.net/forum?id=CyUq9D99vE) · [arXiv](https://arxiv.org/abs/2502.15543) · [Code](https://github.com/OpenBMB/ParamMute) · [Project Page](https://passionate11.github.io/ParamMute-project-page/)
 
-- This work presents ParamMute, a novel framework for enhancing the faithfulness of Retrieval-Augmented Generation. By identifying and suppressing unfaithfulness-associated feed-forward networks (FFNs), and incorporating a knowledge preference adaptation module, ParamMute effectively steers language models to better leverage retrieved evidence, paving the way for more reliable and trustworthy RAG systems.
+- This work presents ParamMute (a.k.a. PIP-KAG, the title of its early arXiv versions), a novel framework for enhancing the faithfulness of Retrieval-Augmented Generation. By identifying and suppressing unfaithfulness-associated feed-forward networks (FFNs), and incorporating a knowledge preference adaptation module, ParamMute effectively steers language models to better leverage retrieved evidence, paving the way for more reliable and trustworthy RAG systems.
 </div>
 </div>
 

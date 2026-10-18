@@ -12,9 +12,9 @@
 
 `Pengcheng Huang`, Tianming Liu, Zhenghao Liu†, Yukun Yan, Shuo Wang, Tong Xiao, Zulong Chen, Maosong Sun
 
-[arXiv](https://arxiv.org/abs/2508.13021) · [代码](https://github.com/NEUIR/Uncode) · [项目主页](https://passionate11.github.io/Uncode-project-page/)
+[ACL Anthology](https://aclanthology.org/2026.acl-long.311/) · [arXiv](https://arxiv.org/abs/2508.13021) · [代码](https://github.com/NEUIR/Uncode) · [项目主页](https://passionate11.github.io/Uncode-project-page/)
 
-- 本文揭示了掩码扩散模型中基于不确定性解码的两个系统性偏差——刚性边界偏差和无意义词偏差，并提出 Uncode，一个通过位置轨迹先验和语义信息先验重塑解码优先级的轻量级校准框架，平均性能提升超过 7%，达到与同规模自回归模型可比的效果。
+- 本文揭示了掩码扩散模型中基于不确定性解码的两个系统性偏差——刚性边界偏差和无意义词偏差，并提出 Uncode(arXiv 初版名为 PC-Sampler),一个通过位置轨迹先验和语义信息先验重塑解码优先级的轻量级校准框架，平均性能提升超过 7%，达到与同规模自回归模型可比的效果。
 
 </div>
 </div>
@@ -112,9 +112,9 @@ Qing Yang, Zhenghao Liu†, Junxin Wang, Yangfan Du, `Pengcheng Huang`, Tong Xia
 
 `Pengcheng Huang`, Zhenghao Liu†, Yukun Yan, Haiyan Zhao, Xiaoyuan Yi, Hao Chen, Zhiyuan Liu, Maosong Sun, Tong Xiao, Ge Yu, Chenyan Xiong
 
-[arXiv](https://arxiv.org/abs/2502.15543) · [代码](https://github.com/OpenBMB/ParamMute) · [项目主页](https://passionate11.github.io/ParamMute-project-page/)
+[NeurIPS](https://openreview.net/forum?id=CyUq9D99vE) · [arXiv](https://arxiv.org/abs/2502.15543) · [代码](https://github.com/OpenBMB/ParamMute) · [项目主页](https://passionate11.github.io/ParamMute-project-page/)
 
-- 本文提出 ParamMute，通过识别并抑制与不忠实生成相关的前馈网络（FFN），并引入知识偏好适配模块，有效引导语言模型更好地利用检索到的证据，提升检索增强生成的忠实性。
+- 本文提出 ParamMute(arXiv 初版名为 PIP-KAG),通过识别并抑制与不忠实生成相关的前馈网络（FFN），并引入知识偏好适配模块，有效引导语言模型更好地利用检索到的证据，提升检索增强生成的忠实性。
 </div>
 </div>
 
