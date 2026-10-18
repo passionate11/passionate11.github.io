@@ -33,20 +33,6 @@
 </div>
 </div>
 
-<!-- TAR_CCL -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CCL 2024</div><img src='images/paper/tar_ccl24.png' alt="Translate-and-Revise: Boosting Large Language Models for Constrained Translation" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-## Translate-and-Revise: Boosting Large Language Models for Constrained Translation
-
-`Pengcheng Huang`, Yongyu Mu, Yuzhang Wu, Bei Li, Chunyang Xiao, Tong Xiao†, Jingbo Zhu
-
-[arXiv](https://arxiv.org/abs/2407.13164) · [PDF](https://aclanthology.org/2024.ccl-1.82/) · [Project Page](https://passionate11.github.io/Translate-and-Revise-project-page/)
-
-- This work discovers that large language models (LLMs) prompted for constrained translation often ignore or violate specified lexical or structural constraints—partly because they’re overly confident and let their own fluency priorities override constraint satisfaction—and Translate‑and‑Revise remedies this by adding a revision process that prompts the model to identify unmet constraints and correct its output, yielding ~15% improvement in constraint translation accuracy and surpassing NMT baselines.
-</div>
-</div>
-
 <!-- ec2bench -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv</div><img src='images/paper/ec2bench_arxiv26.png' alt="EC²-Bench (EC2-Bench): Empowering Edge Agents: A Systematic Analysis of Edge-Cloud Collaboration in LLM Agent Execution" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -104,6 +90,9 @@ Xingjie Gao*, `Pengcheng Huang*`, Zhenghao Liu†, Yukun Yan, Shuo Wang, Zulong 
 </div>
 </div>
 
+<details class="more-papers">
+<summary>Show 13 more publications</summary>
+
 <!-- spark_arxiv26 -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv</div><img src='images/paper/spark_arxiv26.png' alt="SPARK: Adaptive Parametric Knowledge Participation for Faithful Retrieval-Augmented Generation" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -160,9 +149,6 @@ Xin Liu*, Runsong Zhao*, `Pengcheng Huang`, Xinyu Liu, Junyi Xiao, Chunyang Xiao
 </div>
 </div>
 
-<details class="more-papers">
-<summary>Show 8 more publications</summary>
-
 <!-- rag_survey -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AI Open 2025</div><img src='images/paper/survey.png' alt="Knowledge Intensive Agents" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -214,6 +200,20 @@ Junhao Ruan, Bei Li, Yongjing Yin, `Pengcheng Huang`, Xin Chen, Jingang Wang, Xu
 [arXiv](https://arxiv.org/abs/2601.22031)
 
 - This paper introduces Causal Autoregressive Diffusion (CARD), a framework that unifies the training efficiency of autoregressive models with the high-throughput parallel inference of diffusion models by using a strictly causal attention mask and a dynamic decoding mechanism.
+</div>
+</div>
+
+<!-- TAR_CCL -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CCL 2024</div><img src='images/paper/tar_ccl24.png' alt="Translate-and-Revise: Boosting Large Language Models for Constrained Translation" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+## Translate-and-Revise: Boosting Large Language Models for Constrained Translation
+
+`Pengcheng Huang`, Yongyu Mu, Yuzhang Wu, Bei Li, Chunyang Xiao, Tong Xiao†, Jingbo Zhu
+
+[arXiv](https://arxiv.org/abs/2407.13164) · [PDF](https://aclanthology.org/2024.ccl-1.82/) · [Project Page](https://passionate11.github.io/Translate-and-Revise-project-page/)
+
+- This work discovers that large language models (LLMs) prompted for constrained translation often ignore or violate specified lexical or structural constraints—partly because they’re overly confident and let their own fluency priorities override constraint satisfaction—and Translate‑and‑Revise remedies this by adding a revision process that prompts the model to identify unmet constraints and correct its output, yielding ~15% improvement in constraint translation accuracy and surpassing NMT baselines.
 </div>
 </div>
 

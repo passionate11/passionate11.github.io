@@ -33,20 +33,6 @@
 </div>
 </div>
 
-<!-- TAR_CCL -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CCL 2024</div><img src='images/paper/tar_ccl24.png' alt="Translate-and-Revise: Boosting Large Language Models for Constrained Translation" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-## Translate-and-Revise: Boosting Large Language Models for Constrained Translation
-
-`Pengcheng Huang`, Yongyu Mu, Yuzhang Wu, Bei Li, Chunyang Xiao, Tong Xiao†, Jingbo Zhu
-
-[arXiv](https://arxiv.org/abs/2407.13164) · [PDF](https://aclanthology.org/2024.ccl-1.82/) · [项目主页](https://passionate11.github.io/Translate-and-Revise-project-page/)
-
-- 本文发现大语言模型在约束翻译中常忽略或违反指定的词汇或结构约束，提出 Translate-and-Revise，通过添加修订过程让模型识别未满足的约束并修正输出，约束翻译准确率提升约 15%，超越神经机器翻译基线。
-</div>
-</div>
-
 <!-- ec2bench -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv</div><img src='images/paper/ec2bench_arxiv26.png' alt="EC²-Bench (EC2-Bench): Empowering Edge Agents: A Systematic Analysis of Edge-Cloud Collaboration in LLM Agent Execution" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -104,6 +90,9 @@ Xingjie Gao*, `Pengcheng Huang*`, Zhenghao Liu†, Yukun Yan, Shuo Wang, Zulong 
 </div>
 </div>
 
+<details class="more-papers">
+<summary>展开其余 13 篇论文</summary>
+
 <!-- spark_arxiv26 -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv</div><img src='images/paper/spark_arxiv26.png' alt="SPARK: Adaptive Parametric Knowledge Participation for Faithful Retrieval-Augmented Generation" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -160,9 +149,6 @@ Xin Liu*, Runsong Zhao*, `Pengcheng Huang`, Xinyu Liu, Junyi Xiao, Chunyang Xiao
 </div>
 </div>
 
-<details class="more-papers">
-<summary>展开其余 8 篇论文</summary>
-
 <!-- rag_survey -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AI Open 2025</div><img src='images/paper/survey.png' alt="Knowledge Intensive Agents" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -214,6 +200,20 @@ Junhao Ruan, Bei Li, Yongjing Yin, `Pengcheng Huang`, Xin Chen, Jingang Wang, Xu
 [arXiv](https://arxiv.org/abs/2601.22031)
 
 - 本文提出因果自回归扩散模型（CARD），通过严格的因果注意力掩码和动态解码机制，将自回归模型的训练效率与扩散模型的高吞吐并行推理统一在一个框架中。
+</div>
+</div>
+
+<!-- TAR_CCL -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CCL 2024</div><img src='images/paper/tar_ccl24.png' alt="Translate-and-Revise: Boosting Large Language Models for Constrained Translation" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+## Translate-and-Revise: Boosting Large Language Models for Constrained Translation
+
+`Pengcheng Huang`, Yongyu Mu, Yuzhang Wu, Bei Li, Chunyang Xiao, Tong Xiao†, Jingbo Zhu
+
+[arXiv](https://arxiv.org/abs/2407.13164) · [PDF](https://aclanthology.org/2024.ccl-1.82/) · [项目主页](https://passionate11.github.io/Translate-and-Revise-project-page/)
+
+- 本文发现大语言模型在约束翻译中常忽略或违反指定的词汇或结构约束，提出 Translate-and-Revise，通过添加修订过程让模型识别未满足的约束并修正输出，约束翻译准确率提升约 15%，超越神经机器翻译基线。
 </div>
 </div>
 
