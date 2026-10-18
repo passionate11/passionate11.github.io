@@ -4,6 +4,21 @@
 
 > You can also find my articles on my [Google Scholar profile](https://scholar.google.com/citations?user=VA9mUOsAAAAJ). Note: \* indicates equal contribution; \† indicates the corresponding author.
 
+<!-- ec2bench -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv</div><img src='images/paper/ec2bench_arxiv26.png' alt="EC²-Bench (EC2-Bench): Empowering Edge Agents: A Systematic Analysis of Edge-Cloud Collaboration in LLM Agent Execution" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+## Empowering Edge Agents: A Systematic Analysis of Edge-Cloud Collaboration in LLM Agent Execution
+
+`Pengcheng Huang`, Zhenghao Liu†, Shixin Ren, Shi Yu, Sijia Yao, Yukun Yan†, Chaojun Xiao†, Maosong Sun
+
+[arXiv](https://arxiv.org/abs/2610.17816) · [Code](https://github.com/OpenBMB/EC2-Bench) · [Project Page](https://passionate11.github.io/ec2-bench-project-page/) · [Dataset](https://huggingface.co/datasets/chengpingan/EC2-Bench)
+
+- This work introduces EC²-Bench (EC2-Bench), a benchmark for edge–cloud collaboration in long-horizon LLM agents with 128 executable digital-workspace tasks (100 privacy-annotated), jointly measuring task performance, resource usage and privacy exposure. It shows that collaboration balances the three, that stronger edge models close the performance gap but not the privacy gap, and that the preferred collaboration mode shifts from external routing toward edge-controlled cloud advisory as edge capability grows.
+
+</div>
+</div>
+
 <!-- Uncode_acl -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/paper/uncode_acl26.png' alt="Empirical Analysis of Decoding Biases in Masked Diffusion Models" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">

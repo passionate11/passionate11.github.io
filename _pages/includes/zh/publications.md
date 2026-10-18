@@ -4,6 +4,21 @@
 
 > 更多文章请参见我的 [Google Scholar 主页](https://scholar.google.com/citations?user=VA9mUOsAAAAJ)。注：\* 表示共同一作；\† 表示通讯作者。
 
+<!-- ec2bench -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv</div><img src='images/paper/ec2bench_arxiv26.png' alt="EC²-Bench (EC2-Bench): Empowering Edge Agents: A Systematic Analysis of Edge-Cloud Collaboration in LLM Agent Execution" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+## Empowering Edge Agents: A Systematic Analysis of Edge-Cloud Collaboration in LLM Agent Execution
+
+`Pengcheng Huang`, Zhenghao Liu†, Shixin Ren, Shi Yu, Sijia Yao, Yukun Yan†, Chaojun Xiao†, Maosong Sun
+
+[arXiv](https://arxiv.org/abs/2610.17816) · [代码](https://github.com/OpenBMB/EC2-Bench) · [项目主页](https://passionate11.github.io/ec2-bench-project-page/) · [数据集](https://huggingface.co/datasets/chengpingan/EC2-Bench)
+
+- 本文提出 EC²-Bench(EC2-Bench),一个面向长程大模型智能体端云协同的基准，包含 128 个可执行的数字工作区任务(其中 100 个带隐私标注),同时评测任务表现、资源用量和隐私暴露。研究发现：端云协同能在三者之间取得更好的平衡；端侧模型越强，各策略的性能差距越小，隐私差距却没有缩小；随着端侧能力提升，更优的协同方式从外部路由转向端侧主导的云端咨询。
+
+</div>
+</div>
+
 <!-- Uncode_acl -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/paper/uncode_acl26.png' alt="Empirical Analysis of Decoding Biases in Masked Diffusion Models" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
