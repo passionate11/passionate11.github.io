@@ -5,10 +5,10 @@
 > You can also find my articles on my [Google Scholar profile](https://scholar.google.com/citations?user=VA9mUOsAAAAJ). Note: \* indicates equal contribution; \† indicates the corresponding author.
 
 <!-- Uncode_acl -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/paper/uncode_acl26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/paper/uncode_acl26.png' alt="Empirical Analysis of Decoding Biases in Masked Diffusion Models" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-# Empirical Analysis of Decoding Biases in Masked Diffusion Models
+## Empirical Analysis of Decoding Biases in Masked Diffusion Models
 
 `Pengcheng Huang`, Tianming Liu, Zhenghao Liu†, Yukun Yan, Shuo Wang, Tong Xiao, Zulong Chen, Maosong Sun
 
@@ -20,10 +20,10 @@
 </div>
 
 <!-- longmab_acl26 -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/paper/acl26_longmab.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/paper/acl26_longmab.png' alt="Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Long-Context LLM Preference Optimization" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-# Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Long-Context LLM Preference Optimization
+## Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Long-Context LLM Preference Optimization
 
 Shaohua Duan\*, `Pengcheng Huang*`, Xinze Li\*, Zhenghao Liu†, Xiaoyuan Yi, Yukun Yan, Shuo Wang, Yu Gu, Ge Yu, Maosong Sun
 
@@ -34,9 +34,9 @@ Shaohua Duan\*, `Pengcheng Huang*`, Xinze Li\*, Zhenghao Liu†, Xiaoyuan Yi, Yu
 </div>
 
 <!-- attn floating mdm -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/paper/attn_floating_acl26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/paper/attn_floating_acl26.png' alt="Revealing the Attention Floating Mechanism in Masked Diffusion Models" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-# Revealing the Attention Floating Mechanism in Masked Diffusion Models
+## Revealing the Attention Floating Mechanism in Masked Diffusion Models
 
 Xin Dai, `Pengcheng Huang`, Zhenghao Liu†, Shuo Wang, Yukun Yan, Chaojun Xiao, Yu Gu, Ge Yu, Maosong Sun
 
@@ -47,9 +47,9 @@ Xin Dai, `Pengcheng Huang`, Zhenghao Liu†, Shuo Wang, Yukun Yan, Chaojun Xiao,
 </div>
 
 <!-- CARD -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv</div><img src='images/paper/card_icml26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv</div><img src='images/paper/card_icml26.png' alt="Causal Autoregressive Diffusion Language Model" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-# Causal Autoregressive Diffusion Language Model
+## Causal Autoregressive Diffusion Language Model
 
 Junhao Ruan, Bei Li, Yongjing Yin, `Pengcheng Huang`, Xin Chen, Jingang Wang, Xunliang Cai, Tong Xiao†, JingBo Zhu
 
@@ -61,9 +61,9 @@ Junhao Ruan, Bei Li, Yongjing Yin, `Pengcheng Huang`, Xin Chen, Jingang Wang, Xu
 
 
 <!-- Tool master -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv</div><img src='images/paper/toolmaster_acl26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv</div><img src='images/paper/toolmaster_acl26.png' alt="Teaching LLMs to Learn Tool Trialing and Execution through Environment Interaction" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-# Teaching LLMs to Learn Tool Trialing and Execution through Environment Interaction
+## Teaching LLMs to Learn Tool Trialing and Execution through Environment Interaction
 
 Xingjie Gao*, `Pengcheng Huang*`, Zhenghao Liu†, Yukun Yan, Shuo Wang, Zulong Chen, Chen Qian, Ge Yu, Yu Gu
 
@@ -76,9 +76,9 @@ Xingjie Gao*, `Pengcheng Huang*`, Zhenghao Liu†, Yukun Yan, Shuo Wang, Zulong 
 
 
 <!-- sac iclr -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/paper/sac_iclr26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/paper/sac_iclr26.png' alt="Autoencoding-free context compression for llms via contextual semantic anchors" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-# Autoencoding-free context compression for llms via contextual semantic anchors
+## Autoencoding-free context compression for llms via contextual semantic anchors
 
 Xin Liu*, Runsong Zhao*, `Pengcheng Huang`, Xinyu Liu, Junyi Xiao, Chunyang Xiao, Tong Xiao†, Shengxiang Gao, Zhengtao Yu, Jingbo Zhu
 
@@ -90,9 +90,9 @@ Xin Liu*, Runsong Zhao*, `Pengcheng Huang`, Xinyu Liu, Junyi Xiao, Chunyang Xiao
 
 
 <!-- speech grpo -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCNN 2026</div><img src='images/paper/speech_grpo.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCNN 2026</div><img src='images/paper/speech_grpo.png' alt="RLAIF-SPA: Optimizing LLM-based Emotional Speech Synthesis via RLAIF" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-# RLAIF-SPA: Optimizing LLM-based Emotional Speech Synthesis via RLAIF
+## RLAIF-SPA: Optimizing LLM-based Emotional Speech Synthesis via RLAIF
 
 Qing Yang, Zhenghao Liu†, Junxin Wang, Yangfan Du, `Pengcheng Huang`, Tong Xiao
 
@@ -105,10 +105,10 @@ Qing Yang, Zhenghao Liu†, Junxin Wang, Yangfan Du, `Pengcheng Huang`, Tong Xia
 
 
 <!-- PamramMute_nips -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='images/paper/parammute_nips25.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='images/paper/parammute_nips25.png' alt="ParamMute: Suppressing Knowledge-Critical FFNs for Faithful Retrieval-Augmented Generation" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-# ParamMute: Suppressing Knowledge-Critical FFNs for Faithful Retrieval-Augmented Generation
+## ParamMute: Suppressing Knowledge-Critical FFNs for Faithful Retrieval-Augmented Generation
 
 `Pengcheng Huang`, Zhenghao Liu†, Yukun Yan, Xiaoyuan Yi, Hao Chen, Zhiyuan Liu, Maosong Sun, Tong Xiao, Ge Yu, Chenyan Xiong
 
@@ -122,10 +122,10 @@ Qing Yang, Zhenghao Liu†, Junxin Wang, Yangfan Du, `Pengcheng Huang`, Tong Xia
 <summary>Show 6 more publications</summary>
 
 <!-- rag_survey -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AI Open 2025</div><img src='images/paper/survey.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AI Open 2025</div><img src='images/paper/survey.png' alt="Knowledge Intensive Agents" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-# Knowledge Intensive Agents
+## Knowledge Intensive Agents
 
 Zhenghao Liu†, `Pengcheng Huang`, Zhipeng Xu, Xinze Li, Shuliang Liu, Chunyi Peng, Haidong Xin, Yukun Yan, Shuo Wang, Xu Han, Zhiyuan Liu, Maosong Sun, Yu Gu, Ge Yu
 
@@ -139,10 +139,10 @@ Zhenghao Liu†, `Pengcheng Huang`, Zhipeng Xu, Xinze Li, Shuliang Liu, Chunyi P
 
 
 <!-- Expandr_EMNLP_oral -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2025 Oral</div><img src='images/paper/expandr_emnlp25.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2025 Oral</div><img src='images/paper/expandr_emnlp25.png' alt="ExpandR: Teaching Dense Retrievers Beyond Queries with LLM Guidance" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-# ExpandR: Teaching Dense Retrievers Beyond Queries with LLM Guidance
+## ExpandR: Teaching Dense Retrievers Beyond Queries with LLM Guidance
 
 Sijia Yao*, `Pengcheng Huang*`, Zhenghao Liu†, Yu Gu, Yukun Yan, Shi Yu, Ge Yu
 
@@ -155,10 +155,10 @@ Sijia Yao*, `Pengcheng Huang*`, Zhenghao Liu†, Yu Gu, Yukun Yan, Shi Yu, Ge Yu
 
 
 <!-- ClueAnchor_EMNLP -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2025</div><img src='images/paper/clueanchor_emnlp25.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2025</div><img src='images/paper/clueanchor_emnlp25.png' alt="ClueAnchor: Clue-Anchored Knowledge Reasoning Exploration and Optimization for Retrieval-Augmented Generation" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-# ClueAnchor: Clue-Anchored Knowledge Reasoning Exploration and Optimization for Retrieval-Augmented Generation
+## ClueAnchor: Clue-Anchored Knowledge Reasoning Exploration and Optimization for Retrieval-Augmented Generation
 
 Hao Chen, Yukun Yan, Sen Mei, Wanxiang Che, Zhenghao Liu, Qi Shi, Xinze Li, Yuchun Fan, `Pengcheng Huang`, Qiushi Xiong, Zhiyuan Liu, Maosong Sun
 
@@ -170,10 +170,10 @@ Hao Chen, Yukun Yan, Sen Mei, Wanxiang Che, Zhenghao Liu, Qi Shi, Xinze Li, Yuch
 
 
 <!-- positionid_EMNLP -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2025</div><img src='images/paper/position_id_emnlp25.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2025</div><img src='images/paper/position_id_emnlp25.png' alt="Position IDs Matter: An Enhanced Position Layout for Efficient Context Compression in Large Language Models" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-# Position IDs Matter: An Enhanced Position Layout for Efficient Context Compression in Large Language Models
+## Position IDs Matter: An Enhanced Position Layout for Efficient Context Compression in Large Language Models
 
 Runsong Zhao, Xin Liu, Xinyu Liu, `Pengcheng Huang`, Chunyang Xiao, Tong Xiao†, Jingbo Zhu
 
@@ -184,10 +184,10 @@ Runsong Zhao, Xin Liu, Xinyu Liu, `Pengcheng Huang`, Chunyang Xiao, Tong Xiao†
 </div>
 
 <!-- Forgetting_curve_EMNLP -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2024</div><img src='images/paper/forget_emnlp24.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2024</div><img src='images/paper/forget_emnlp24.png' alt="Forgetting curve: A reliable method for evaluating memorization capability for long-context models" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-# Forgetting curve: A reliable method for evaluating memorization capability for long-context models
+## Forgetting curve: A reliable method for evaluating memorization capability for long-context models
 
 Xinyu Liu, Runsong Zhao, `Pengcheng Huang`, Chunyang Xiao, Bei Li, Jingang Wang, Tong Xiao†, Jingbo Zhu
 
@@ -199,10 +199,10 @@ Xinyu Liu, Runsong Zhao, `Pengcheng Huang`, Chunyang Xiao, Bei Li, Jingang Wang,
 
 
 <!-- TAR_CCL -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CCL 2025</div><img src='images/paper/tar_ccl24.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CCL 2025</div><img src='images/paper/tar_ccl24.png' alt="Translate-and-Revise: Boosting Large Language Models for Constrained Translation" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-# Translate-and-Revise: Boosting Large Language Models for Constrained Translation
+## Translate-and-Revise: Boosting Large Language Models for Constrained Translation
 
 `Pengcheng Huang`, Yongyu Mu, Yuzhang Wu, Bei Li, Chunyang Xiao, Tong Xiao†, Jingbo Zhu
 

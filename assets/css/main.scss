@@ -95,7 +95,7 @@ html {
         max-width: 100%;
         order: 1;
 
-        h1 {
+        h2 {
             font-family: Georgia, "Times New Roman", Times, serif;
             font-size: 1.08em;
             font-weight: 600;
@@ -105,11 +105,11 @@ html {
             color: #2D3748;
         }
 
-        h1 + p {
+        h2 + p {
             color: #1565c0;
         }
 
-        h1 + p code {
+        h2 + p code {
             color: var(--c-accent-warm, #B87333);
             font-weight: 700;
             background: transparent;
