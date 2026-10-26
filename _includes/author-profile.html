@@ -72,6 +72,9 @@
       {% if author.zhihu %}
         <li><a href="{{ author.zhihu }}"><i class="fab fa-fw fa-zhihu" aria-hidden="true"></i> 知乎 (Zhihu)</a></li>
       {% endif %}
+      {% if author.xiaohongshu %}
+        <li><a href="{{ author.xiaohongshu }}"><span class="fa-fw" aria-hidden="true">📕</span> 小红书 (RED)</a></li>
+      {% endif %}
       {% if author.xing %}
         <li><a href="https://www.xing.com/profile/{{ author.xing }}"><i class="fab fa-fw fa-xing-square" aria-hidden="true"></i> XING</a></li>
       {% endif %}
@@ -175,6 +178,9 @@
       {% endif %}
       {% if author.zhihu %}
         <a href="{{ author.zhihu }}" title="知乎 (Zhihu)"><i class="fab fa-fw fa-zhihu" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if author.xiaohongshu %}
+        <a href="{{ author.xiaohongshu }}" title="小红书 (RED)"><span class="fa-fw" aria-hidden="true">📕</span></a>
       {% endif %}
       {% if author.xing %}
         <a href="https://www.xing.com/profile/{{ author.xing }}"><i class="fab fa-fw fa-xing-square" aria-hidden="true"></i></a>

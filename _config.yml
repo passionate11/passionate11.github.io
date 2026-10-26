@@ -30,6 +30,7 @@ social:
     - "https://huggingface.co/chengpingan"
     - "https://x.com/Peng_cheng123"
     - "https://www.zhihu.com/people/crpusculeee"
+    - "https://www.xiaohongshu.com/user/profile/5c5d19b2000000001b002e34"
 
 # google analytics
 google_analytics_id: # get google_analytics_id from https://analytics.google.com/analytics/
@@ -82,6 +83,7 @@ author:
   semanticscholar: "https://www.semanticscholar.org/author/2348080373"
   huggingface: "https://huggingface.co/chengpingan"
   zhihu: "https://www.zhihu.com/people/crpusculeee"
+  xiaohongshu: "https://www.xiaohongshu.com/user/profile/5c5d19b2000000001b002e34"
   pinterest:
   soundcloud:
   stackoverflow:

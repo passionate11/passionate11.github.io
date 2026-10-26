@@ -19,6 +19,7 @@ Several researchers share the name Pengcheng Huang. This one is the NLP / LLM re
 - [Hugging Face](https://huggingface.co/chengpingan)
 - [X (Twitter)](https://x.com/Peng_cheng123)
 - [知乎 (Zhihu)](https://www.zhihu.com/people/crpusculeee): Chinese write-ups of the papers
+- [小红书 (Xiaohongshu / RED)](https://www.xiaohongshu.com/user/profile/5c5d19b2000000001b002e34): Chinese notes on papers and AI agent research
 
 ## Honors
 
