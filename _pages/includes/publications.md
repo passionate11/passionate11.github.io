@@ -114,7 +114,7 @@ Xingjie Gao*, `Pengcheng Huang*`, Zhenghao Liu†, Yukun Yan, Shuo Wang, Zulong 
 
 Ruochang Li\*, `Pengcheng Huang*`, Zhenghao Liu†, Yukun Yan, Huiyuan Xie, Yu Gu, Ge Yu, Maosong Sun
 
-[arXiv](https://arxiv.org/abs/2606.27786) · [Code](https://github.com/OpenBMB/SHIFT)
+[arXiv](https://arxiv.org/abs/2606.27786) · [Code](https://github.com/OpenBMB/SPARK)
 
 - This work presents SPARK (a.k.a. SHIFT, the title of its arXiv v1), which treats control of parametric knowledge in RAG as learning a latent participation policy: a lightweight policy trained with a faithfulness-oriented reward modulates how much FFN-stored knowledge contributes during generation while the backbone LLM stays frozen, adding only 0.01% trainable parameters and giving more faithful answers on six datasets.
 

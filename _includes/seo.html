@@ -120,7 +120,8 @@
       "@type": "CollegeOrUniversity",
       "name": {{ site.author.alumni_of | jsonify }}
     }{% endif %}{% if site.author.knows_about %},
-    "knowsAbout": {{ site.author.knows_about | jsonify }}{% endif %}{% if site.author.avatar %},
+    "knowsAbout": {{ site.author.knows_about | jsonify }}{% endif %}{% if site.author.awards %},
+    "award": {{ site.author.awards | jsonify }}{% endif %}{% if site.author.avatar %},
     "image": {{ site.author.avatar | absolute_url | jsonify }}{% endif %}{% if site.author.email %},
     "email": {{ "mailto:" | append: site.author.email | jsonify }}{% endif %}{% if site.author.location %},
     "homeLocation": {

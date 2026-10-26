@@ -114,7 +114,7 @@ Xingjie Gao*, `Pengcheng Huang*`, Zhenghao Liu†, Yukun Yan, Shuo Wang, Zulong 
 
 Ruochang Li\*, `Pengcheng Huang*`, Zhenghao Liu†, Yukun Yan, Huiyuan Xie, Yu Gu, Ge Yu, Maosong Sun
 
-[arXiv](https://arxiv.org/abs/2606.27786) · [代码](https://github.com/OpenBMB/SHIFT)
+[arXiv](https://arxiv.org/abs/2606.27786) · [代码](https://github.com/OpenBMB/SPARK)
 
 - 本文提出 SPARK(arXiv 初版名为 SHIFT),把 RAG 中参数知识的调控建模为隐式参与策略学习：一个用忠实度奖励训练的轻量策略，动态调节 FFN 中参数知识在生成时的参与程度，主干模型保持冻结，仅新增 0.01% 可训练参数，在六个数据集上生成更忠实。
 

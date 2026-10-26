@@ -2,6 +2,7 @@
 
 ## 🔥 News
 
+- `2026-10`: &nbsp;🏅 Selected for the **CAST Young Talent Cultivation Program for Doctoral Students** (中国科协青年科技人才培育工程博士生专项计划) by the China Association for Science and Technology (CAST)
 - `2026-08`: &nbsp;🎉 Two papers accepted to *EMNLP 2026 (Main)*
 - `2026-04`: &nbsp;🎉 Three papers accepted to *ACL 2026* (2 Main, 1 Findings)
 - `2026-01`: &nbsp;🎉 One paper accepted to *ICLR 2026*

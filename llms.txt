@@ -15,6 +15,11 @@ Several researchers share the name Pengcheng Huang. This one is the NLP / LLM re
 - [ACL Anthology](https://aclanthology.org/people/pengcheng-huang/)
 - [GitHub](https://github.com/passionate11)
 
+## Honors
+
+- 2026: Selected for the CAST Young Talent Cultivation Program for Doctoral Students (中国科协青年科技人才培育工程博士生专项计划), China Association for Science and Technology (CAST)
+- 2025: Highlight Poster Award, YSSNLP 2025 (for ParamMute)
+
 ## First-author papers (with project pages)
 
 - [EC²-Bench (EC2-Bench): Empowering Edge Agents: A Systematic Analysis of Edge-Cloud Collaboration in LLM Agent Execution (arXiv 2026)](https://passionate11.github.io/ec2-bench-project-page/): EC2-Bench is a benchmark for edge-cloud collaboration in long-horizon LLM agents, jointly measuring task performance, resource usage and privacy exposure. 128 executable digital-workspace tasks (100 with privacy annotations) on the OpenClaw agent harness, comparing query routing, per-step routing, edge-controlled delegation and edge-controlled advisory across edge models of increasing capability. [arXiv:2610.17816](https://arxiv.org/abs/2610.17816) · [Code](https://github.com/OpenBMB/EC2-Bench) · [Dataset](https://huggingface.co/datasets/chengpingan/EC2-Bench)
@@ -27,7 +32,7 @@ Several researchers share the name Pengcheng Huang. This one is the NLP / LLM re
 - [Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Long-Context LLM Preference Optimization (ACL 2026, oral)](https://arxiv.org/abs/2508.13993): LongMab-PO. [ACL Anthology](https://aclanthology.org/2026.acl-long.161/) · [Code](https://github.com/NEUIR/LongMab-PO)
 - [ExpandR: Teaching Dense Retrievers Beyond Queries with LLM Guidance (EMNLP 2025, oral)](https://arxiv.org/abs/2502.17057): [Code](https://github.com/NEUIR/ExpandR)
 - [Teaching LLMs to Learn Tool Trialing and Execution through Environment Interaction (arXiv 2026)](https://arxiv.org/abs/2601.12762): ToolMaster. [Code](https://github.com/NEUIR/ToolMaster)
-- [SPARK: Adaptive Parametric Knowledge Participation for Faithful Retrieval-Augmented Generation (arXiv 2026)](https://arxiv.org/abs/2606.27786): earlier arXiv title "SHIFT". [Code](https://github.com/OpenBMB/SHIFT)
+- [SPARK: Adaptive Parametric Knowledge Participation for Faithful Retrieval-Augmented Generation (arXiv 2026)](https://arxiv.org/abs/2606.27786): earlier arXiv title "SHIFT". [Code](https://github.com/OpenBMB/SPARK)
 
 ## Other publications
 
