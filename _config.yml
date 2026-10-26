@@ -25,6 +25,9 @@ social:
     - "https://orcid.org/0009-0006-1236-5500"
     - "https://openreview.net/profile?id=~Pengcheng_Huang3"
     - "https://aclanthology.org/people/pengcheng-huang/"
+    - "https://www.linkedin.com/in/pengcheng-huang-673a393b9/"
+    - "https://www.semanticscholar.org/author/2348080373"
+    - "https://huggingface.co/chengpingan"
 
 # google analytics
 google_analytics_id: # get google_analytics_id from https://analytics.google.com/analytics/
@@ -71,9 +74,11 @@ author:
   instagram:
   impactstory:
   lastfm:
-  linkedin:
+  linkedin: "pengcheng-huang-673a393b9"
   dblp: "https://dblp.org/pid/129/2239-4"
   orcid: "https://orcid.org/0009-0006-1236-5500"
+  semanticscholar: "https://www.semanticscholar.org/author/2348080373"
+  huggingface: "https://huggingface.co/chengpingan"
   pinterest:
   soundcloud:
   stackoverflow:

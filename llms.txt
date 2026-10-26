@@ -14,6 +14,9 @@ Several researchers share the name Pengcheng Huang. This one is the NLP / LLM re
 - [OpenReview](https://openreview.net/profile?id=~Pengcheng_Huang3)
 - [ACL Anthology](https://aclanthology.org/people/pengcheng-huang/)
 - [GitHub](https://github.com/passionate11)
+- [LinkedIn](https://www.linkedin.com/in/pengcheng-huang-673a393b9/)
+- [Semantic Scholar](https://www.semanticscholar.org/author/2348080373)
+- [Hugging Face](https://huggingface.co/chengpingan)
 
 ## Honors
 
