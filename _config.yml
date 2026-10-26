@@ -28,6 +28,7 @@ social:
     - "https://www.linkedin.com/in/pengcheng-huang-673a393b9/"
     - "https://www.semanticscholar.org/author/2348080373"
     - "https://huggingface.co/chengpingan"
+    - "https://x.com/Peng_cheng123"
 
 # google analytics
 google_analytics_id: # get google_analytics_id from https://analytics.google.com/analytics/
@@ -84,7 +85,7 @@ author:
   stackoverflow:
   steam:
   tumblr:
-  twitter:
+  twitter: "Peng_cheng123"
   vine:
   weibo:
   xing:
