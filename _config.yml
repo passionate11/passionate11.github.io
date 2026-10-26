@@ -29,6 +29,7 @@ social:
     - "https://www.semanticscholar.org/author/2348080373"
     - "https://huggingface.co/chengpingan"
     - "https://x.com/Peng_cheng123"
+    - "https://www.zhihu.com/people/crpusculeee"
 
 # google analytics
 google_analytics_id: # get google_analytics_id from https://analytics.google.com/analytics/
@@ -80,6 +81,7 @@ author:
   orcid: "https://orcid.org/0009-0006-1236-5500"
   semanticscholar: "https://www.semanticscholar.org/author/2348080373"
   huggingface: "https://huggingface.co/chengpingan"
+  zhihu: "https://www.zhihu.com/people/crpusculeee"
   pinterest:
   soundcloud:
   stackoverflow:

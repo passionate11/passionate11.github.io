@@ -18,6 +18,7 @@ Several researchers share the name Pengcheng Huang. This one is the NLP / LLM re
 - [Semantic Scholar](https://www.semanticscholar.org/author/2348080373)
 - [Hugging Face](https://huggingface.co/chengpingan)
 - [X (Twitter)](https://x.com/Peng_cheng123)
+- [知乎 (Zhihu)](https://www.zhihu.com/people/crpusculeee): Chinese write-ups of the papers
 
 ## Honors
 
