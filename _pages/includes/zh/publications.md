@@ -6,7 +6,11 @@
 ## 代表论文
 {% endif %}
 
+{% if page.publication_view == 'full' %}
 > 更多文章请参见我的 [Google Scholar 主页](https://scholar.google.com/citations?user=VA9mUOsAAAAJ)。注：\* 表示共同一作；† 表示通讯作者。
+{% else %}
+<p class="publication-note">全部论文见 <a href="https://scholar.google.com/citations?user=VA9mUOsAAAAJ">Google Scholar</a>。* 共同一作；† 通讯作者。</p>
+{% endif %}
 
 <!-- Uncode_acl -->
 <div class='paper-box'>
@@ -22,7 +26,9 @@
 
 <p class="paper-links"><a href="https://aclanthology.org/2026.acl-long.311/">ACL Anthology</a><a href="https://arxiv.org/abs/2508.13021">arXiv</a><a href="https://github.com/NEUIR/Uncode">代码</a><a href="https://passionate11.github.io/Uncode-project-page/">项目主页</a></p>
 
+{% if page.publication_view == 'full' %}
 <p class="paper-takeaway">无需训练的解码校准，改善掩码扩散语言模型的系统性解码偏差。</p>
+{% endif %}
 
 {% if page.publication_view == 'full' %}
 <details class="paper-abstract" markdown="1">
@@ -50,7 +56,9 @@
 
 <p class="paper-links"><a href="https://openreview.net/forum?id=CyUq9D99vE">NeurIPS</a><a href="https://arxiv.org/abs/2502.15543">arXiv</a><a href="https://github.com/OpenBMB/ParamMute">代码</a><a href="https://passionate11.github.io/ParamMute-project-page/">项目主页</a></p>
 
+{% if page.publication_view == 'full' %}
 <p class="paper-takeaway">抑制知识关键前馈网络，提升检索增强生成的忠实性。</p>
+{% endif %}
 
 {% if page.publication_view == 'full' %}
 <details class="paper-abstract" markdown="1">
@@ -78,7 +86,9 @@
 
 <p class="paper-links"><a href="https://arxiv.org/abs/2610.17816">arXiv</a><a href="https://github.com/OpenBMB/EC2-Bench">代码</a><a href="https://passionate11.github.io/ec2-bench-project-page/">项目主页</a><a href="https://huggingface.co/datasets/chengpingan/EC2-Bench">数据集</a></p>
 
+{% if page.publication_view == 'full' %}
 <p class="paper-takeaway">系统分析端侧智能体何时求助云端，以及双方如何协作。</p>
+{% endif %}
 
 {% if page.publication_view == 'full' %}
 <details class="paper-abstract" markdown="1">
@@ -107,7 +117,9 @@ Sijia Yao*, `Pengcheng Huang*`, Zhenghao Liu†, Yu Gu, Yukun Yan, Shi Yu, Ge Yu
 
 <p class="paper-links"><a href="https://arxiv.org/abs/2502.17057">arXiv</a><a href="https://github.com/NEUIR/ExpandR">代码</a></p>
 
+{% if page.publication_view == 'full' %}
 <p class="paper-takeaway">在大语言模型指导下联合优化查询扩展与稠密检索。</p>
+{% endif %}
 
 {% if page.publication_view == 'full' %}
 <details class="paper-abstract" markdown="1">
@@ -135,7 +147,9 @@ Shaohua Duan\*, `Pengcheng Huang*`, Xinze Li\*, Zhenghao Liu†, Xiaoyuan Yi, Yu
 
 <p class="paper-links"><a href="https://aclanthology.org/2026.acl-long.161/">ACL Anthology</a><a href="https://arxiv.org/abs/2508.13993">arXiv</a><a href="https://github.com/NEUIR/LongMab-PO">代码</a></p>
 
+{% if page.publication_view == 'full' %}
 <p class="paper-takeaway">以多臂老虎机策略采样长上下文偏好数据。</p>
+{% endif %}
 
 {% if page.publication_view == 'full' %}
 <details class="paper-abstract" markdown="1">
@@ -158,11 +172,13 @@ Shaohua Duan\*, `Pengcheng Huang*`, Xinze Li\*, Zhenghao Liu†, Xiaoyuan Yi, Yu
 <div class="badge">ICLR 2026</div>
 ## Autoencoding-free context compression for llms via contextual semantic anchors
 
-Xin Liu*, Runsong Zhao*, `Pengcheng Huang`, Xinyu Liu, Junyi Xiao, Chunyang Xiao, Tong Xiao†, Shengxiang Gao, Zhengtao Yu, Jingbo Zhu
+Xin Liu\*, Runsong Zhao\*, `Pengcheng Huang`, Xinyu Liu, Junyi Xiao, Chunyang Xiao, Tong Xiao†, Shengxiang Gao, Zhengtao Yu, Jingbo Zhu
 
 <p class="paper-links"><a href="https://arxiv.org/abs/2510.08907">arXiv</a></p>
 
+{% if page.publication_view == 'full' %}
 <p class="paper-takeaway">通过上下文语义锚点实现高效的上下文压缩。</p>
+{% endif %}
 
 {% if page.publication_view == 'full' %}
 <details class="paper-abstract" markdown="1">
