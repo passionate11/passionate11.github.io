@@ -18,7 +18,7 @@
 <div class='paper-box-image'><div><img loading='lazy' src='/images/paper/uncode_acl26.png' alt="Empirical Analysis of Decoding Biases in Masked Diffusion Models" width="100%"></div></div>
 {% endif %}
 <div class='paper-box-text' markdown="1">
-<div class="badge">ACL 2026 Oral</div>
+<div class="badge">{% if page.publication_view == 'full' %}ACL 2026 Oral{% else %}ACL 2026 <span class="paper-oral">Oral</span>{% endif %}</div>
 
 ## Empirical Analysis of Decoding Biases in Masked Diffusion Models
 
@@ -120,7 +120,7 @@
 <div class='paper-box-image'><div><img loading='lazy' src='/images/paper/expandr_emnlp25.png' alt="ExpandR: Teaching Dense Retrievers Beyond Queries with LLM Guidance" width="100%"></div></div>
 {% endif %}
 <div class='paper-box-text' markdown="1">
-<div class="badge">EMNLP 2025 Oral</div>
+<div class="badge">{% if page.publication_view == 'full' %}EMNLP 2025 Oral{% else %}EMNLP 2025 <span class="paper-oral">Oral</span>{% endif %}</div>
 
 ## ExpandR: Teaching Dense Retrievers Beyond Queries with LLM Guidance
 
@@ -155,7 +155,7 @@ Sijia Yao*, `Pengcheng Huang*`, Zhenghao Liu†, et&nbsp;al.
 <div class='paper-box-image'><div><img loading='lazy' src='/images/paper/acl26_longmab.png' alt="Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Long-Context LLM Preference Optimization" width="100%"></div></div>
 {% endif %}
 <div class='paper-box-text' markdown="1">
-<div class="badge">ACL 2026 Oral</div>
+<div class="badge">{% if page.publication_view == 'full' %}ACL 2026 Oral{% else %}ACL 2026 <span class="paper-oral">Oral</span>{% endif %}</div>
 
 ## Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Long-Context LLM Preference Optimization
 
