@@ -19,7 +19,6 @@
       {% endif %}
       {% assign nav_data = site.data[nav_data_key] %}
       {% assign nav_links = nav_data.main | default: site.data.navigation.main %}
-      {% if page.lang_key %}<a class="mobile-brand" href="{{ current_language.path }}#about-me" target="_self">Pengcheng Huang</a>{% endif %}
       <nav id="site-nav" class="greedy-nav">
         <button class="greedy-nav__toggle" type="button" aria-label="Toggle menu">
           <div class="navicon"></div>

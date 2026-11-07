@@ -1,0 +1,31 @@
+{% assign languages = site.data.languages.main %}
+{% assign current_language = languages | where: 'key', page.lang_key | first %}
+{% assign nav_links = site.data.navigation.main %}
+{% if page.lang_key == 'zh' %}{% assign nav_links = site.data.navigation_zh.main %}{% endif %}
+<header class="masthead research-header">
+  <div class="research-header__inner">
+    <a class="research-header__brand" href="{{ current_language.path | relative_url }}" target="_self">Pengcheng Huang</a>
+    <nav class="research-header__nav" aria-label="{% if page.lang_key == 'zh' %}主导航{% else %}Main navigation{% endif %}">
+      {% for link in nav_links %}
+      <a href="{{ link.url | relative_url }}" target="_self"{% if page.url == link.url %} aria-current="page"{% endif %}>{{ link.title }}</a>
+      {% endfor %}
+    </nav>
+    <div class="masthead__lang-menu" data-lang-menu>
+      <button class="lang-menu__trigger" type="button" aria-label="{% if page.lang_key == 'zh' %}切换语言{% else %}Choose language{% endif %}" aria-expanded="false" aria-controls="lang-menu-panel">
+        <span>{{ current_language.button_label }}</span>
+        <span class="lang-menu__caret" aria-hidden="true"></span>
+      </button>
+      <div class="lang-menu__panel" id="lang-menu-panel" hidden>
+        {% for language in languages %}
+        {% assign language_path = language.path %}
+        {% if page.publication_view == 'full' %}{% assign language_path = language_path | append: 'publications/' %}{% endif %}
+        {% if language.key == page.lang_key %}
+        <span class="lang-menu__option is-current" lang="{{ language.lang }}" aria-current="page">{{ language.label }}</span>
+        {% else %}
+        <a class="lang-menu__option" href="{{ language_path | relative_url }}" lang="{{ language.lang }}" target="_self">{{ language.label }}</a>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</header>

@@ -69,10 +69,14 @@
 {% if page.lang_key %}
   {% for language in site.data.languages.main %}
     {% unless language.indexable == false %}
-<link rel="alternate" hreflang="{{ language.hreflang | default: language.lang }}" href="{{ language.path | absolute_url }}">
+{% assign alternate_path = language.path %}
+{% if page.publication_view == 'full' %}{% assign alternate_path = alternate_path | append: 'publications/' %}{% endif %}
+<link rel="alternate" hreflang="{{ language.hreflang | default: language.lang }}" href="{{ alternate_path | absolute_url }}">
     {% endunless %}
   {% endfor %}
-<link rel="alternate" hreflang="x-default" href="{{ "/" | absolute_url }}">
+{% assign default_path = '/' %}
+{% if page.publication_view == 'full' %}{% assign default_path = '/publications/' %}{% endif %}
+<link rel="alternate" hreflang="x-default" href="{{ default_path | absolute_url }}">
 {% endif %}
 
 {% if site.facebook %}

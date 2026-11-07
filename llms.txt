@@ -6,8 +6,10 @@ Several researchers share the name Pengcheng Huang. This one is the NLP / LLM re
 
 ## Profiles
 
-- [Homepage (English)](https://passionate11.github.io/): bio, news, internships and full publication list
+- [Homepage (English)](https://passionate11.github.io/): bio, news, experience, honors and selected publications
 - [Homepage (中文)](https://passionate11.github.io/zh/): Chinese version of the homepage
+- [Publications (English)](https://passionate11.github.io/publications/): full publication list with figures, abstracts and paper/code links
+- [论文发表 (中文)](https://passionate11.github.io/zh/publications/): Chinese version of the full publication list
 - [Google Scholar](https://scholar.google.com/citations?user=VA9mUOsAAAAJ)
 - [DBLP](https://dblp.org/pid/129/2239-4)
 - [ORCID](https://orcid.org/0009-0006-1236-5500)

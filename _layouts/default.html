@@ -14,10 +14,10 @@ layout: compress
     {% include head/custom.html asset_version=asset_version %}
   </head>
 
-  <body class="{% if page.lang_key %}research-home{% endif %}{% if page.text_direction == 'rtl' %} page--rtl{% endif %}">
+  <body class="{% if page.lang_key %}research-home{% if page.publication_view == 'full' %} publications-page{% else %} profile-page{% endif %}{% endif %}{% if page.text_direction == 'rtl' %} page--rtl{% endif %}">
 
     {% include browser-upgrade.html %}
-    {% include masthead.html %}
+    {% if page.lang_key %}{% include research-header.html %}{% else %}{% include masthead.html %}{% endif %}
 
     <div id="main" role="main">
       {% include sidebar.html %}
