@@ -53,9 +53,9 @@
 .profile-page .author__name {margin:20px 0 6px;font-size:23px;font-weight:600;letter-spacing:-.5px;line-height:1.3}
 .profile-page .author__name::before {display:none}
 .profile-page .author__bio {margin:0 0 14px;color:#596579;font-size:14px;line-height:1.6;font-weight:400}
-.profile-page .author__urls {font-size:13px}
-.profile-page .author__urls li {font-size:13px;line-height:1.6;white-space:normal}
-.profile-page .author__urls a {font-size:13px;padding:2px 0;margin-bottom:2px;color:#4d5b70}
+.profile-page .author__urls {font-size:14px}
+.profile-page .author__urls li {font-size:14px;line-height:1.6;white-space:normal}
+.profile-page .author__urls a {font-size:14px;padding:2px 0;margin-bottom:2px;color:#4d5b70}
 .profile-page .author__urls a:hover {color:#2563eb !important}
 .profile-page .author__urls > li:first-child {color:#596579}
 .profile-page .author__interests {padding:12px 0;margin:10px 0 12px;background:none;border:0;border-top:1px solid #dce3ed;border-bottom:1px solid #dce3ed;border-radius:0}
