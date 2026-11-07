@@ -50,8 +50,8 @@
 .research-home .paper-abstract[open] summary::after {content:" -"}
 .research-home .paper-abstract ul {list-style:none;padding:0;margin:8px 0}
 .research-home .paper-abstract li {font-size:14px;line-height:1.8;color:#374151}
-.profile-page .paper-box {display:block;padding:10px 0 !important;margin:0 !important;border:0 !important;border-bottom:1px solid #e5e9ef !important;border-radius:0 !important;background:#fff;box-shadow:none;transition:none}
-.profile-page .paper-box:hover {background:#fff !important;border-color:#e5e9ef !important;box-shadow:none !important}
+.profile-page .paper-box {display:block;padding:10px 14px !important;margin:8px 0 !important;border:1px solid #d5dfe8 !important;border-radius:6px !important;background:#fff;box-shadow:none;transition:none}
+.profile-page .paper-box:hover {background:#fff !important;border-color:#b8c8d6 !important;box-shadow:none !important}
 .profile-page .paper-box .paper-box-text {display:grid;grid-template-columns:max-content minmax(0,1fr);column-gap:12px;row-gap:4px}
 .profile-page .paper-box-text h2 {grid-column:1/-1;grid-row:1;margin:0;font-family:inherit;font-size:16px;font-weight:600;line-height:1.4}
 .profile-page .paper-box-text h2 + p {grid-column:1/-1;grid-row:2;margin:0;color:#4a5565;font-size:14px;line-height:1.5}
@@ -84,7 +84,7 @@
   .research-header__nav a {font-size:14px}
   .research-header .masthead__lang-menu .lang-menu__trigger {width:40px;min-height:30px;font-size:11px}
   .research-home .paper-box {grid-template-columns:1fr;gap:18px;padding:20px 18px !important}
-  .profile-page .paper-box {padding:12px 0 !important}
+  .profile-page .paper-box {padding:12px !important}
   .research-home .paper-box-image {max-width:320px}
   .research-home .paper-box-text h2 {font-size:17px}
   .profile-page .paper-box-text h2 {font-size:16px}
