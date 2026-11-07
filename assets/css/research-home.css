@@ -72,6 +72,14 @@
 .profile-page .page__content > ul > li > code:first-child {display:inline-block;min-width:65px;padding:0;margin-right:6px;font-family:inherit;font-size:12px;font-weight:500;color:#596579;background:none;border:0;box-shadow:none;font-variant-numeric:tabular-nums}
 .profile-page .page__content > ul > li > em:first-child {background:#eef3fb;color:#405572;padding:2px 6px;font-size:12px;line-height:1.5;margin-right:5px;letter-spacing:0;border-radius:4px}
 
+/* News reads as a short journal, with dates outside the text column. */
+.profile-page .page__content > .news-list {padding:0;margin:0;background:none;border:0;border-radius:0}
+.profile-page .page__content > .news-list > li {display:grid;grid-template-columns:76px minmax(0,1fr);column-gap:16px;align-items:baseline;padding:3px 0;margin:0 0 7px;border:0;font-size:14px;line-height:1.65}
+.profile-page .news-list time {font-size:12px;font-weight:500;color:#657286;font-variant-numeric:tabular-nums;white-space:nowrap;letter-spacing:.02em}
+.profile-page .news-list__body {min-width:0;color:#374151}
+.profile-page .news-list__body p {margin:0;line-height:inherit}
+.profile-page .news-list__body strong {font-weight:600}
+
 /* Every paper keeps its complete border. Home cards remain three compact rows. */
 .research-home .paper-box {display:grid;grid-template-columns:minmax(0,230px) minmax(0,1fr);gap:26px;align-items:start;margin:0 0 14px;padding:20px !important;border:1px solid #dce3ed;border-radius:8px !important;background:#fff;content-visibility:visible;contain-intrinsic-size:none;box-shadow:0 1px 2px #263d5704;transition:border-color .16s ease,box-shadow .16s ease}
 .research-home .paper-box:not(:last-child) {border-bottom:1px solid #dce3ed !important}
@@ -135,6 +143,7 @@
   .profile-page .page__content > h2:first-of-type {font-size:28px;margin-top:0}
   .profile-page .page__content > ul {padding:3px 12px}
   .profile-page .page__content > ul > li {font-size:13px;padding:8px 0}
+  .profile-page .page__content > .news-list > li {grid-template-columns:60px minmax(0,1fr);column-gap:12px;padding:3px 0;font-size:14px}
   .research-home .paper-box {grid-template-columns:1fr;gap:18px;padding:18px !important}
   .profile-page .paper-box {padding:11px 12px !important}
   .research-home .paper-box-image {max-width:320px}
