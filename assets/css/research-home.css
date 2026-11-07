@@ -50,14 +50,14 @@
 .research-home .paper-abstract[open] summary::after {content:" -"}
 .research-home .paper-abstract ul {list-style:none;padding:0;margin:8px 0}
 .research-home .paper-abstract li {font-size:14px;line-height:1.8;color:#374151}
-.profile-page .paper-box {display:block;padding:21px 0 !important;margin:0 !important;border:0 !important;border-bottom:1px solid #e5e9ef !important;border-radius:0 !important;background:#fff;box-shadow:none;transition:none}
+.profile-page .paper-box {display:block;padding:10px 0 !important;margin:0 !important;border:0 !important;border-bottom:1px solid #e5e9ef !important;border-radius:0 !important;background:#fff;box-shadow:none;transition:none}
 .profile-page .paper-box:hover {background:#fff !important;border-color:#e5e9ef !important;box-shadow:none !important}
-.profile-page .paper-box .paper-box-text {display:grid;grid-template-columns:max-content minmax(0,1fr);column-gap:17px;row-gap:8px}
-.profile-page .paper-box-text h2 {grid-column:1/-1;grid-row:1;margin:0;font-family:inherit;font-size:18px;font-weight:600;line-height:1.5}
-.profile-page .paper-box-text h2 + p {grid-column:1/-1;grid-row:2;margin:0;color:#4a5565;font-size:14px;line-height:1.7}
-.profile-page .paper-box .badge {grid-column:1;grid-row:3;align-self:center;margin:0;padding:0;background:transparent !important;color:#3a5a73;font-size:14px;line-height:1.7;border-radius:0;white-space:nowrap}
-.profile-page .paper-links {grid-column:2;grid-row:3;align-self:center;gap:5px 14px;margin:0;padding-left:17px;border-left:1px solid #dce3ea;line-height:1.7}
-.profile-page .paper-links a {font-size:14px;text-decoration:none}
+.profile-page .paper-box .paper-box-text {display:grid;grid-template-columns:max-content minmax(0,1fr);column-gap:12px;row-gap:4px}
+.profile-page .paper-box-text h2 {grid-column:1/-1;grid-row:1;margin:0;font-family:inherit;font-size:16px;font-weight:600;line-height:1.4}
+.profile-page .paper-box-text h2 + p {grid-column:1/-1;grid-row:2;margin:0;color:#4a5565;font-size:14px;line-height:1.5}
+.profile-page .paper-box .badge {grid-column:1;grid-row:3;align-self:center;margin:0;padding:0;background:transparent !important;color:#3a5a73;font-size:13px;line-height:1.5;border-radius:0;white-space:nowrap}
+.profile-page .paper-box-text .paper-links {grid-column:2;grid-row:3;align-self:center;gap:3px 10px;margin:0;padding-left:12px;border-left:1px solid #dce3ea;font-size:13px;line-height:1.5}
+.profile-page .paper-links a {font-size:13px;text-decoration:none}
 .profile-page .paper-links a:hover {text-decoration:underline}
 .profile-page .publication-note {margin:0 0 7px !important;padding:0;border:0;background:none;color:#566476;font-size:14px;line-height:1.7}
 .profile-page .publication-note a {font-weight:500}
@@ -84,12 +84,10 @@
   .research-header__nav a {font-size:14px}
   .research-header .masthead__lang-menu .lang-menu__trigger {width:40px;min-height:30px;font-size:11px}
   .research-home .paper-box {grid-template-columns:1fr;gap:18px;padding:20px 18px !important}
-  .profile-page .paper-box {padding:20px 0 !important}
-  .profile-page .paper-box .paper-box-text {row-gap:9px}
-  .profile-page .paper-box .badge {grid-column:1/-1;grid-row:3}
-  .profile-page .paper-links {grid-column:1/-1;grid-row:4;padding-left:0;border-left:0}
+  .profile-page .paper-box {padding:12px 0 !important}
   .research-home .paper-box-image {max-width:320px}
   .research-home .paper-box-text h2 {font-size:17px}
+  .profile-page .paper-box-text h2 {font-size:16px}
   .research-home .intro-meta {font-size:13px}
   .research-home .research-footer {font-size:12px}
   .research-home.publications-page #main {margin-top:24px}

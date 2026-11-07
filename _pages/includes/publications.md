@@ -22,9 +22,13 @@
 
 ## Empirical Analysis of Decoding Biases in Masked Diffusion Models
 
+{% if page.publication_view == 'full' %}
 `Pengcheng Huang`, Tianming Liu, Zhenghao Liu†, Yukun Yan, Shuo Wang, Tong Xiao, Zulong Chen, Maosong Sun
+{% else %}
+`Pengcheng Huang`, Tianming Liu, Zhenghao Liu†, et&nbsp;al.
+{% endif %}
 
-<p class="paper-links"><a href="https://aclanthology.org/2026.acl-long.311/">ACL Anthology</a><a href="https://arxiv.org/abs/2508.13021">arXiv</a><a href="https://github.com/NEUIR/Uncode">Code</a><a href="https://passionate11.github.io/Uncode-project-page/">Project Page</a></p>
+<p class="paper-links"><a href="https://aclanthology.org/2026.acl-long.311/">{% if page.publication_view == 'full' %}ACL Anthology{% else %}Paper{% endif %}</a><a href="https://arxiv.org/abs/2508.13021">arXiv</a><a href="https://github.com/NEUIR/Uncode">Code</a><a href="https://passionate11.github.io/Uncode-project-page/">{% if page.publication_view == 'full' %}Project Page{% else %}Project{% endif %}</a></p>
 
 {% if page.publication_view == 'full' %}
 <p class="paper-takeaway">Training-free decoding calibration for masked diffusion language models.</p>
@@ -52,9 +56,13 @@
 
 ## ParamMute: Suppressing Knowledge-Critical FFNs for Faithful Retrieval-Augmented Generation
 
+{% if page.publication_view == 'full' %}
 `Pengcheng Huang`, Zhenghao Liu†, Yukun Yan, Haiyan Zhao, Xiaoyuan Yi, Hao Chen, Zhiyuan Liu, Maosong Sun, Tong Xiao, Ge Yu, Chenyan Xiong
+{% else %}
+`Pengcheng Huang`, Zhenghao Liu†, Yukun Yan, et&nbsp;al.
+{% endif %}
 
-<p class="paper-links"><a href="https://openreview.net/forum?id=CyUq9D99vE">NeurIPS</a><a href="https://arxiv.org/abs/2502.15543">arXiv</a><a href="https://github.com/OpenBMB/ParamMute">Code</a><a href="https://passionate11.github.io/ParamMute-project-page/">Project Page</a></p>
+<p class="paper-links"><a href="https://openreview.net/forum?id=CyUq9D99vE">{% if page.publication_view == 'full' %}NeurIPS{% else %}Paper{% endif %}</a><a href="https://arxiv.org/abs/2502.15543">arXiv</a><a href="https://github.com/OpenBMB/ParamMute">Code</a><a href="https://passionate11.github.io/ParamMute-project-page/">{% if page.publication_view == 'full' %}Project Page{% else %}Project{% endif %}</a></p>
 
 {% if page.publication_view == 'full' %}
 <p class="paper-takeaway">Suppressing knowledge-critical FFNs for more faithful retrieval-augmented generation.</p>
@@ -82,9 +90,13 @@
 
 ## Empowering Edge Agents: A Systematic Analysis of Edge-Cloud Collaboration in LLM Agent Execution
 
+{% if page.publication_view == 'full' %}
 `Pengcheng Huang`, Zhenghao Liu†, Shixin Ren, Shi Yu, Sijia Yao, Yukun Yan†, Chaojun Xiao†, Maosong Sun
+{% else %}
+`Pengcheng Huang`, Zhenghao Liu†, Shixin Ren, et&nbsp;al.
+{% endif %}
 
-<p class="paper-links"><a href="https://arxiv.org/abs/2610.17816">arXiv</a><a href="https://github.com/OpenBMB/EC2-Bench">Code</a><a href="https://passionate11.github.io/ec2-bench-project-page/">Project Page</a><a href="https://huggingface.co/datasets/chengpingan/EC2-Bench">Dataset</a></p>
+<p class="paper-links"><a href="https://arxiv.org/abs/2610.17816">arXiv</a><a href="https://github.com/OpenBMB/EC2-Bench">Code</a><a href="https://passionate11.github.io/ec2-bench-project-page/">{% if page.publication_view == 'full' %}Project Page{% else %}Project{% endif %}</a><a href="https://huggingface.co/datasets/chengpingan/EC2-Bench">Dataset</a></p>
 
 {% if page.publication_view == 'full' %}
 <p class="paper-takeaway">A systematic study of when and how edge agents should collaborate with the cloud.</p>
@@ -112,7 +124,11 @@
 
 ## ExpandR: Teaching Dense Retrievers Beyond Queries with LLM Guidance
 
+{% if page.publication_view == 'full' %}
 Sijia Yao*, `Pengcheng Huang*`, Zhenghao Liu†, Yu Gu, Yukun Yan, Shi Yu, Ge Yu
+{% else %}
+Sijia Yao*, `Pengcheng Huang*`, Zhenghao Liu†, et&nbsp;al.
+{% endif %}
 
 
 <p class="paper-links"><a href="https://arxiv.org/abs/2502.17057">arXiv</a><a href="https://github.com/NEUIR/ExpandR">Code</a></p>
@@ -143,9 +159,13 @@ Sijia Yao*, `Pengcheng Huang*`, Zhenghao Liu†, Yu Gu, Yukun Yan, Shi Yu, Ge Yu
 
 ## Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Long-Context LLM Preference Optimization
 
+{% if page.publication_view == 'full' %}
 Shaohua Duan\*, `Pengcheng Huang*`, Xinze Li\*, Zhenghao Liu†, Xiaoyuan Yi, Yukun Yan, Shuo Wang, Yu Gu, Ge Yu, Maosong Sun
+{% else %}
+Shaohua Duan\*, `Pengcheng Huang*`, Xinze Li\*, et&nbsp;al.
+{% endif %}
 
-<p class="paper-links"><a href="https://aclanthology.org/2026.acl-long.161/">ACL Anthology</a><a href="https://arxiv.org/abs/2508.13993">arXiv</a><a href="https://github.com/NEUIR/LongMab-PO">Code</a></p>
+<p class="paper-links"><a href="https://aclanthology.org/2026.acl-long.161/">{% if page.publication_view == 'full' %}ACL Anthology{% else %}Paper{% endif %}</a><a href="https://arxiv.org/abs/2508.13993">arXiv</a><a href="https://github.com/NEUIR/LongMab-PO">Code</a></p>
 
 {% if page.publication_view == 'full' %}
 <p class="paper-takeaway">Bandit-guided preference data sampling for long-context language models.</p>
@@ -172,7 +192,11 @@ Shaohua Duan\*, `Pengcheng Huang*`, Xinze Li\*, Zhenghao Liu†, Xiaoyuan Yi, Yu
 <div class="badge">ICLR 2026</div>
 ## Autoencoding-free context compression for llms via contextual semantic anchors
 
+{% if page.publication_view == 'full' %}
 Xin Liu\*, Runsong Zhao\*, `Pengcheng Huang`, Xinyu Liu, Junyi Xiao, Chunyang Xiao, Tong Xiao†, Shengxiang Gao, Zhengtao Yu, Jingbo Zhu
+{% else %}
+Xin Liu\*, Runsong Zhao\*, `Pengcheng Huang`, et&nbsp;al.
+{% endif %}
 
 <p class="paper-links"><a href="https://arxiv.org/abs/2510.08907">arXiv</a></p>
 
