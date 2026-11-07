@@ -33,4 +33,3 @@ author_profile: true
 {% include_relative includes/zh/awards.md %}
 
 {% include_relative includes/zh/educations.md %}
-
