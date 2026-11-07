@@ -26,9 +26,9 @@ author_profile: true
 
 {% include_relative includes/zh/news.md %}
 
-{% include_relative includes/zh/publications.md %}
-
 {% include_relative includes/zh/internships.md %}
+
+{% include_relative includes/zh/publications.md %}
 
 {% include_relative includes/zh/awards.md %}
 
