@@ -1,6 +1,6 @@
 <span class='anchor' id='awards'></span>
 
-## 🏆 Awards
+## Awards
 
 - *2026* 🏅 National Scholarship for Doctoral Students.
 - *2026.10* 🏅 CAST Young Talent Cultivation Program for Doctoral Students (中国科协青年科技人才培育工程博士生专项计划), China Association for Science and Technology (CAST).

@@ -1,4 +1,4 @@
-## 关于我
+## 黄鹏程
 
 我是**黄鹏程（Pengcheng Huang）**，东北大学计算机科学与工程学院博士生，导师为[刘正皓](http://faculty.neu.edu.cn/liuzhenghao/zh_CN/index.htm)教授。我在东北大学取得硕士学位，硕士期间导师为[肖桐](http://team.neu.edu.cn/NEUNLPLab/zh_CN/article/411756/content/2225.htm)教授。
 

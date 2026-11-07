@@ -1,6 +1,6 @@
 <span class='anchor' id='news'></span>
 
-## 🔥 News
+## News
 
 - `2026-11`: &nbsp;🏅 Awarded the **National Scholarship for Doctoral Students**
 - `2026-10`: &nbsp;🏅 Selected for the **CAST Young Talent Cultivation Program for Doctoral Students** (中国科协青年科技人才培育工程博士生专项计划) by the China Association for Science and Technology (CAST)
