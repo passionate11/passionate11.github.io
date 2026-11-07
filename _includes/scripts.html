@@ -130,7 +130,8 @@
       });
     }, {
       threshold: 0.01,
-      rootMargin: '0px 0px -8% 0px'
+      // Include the full viewport so the last section can reveal at page bottom.
+      rootMargin: '0px'
     });
 
     fadeTargets.forEach(function(el) {
