@@ -1,0 +1,33 @@
+{% assign is_zh = false %}
+{% if page.lang_key == 'zh' %}{% assign is_zh = true %}{% endif %}
+<div class="research-profile" itemscope itemtype="https://schema.org/Person">
+  <img class="research-portrait" src="{{ site.author.avatar | relative_url }}" alt="Pengcheng Huang / 黄鹏程" width="240" height="240" fetchpriority="high" itemprop="image">
+  <h1 itemprop="name">Pengcheng Huang</h1>
+  <p class="profile-native" lang="zh-CN">黄鹏程</p>
+  <p class="profile-role">{% if is_zh %}计算机科学博士生{% else %}Ph.D. Student in Computer Science{% endif %}</p>
+  <p class="profile-affiliation">{% if is_zh %}东北大学 · 清华 THUNLP{% else %}Northeastern University · THUNLP{% endif %}</p>
+  <p class="profile-location">{% if is_zh %}中国，北京{% else %}Beijing, China{% endif %}</p>
+  <nav class="profile-primary-links" aria-label="{% if is_zh %}联系与学术主页{% else %}Contact and academic profiles{% endif %}">
+    <a href="mailto:{{ site.author.email }}" title="Email" aria-label="Email"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+    <a href="{{ site.author.googlescholar }}" title="Google Scholar" aria-label="Google Scholar"><i class="fas fa-graduation-cap" aria-hidden="true"></i></a>
+    <a href="https://github.com/{{ site.author.github }}" title="GitHub" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+    <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" title="LinkedIn" aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+    <a href="https://x.com/{{ site.author.twitter }}" title="X" aria-label="X (Twitter)"><span aria-hidden="true">𝕏</span></a>
+  </nav>
+  <div class="profile-research">
+    <h2>{% if is_zh %}研究方向{% else %}Research interests{% endif %}</h2>
+    <ul>
+      <li>{% if is_zh %}大语言模型与基础模型{% else %}LLMs & foundation models{% endif %}</li>
+      <li>{% if is_zh %}语言模型智能体{% else %}Language model agents{% endif %}</li>
+      <li>{% if is_zh %}可信与高效生成{% else %}Reliable & efficient generation{% endif %}</li>
+    </ul>
+  </div>
+  <nav class="profile-elsewhere" aria-label="{% if is_zh %}更多个人主页{% else %}More profiles{% endif %}">
+    <a href="{{ site.author.semanticscholar }}">Semantic Scholar</a>
+    <a href="{{ site.author.orcid }}">ORCID</a>
+    <a href="{{ site.author.dblp }}">DBLP</a>
+    <a href="{{ site.author.huggingface }}">Hugging Face</a>
+    <a href="{{ site.author.zhihu }}">知乎</a>
+    <a href="{{ site.author.xiaohongshu }}">小红书</a>
+  </nav>
+</div>

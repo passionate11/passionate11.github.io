@@ -1,19 +1,19 @@
 # main links
 main:
-- title: "About Me"
+- title: "About"
   url: "/#about-me"
 
 - title: "News"
   url: "/#news"
 
-- title: "Internships"
-  url: "/#internships"
-
 - title: "Publications"
   url: "/#publications"
+
+- title: "Experience"
+  url: "/#internships"
 
 - title: "Awards"
   url: "/#awards"
 
-- title: "Educations"
+- title: "Education"
   url: "/#educations"

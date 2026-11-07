@@ -17,6 +17,7 @@
     var langMenu = nav.querySelector('.masthead__lang-menu');
     if (!btn || !visibleList || !hiddenList) return;
     var breaks = [];
+    var compactResearchNav = false;
 
     function width(el) {
       return Math.ceil(el.getBoundingClientRect().width);
@@ -61,6 +62,20 @@
     }
 
     function updateNav() {
+      if (document.body.classList.contains('research-home')) {
+        if (window.matchMedia('(max-width: 760px)').matches) {
+          while (visibleList.lastElementChild) hiddenList.prepend(visibleList.lastElementChild);
+          compactResearchNav = true;
+          btn.classList.remove('hidden');
+          btn.setAttribute('count', hiddenList.children.length);
+          return;
+        }
+        if (compactResearchNav) {
+          while (hiddenList.firstElementChild) visibleList.append(hiddenList.firstElementChild);
+          breaks = [];
+          compactResearchNav = false;
+        }
+      }
       var langToggle = langMenu ? langMenu.querySelector('.lang-menu__trigger') : null;
       var langMenuWidth = langMenu
         ? Math.max(width(langMenu), langToggle ? width(langToggle) : 0) + 18

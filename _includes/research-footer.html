@@ -1,0 +1,5 @@
+<footer class="research-footer">
+  <span>© {{ site.time | date: "%Y" }} Pengcheng Huang</span>
+  <span>{% if page.lang_key == 'zh' %}更新于{% else %}Updated{% endif %} {{ site.time | date: "%Y-%m-%d" }}</span>
+  <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+</footer>

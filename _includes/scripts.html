@@ -120,7 +120,7 @@
   var fadeTargets = document.querySelectorAll(
     '.page__content > h1, .page__content > h2, .page__content > ul, .page__content > .paper-box, .page__content > blockquote, .page__content > hr'
   );
-  if (fadeTargets.length && 'IntersectionObserver' in window) {
+  if (!document.body.classList.contains('research-home') && fadeTargets.length && 'IntersectionObserver' in window) {
     var observer = new IntersectionObserver(function(entries, obs) {
       entries.forEach(function(entry) {
         if (!entry.isIntersecting) return;
