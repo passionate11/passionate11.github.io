@@ -31,4 +31,3 @@ redirect_from:
 
 {% include_relative includes/educations.md %}
 
-{% include research-footer.html %}

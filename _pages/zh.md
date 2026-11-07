@@ -34,4 +34,3 @@ author_profile: true
 
 {% include_relative includes/zh/educations.md %}
 
-{% include research-footer.html %}
