@@ -62,7 +62,7 @@
 `Pengcheng Huang`, Zhenghao Liu†, Yukun Yan, et&nbsp;al.
 {% endif %}
 
-<p class="paper-links"><a href="https://openreview.net/forum?id=CyUq9D99vE">{% if page.publication_view == 'full' %}NeurIPS{% else %}论文{% endif %}</a><a href="https://arxiv.org/abs/2502.15543">arXiv</a><a href="https://github.com/OpenBMB/ParamMute">代码</a><a href="https://passionate11.github.io/ParamMute-project-page/">{% if page.publication_view == 'full' %}项目主页{% else %}项目{% endif %}</a></p>
+<p class="paper-links"><a href="https://doi.org/10.52202/085713-3356">{% if page.publication_view == 'full' %}NeurIPS{% else %}论文{% endif %}</a><a href="https://arxiv.org/abs/2502.15543">arXiv</a><a href="https://github.com/OpenBMB/ParamMute">代码</a><a href="https://passionate11.github.io/ParamMute-project-page/">{% if page.publication_view == 'full' %}项目主页{% else %}项目{% endif %}</a>{% if page.publication_view == 'full' %}<a href="/rag-knowledge-conflicts/">知识冲突导读（英文）</a>{% endif %}</p>
 
 {% if page.publication_view == 'full' %}
 <p class="paper-takeaway">抑制知识关键前馈网络，提升检索增强生成的忠实性。</p>
@@ -131,7 +131,7 @@ Sijia Yao*, `Pengcheng Huang*`, Zhenghao Liu†, et&nbsp;al.
 {% endif %}
 
 
-<p class="paper-links"><a href="https://arxiv.org/abs/2502.17057">arXiv</a><a href="https://github.com/NEUIR/ExpandR">代码</a></p>
+<p class="paper-links"><a href="https://aclanthology.org/2025.emnlp-main.963/">论文</a><a href="https://arxiv.org/abs/2502.17057">arXiv</a><a href="https://github.com/NEUIR/ExpandR">代码</a></p>
 
 {% if page.publication_view == 'full' %}
 <p class="paper-takeaway">在大语言模型指导下联合优化查询扩展与稠密检索。</p>
@@ -255,7 +255,7 @@ Xingjie Gao*, `Pengcheng Huang*`, Zhenghao Liu†, Yukun Yan, Shuo Wang, Zulong 
 
 Ruochang Li\*, `Pengcheng Huang*`, Zhenghao Liu†, Yukun Yan, Huiyuan Xie, Yu Gu, Ge Yu, Maosong Sun
 
-<p class="paper-links"><a href="https://arxiv.org/abs/2606.27786">arXiv</a><a href="https://github.com/OpenBMB/SPARK">代码</a></p>
+<p class="paper-links"><a href="https://arxiv.org/abs/2606.27786">arXiv</a><a href="https://github.com/OpenBMB/SPARK">代码</a>{% if page.publication_view == 'full' %}<a href="/rag-knowledge-conflicts/">知识冲突导读（英文）</a>{% endif %}</p>
 
 {% if page.publication_view == 'full' %}
 <details class="paper-abstract" markdown="1">

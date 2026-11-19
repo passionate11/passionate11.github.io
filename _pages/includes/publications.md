@@ -62,7 +62,7 @@
 `Pengcheng Huang`, Zhenghao Liu†, Yukun Yan, et&nbsp;al.
 {% endif %}
 
-<p class="paper-links"><a href="https://openreview.net/forum?id=CyUq9D99vE">{% if page.publication_view == 'full' %}NeurIPS{% else %}Paper{% endif %}</a><a href="https://arxiv.org/abs/2502.15543">arXiv</a><a href="https://github.com/OpenBMB/ParamMute">Code</a><a href="https://passionate11.github.io/ParamMute-project-page/">{% if page.publication_view == 'full' %}Project Page{% else %}Project{% endif %}</a></p>
+<p class="paper-links"><a href="https://doi.org/10.52202/085713-3356">{% if page.publication_view == 'full' %}NeurIPS{% else %}Paper{% endif %}</a><a href="https://arxiv.org/abs/2502.15543">arXiv</a><a href="https://github.com/OpenBMB/ParamMute">Code</a><a href="https://passionate11.github.io/ParamMute-project-page/">{% if page.publication_view == 'full' %}Project Page{% else %}Project{% endif %}</a>{% if page.publication_view == 'full' %}<a href="/rag-knowledge-conflicts/">Knowledge Conflict Guide</a>{% endif %}</p>
 
 {% if page.publication_view == 'full' %}
 <p class="paper-takeaway">Suppressing knowledge-critical FFNs for more faithful retrieval-augmented generation.</p>
@@ -131,7 +131,7 @@ Sijia Yao*, `Pengcheng Huang*`, Zhenghao Liu†, et&nbsp;al.
 {% endif %}
 
 
-<p class="paper-links"><a href="https://arxiv.org/abs/2502.17057">arXiv</a><a href="https://github.com/NEUIR/ExpandR">Code</a></p>
+<p class="paper-links"><a href="https://aclanthology.org/2025.emnlp-main.963/">ACL Anthology</a><a href="https://arxiv.org/abs/2502.17057">arXiv</a><a href="https://github.com/NEUIR/ExpandR">Code</a></p>
 
 {% if page.publication_view == 'full' %}
 <p class="paper-takeaway">Jointly learning query expansion and dense retrieval with LLM guidance.</p>
@@ -255,7 +255,7 @@ Xingjie Gao*, `Pengcheng Huang*`, Zhenghao Liu†, Yukun Yan, Shuo Wang, Zulong 
 
 Ruochang Li\*, `Pengcheng Huang*`, Zhenghao Liu†, Yukun Yan, Huiyuan Xie, Yu Gu, Ge Yu, Maosong Sun
 
-<p class="paper-links"><a href="https://arxiv.org/abs/2606.27786">arXiv</a><a href="https://github.com/OpenBMB/SPARK">Code</a></p>
+<p class="paper-links"><a href="https://arxiv.org/abs/2606.27786">arXiv</a><a href="https://github.com/OpenBMB/SPARK">Code</a>{% if page.publication_view == 'full' %}<a href="/rag-knowledge-conflicts/">Knowledge Conflict Guide</a>{% endif %}</p>
 
 {% if page.publication_view == 'full' %}
 <details class="paper-abstract" markdown="1">
