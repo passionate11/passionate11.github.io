@@ -28,7 +28,7 @@
 `Pengcheng Huang`, Tianming Liu, Zhenghao Liu†, et&nbsp;al.
 {% endif %}
 
-<p class="paper-links"><a href="https://aclanthology.org/2026.acl-long.311/">{% if page.publication_view == 'full' %}ACL Anthology{% else %}Paper{% endif %}</a><a href="https://arxiv.org/abs/2508.13021">arXiv</a><a href="https://github.com/NEUIR/Uncode">Code</a><a href="https://passionate11.github.io/Uncode-project-page/">{% if page.publication_view == 'full' %}Project Page{% else %}Project{% endif %}</a></p>
+<p class="paper-links"><a href="https://aclanthology.org/2026.acl-long.311/">{% if page.publication_view == 'full' %}ACL Anthology{% else %}Paper{% endif %}</a><a href="https://arxiv.org/abs/2508.13021">arXiv</a><a href="https://github.com/NEUIR/Uncode">Code</a><a href="https://passionate11.github.io/Uncode-project-page/">{% if page.publication_view == 'full' %}Project Page{% else %}Project{% endif %}</a>{% if page.publication_view == 'full' %}<a href="/unmasking-order/">Unmasking Order Guide</a>{% endif %}</p>
 
 {% if page.publication_view == 'full' %}
 <p class="paper-takeaway">Training-free decoding calibration for masked diffusion language models.</p>

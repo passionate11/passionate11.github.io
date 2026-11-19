@@ -28,7 +28,7 @@
 `Pengcheng Huang`, Tianming Liu, Zhenghao Liu†, et&nbsp;al.
 {% endif %}
 
-<p class="paper-links"><a href="https://aclanthology.org/2026.acl-long.311/">{% if page.publication_view == 'full' %}ACL Anthology{% else %}论文{% endif %}</a><a href="https://arxiv.org/abs/2508.13021">arXiv</a><a href="https://github.com/NEUIR/Uncode">代码</a><a href="https://passionate11.github.io/Uncode-project-page/">{% if page.publication_view == 'full' %}项目主页{% else %}项目{% endif %}</a></p>
+<p class="paper-links"><a href="https://aclanthology.org/2026.acl-long.311/">{% if page.publication_view == 'full' %}ACL Anthology{% else %}论文{% endif %}</a><a href="https://arxiv.org/abs/2508.13021">arXiv</a><a href="https://github.com/NEUIR/Uncode">代码</a><a href="https://passionate11.github.io/Uncode-project-page/">{% if page.publication_view == 'full' %}项目主页{% else %}项目{% endif %}</a>{% if page.publication_view == 'full' %}<a href="/unmasking-order/">解掩码顺序导读（英文）</a>{% endif %}</p>
 
 {% if page.publication_view == 'full' %}
 <p class="paper-takeaway">无需训练的解码校准，改善掩码扩散语言模型的系统性解码偏差。</p>
