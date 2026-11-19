@@ -11,6 +11,7 @@ locale: "en_US"
 lang_key: "en"
 nav_locale: "en"
 author_profile: false
+reading_page: true
 ---
 
 # Unmasking Order in Diffusion Language Models

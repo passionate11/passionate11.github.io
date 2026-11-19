@@ -11,6 +11,7 @@ locale: "en_US"
 lang_key: "en"
 nav_locale: "en"
 author_profile: false
+reading_page: true
 ---
 
 # RAG Knowledge Conflicts: When Retrieval Disagrees with Model Memory
