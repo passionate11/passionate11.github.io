@@ -33,7 +33,17 @@ The supervised stage uses teacher trajectories that include explicit tool trials
 | [Simulated Trial and Error (STE)](https://aclanthology.org/2024.acl-long.570/) | Simulates useful situations for a tool, interacts with it, and stores lessons from the execution feedback for later use. |
 | [ToolMaster](https://arxiv.org/html/2601.12762v1#S3) | Trains an explicit trial phase before task execution. Supervised trajectories model tool probes and self-correction, followed by reinforcement learning over trial and execution together. |
 
-For out-of-domain tool use, [Section 5.3 and Table 2](https://arxiv.org/html/2601.12762v1#S5.SS3) report results on TMDB and ToolHop. [Section 5.4](https://arxiv.org/html/2601.12762v1#S5.SS4) breaks ToolHop results down by similarity to tools seen during training. The table above compares how methods acquire tool experience. Each paper uses its own evaluation setting.
+The table compares how methods acquire tool experience. Each paper uses its own evaluation setting.
+
+## Evaluating generalization on ToolHop
+
+[ToolHop](https://aclanthology.org/2025.acl-long.150/) pairs multi-hop questions with interdependent, locally executable tools. ToolMaster uses it as an out-of-domain test. Its [Table 2](https://arxiv.org/html/2601.12762v1#S5.T2) reports answer correctness on ToolHop and Solvable Pass Rate on TMDB. The [ToolHop dataset card](https://huggingface.co/datasets/bytedance-research/ToolHop) documents the original benchmark and its evaluation settings.
+
+[Section 5.4 and Figure 4](https://arxiv.org/html/2601.12762v1#S5.SS4) compare ToolMaster with an ablation trained on successful tool-use trajectories. The analysis groups ToolHop tools by how similar their documentation is to that of tools seen during training. A query is treated as unfamiliar if any required tool falls into the low-similarity group, and as familiar if every required tool falls into the high-similarity group.
+
+## Released trajectories and checkpoint
+
+The [released SFT file](https://github.com/NEUIR/ToolMaster/blob/3bd49c8290a1a139b1a12371826f2911afa422e0/data/for_sft/G123_sft_train_data.json) contains 1,444 query records, each with one conversation. [Section 4](https://arxiv.org/html/2601.12762v1#S4) reports selecting 1,500 ToolBench queries to construct the SFT dataset. The two counts refer to the released file and the paper's query selection, respectively. The [ToolMaster-7B checkpoint](https://huggingface.co/Kfkcome/ToolMaster-7B) is linked from the official repository.
 
 DOI [10.48550/arXiv.2601.12762](https://doi.org/10.48550/arXiv.2601.12762) · [BibTeX](/selected-papers.bib)
 

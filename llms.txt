@@ -38,9 +38,9 @@ Several researchers share the name Pengcheng Huang. This one is the NLP / LLM re
 
 ## Co-first-author papers
 
-- [Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Long-Context LLM Preference Optimization (ACL 2026, oral)](https://arxiv.org/abs/2508.13993): LongMab-PO. [ACL Anthology](https://aclanthology.org/2026.acl-long.161/) · [Code](https://github.com/NEUIR/LongMab-PO)
+- [Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Long-Context LLM Preference Optimization (ACL 2026, oral)](https://aclanthology.org/2026.acl-long.161/): LongMab-PO samples document chunks to construct preference pairs for long-context DPO. [ACL BibTeX](https://aclanthology.org/2026.acl-long.161.bib) · [arXiv v2](https://arxiv.org/abs/2508.13993v2) · [Code](https://github.com/NEUIR/LongMab-PO)
 - [ExpandR: Teaching Dense Retrievers Beyond Queries with LLM Guidance (EMNLP 2025, oral)](https://arxiv.org/abs/2502.17057): [Code](https://github.com/NEUIR/ExpandR)
-- [Teaching LLMs to Learn Tool Trialing and Execution through Environment Interaction (arXiv 2026)](https://arxiv.org/abs/2601.12762): ToolMaster. [Code](https://github.com/NEUIR/ToolMaster)
+- [Teaching LLMs to Learn Tool Trialing and Execution through Environment Interaction (arXiv 2026)](https://arxiv.org/abs/2601.12762): ToolMaster trains agents to trial tools before task execution. [ToolHop evaluation and released trajectories](https://passionate11.github.io/papers/toolmaster/#evaluating-generalization-on-toolhop) · [Code](https://github.com/NEUIR/ToolMaster)
 - [SPARK: Adaptive Parametric Knowledge Participation for Faithful Retrieval-Augmented Generation (arXiv 2026)](https://arxiv.org/abs/2606.27786): earlier arXiv title "SHIFT". [Code](https://github.com/OpenBMB/SPARK)
 
 ## Other publications

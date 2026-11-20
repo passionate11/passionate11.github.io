@@ -165,7 +165,7 @@ Shaohua Duan\*, `Pengcheng Huang*`, Xinze Li\*, Zhenghao Liu†, Xiaoyuan Yi, Yu
 Shaohua Duan\*, `Pengcheng Huang*`, Xinze Li\*, et&nbsp;al.
 {% endif %}
 
-<p class="paper-links"><a href="https://aclanthology.org/2026.acl-long.161/">{% if page.publication_view == 'full' %}ACL Anthology{% else %}Paper{% endif %}</a><a href="https://arxiv.org/abs/2508.13993">arXiv</a><a href="https://github.com/NEUIR/LongMab-PO">Code</a>{% if page.publication_view == 'full' %}<a href="/papers/longmab-po/">Project Page</a>{% endif %}</p>
+<p class="paper-links"><a href="https://aclanthology.org/2026.acl-long.161/">{% if page.publication_view == 'full' %}ACL Anthology{% else %}Paper{% endif %}</a><a href="https://arxiv.org/abs/2508.13993v2">arXiv v2</a><a href="https://github.com/NEUIR/LongMab-PO">Code</a>{% if page.publication_view == 'full' %}<a href="/papers/longmab-po/">Project Page</a>{% endif %}</p>
 
 {% if page.publication_view == 'full' %}
 <p class="paper-takeaway">Bandit-guided preference data sampling for long-context language models.</p>
