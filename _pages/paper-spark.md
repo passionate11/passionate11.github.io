@@ -25,6 +25,16 @@ SPARK studies how a retrieval-augmented language model handles conflicts between
 
 The policy learns to regulate feed-forward contributions with a faithfulness-oriented reward. The experiments report contextual faithfulness across six datasets. A separate analysis compares cases where the retrieved evidence is accurate with cases where the model's closed-book answer is accurate. [Source](https://arxiv.org/html/2606.27786v3)
 
+## Adapting to reliable and misleading retrieval
+
+| Approach | Where it intervenes |
+| --- | --- |
+| [ParamMute](https://doi.org/10.52202/085713-3356) | Identifies feed-forward layers associated with unfaithful answers and combines activation suppression with preference-based adaptation. |
+| [FIDES](https://arxiv.org/abs/2606.05644) | Uses signals from the output, hidden representations, and prediction trajectory to set intervention strength during decoding. |
+| [SPARK](https://arxiv.org/html/2606.27786v3#S4) | Learns a lightweight policy that adjusts feed-forward contributions by layer and decoding step while keeping the backbone frozen. |
+
+When comparing these interventions, distinguish inaccurate parametric memory with correct retrieved context from correct memory with misleading retrieved context. [Section 6.3](https://arxiv.org/html/2606.27786v3#S6.SS3) reports the cases separately. The papers use different conflict subsets and evaluation protocols.
+
 ## Earlier preprint
 
 The first arXiv version was titled *SHIFT: Gate-Modulated Activation Steering for Knowledge Conflict Mitigation in Retrieval-Augmented Generation*. [Source](https://arxiv.org/abs/2606.27786v1)

@@ -29,6 +29,16 @@ During rollouts, an upper-confidence-bound policy balances exploring under-sampl
 
 The paper evaluates sample construction and downstream performance on long-context tasks with Llama and Qwen models. The evaluation and ablations describe the effect of bandit-guided sampling on the preference data and the trained models. [Source](https://aclanthology.org/2026.acl-long.161/)
 
+## Constructing preference pairs for long-context DPO
+
+| Approach | How it constructs preferences |
+| --- | --- |
+| [LongReward](https://aclanthology.org/2025.acl-long.187/) | Scores candidate responses with an LLM that assesses helpfulness, logicality, faithfulness, and completeness. |
+| [LOGO](https://proceedings.mlr.press/v267/tang25j.html) | Constructs long-context preference data using position synthesis and trains with reference-free preference optimization. |
+| [LongMab-PO](https://arxiv.org/html/2508.13993v2#S3) | Treats document chunks as bandit arms and adapts which chunks to sample during response generation, then uses those responses to construct DPO pairs. |
+
+[Section 4](https://arxiv.org/html/2508.13993v2#S4) describes the comparison settings. [Section 5](https://arxiv.org/html/2508.13993v2#S5) separates downstream long-context QA results from ablations on candidate sampling and preference data construction.
+
 DOI [10.18653/v1/2026.acl-long.161](https://doi.org/10.18653/v1/2026.acl-long.161) · [BibTeX](/selected-papers.bib)
 
 <script type="application/ld+json">

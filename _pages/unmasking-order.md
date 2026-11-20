@@ -36,6 +36,8 @@ Confidence is an estimate of how likely the current token prediction is at a pos
 
 **Version note.** The first two arXiv versions of UNCODE used the name [PC-Sampler](https://arxiv.org/abs/2508.13021v2). The [ACL 2026 version](https://aclanthology.org/2026.acl-long.311/) is titled *Empirical Analysis of Decoding Biases in Masked Diffusion Models*. I am the first author of that paper.
 
+[LogicDiff](https://arxiv.org/abs/2603.26771) separately studies when high-entropy logical connectives are revealed on reasoning tasks. Its intervention prioritizes those tokens. For an analysis of boundary positions and high-frequency tokens across uncertainty-based samplers, see [UNCODE §3](https://arxiv.org/html/2508.13021v4#S3). The two analyses use different token groupings.
+
 ## Position order and parallel commitment
 
 Ranking positions and choosing a commit count can be varied separately. [Fast-dLLM](https://arxiv.org/abs/2505.22618) uses a confidence threshold for parallel commitment, while [EB-Sampler](https://arxiv.org/abs/2505.24857) adjusts the count with an approximate entropy bound. [Balance-Aware Pivot Decoding](https://arxiv.org/abs/2610.26040) explicitly considers how the positions selected now determine the remaining masked intervals. Its depth analysis concerns the balanced splitting rule. End-to-end speed also depends on the model, threshold, and implementation used in the experiment.

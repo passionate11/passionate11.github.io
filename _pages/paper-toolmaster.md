@@ -25,6 +25,16 @@ ToolMaster studies how language-model agents learn to use unfamiliar tools by in
 
 The supervised stage uses teacher trajectories that include explicit tool trials and self-corrections. A subsequent stage uses Group Relative Policy Optimization to train trialing and execution jointly. The paper evaluates whether the learned behavior transfers to previously unseen tools. [Source](https://arxiv.org/html/2601.12762v1)
 
+## Learning to call previously unseen tools
+
+| Approach | Where the agent learns about an unfamiliar tool |
+| --- | --- |
+| [ToolLLM](https://arxiv.org/abs/2307.16789) | Collects successful multi-step API solutions with a search procedure, then uses the resulting instruction data to train a tool-using model. |
+| [Simulated Trial and Error (STE)](https://aclanthology.org/2024.acl-long.570/) | Simulates useful situations for a tool, interacts with it, and stores lessons from the execution feedback for later use. |
+| [ToolMaster](https://arxiv.org/html/2601.12762v1#S3) | Trains an explicit trial phase before task execution. Supervised trajectories model tool probes and self-correction, followed by reinforcement learning over trial and execution together. |
+
+For out-of-domain tool use, [Section 5.3 and Table 2](https://arxiv.org/html/2601.12762v1#S5.SS3) report results on TMDB and ToolHop. [Section 5.4](https://arxiv.org/html/2601.12762v1#S5.SS4) breaks ToolHop results down by similarity to tools seen during training. The table above compares how methods acquire tool experience. Each paper uses its own evaluation setting.
+
 DOI [10.48550/arXiv.2601.12762](https://doi.org/10.48550/arXiv.2601.12762) · [BibTeX](/selected-papers.bib)
 
 <script type="application/ld+json">

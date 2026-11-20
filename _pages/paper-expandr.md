@@ -25,6 +25,15 @@ ExpandR studies how a language model and a dense retriever can learn query expan
 
 The retriever is trained contrastively on expanded queries. The language model is optimized with direct preference optimization using preferences informed by retrieval effectiveness and generation consistency. Training the two components together lets the expansion policy adapt to the ranking model. [Source](https://aclanthology.org/2025.emnlp-main.963/)
 
+## Query expansion with a fixed or jointly trained retriever
+
+| Approach | What is optimized |
+| --- | --- |
+| [Query2doc](https://aclanthology.org/2023.emnlp-main.585/) | A few-shot prompt generates a pseudo-document to expand the query, which is passed to a sparse or dense retriever. The expansion is applied without fine-tuning. |
+| [ExpandR](https://arxiv.org/html/2502.17057#S3) | Expanded queries train the dense retriever contrastively. Retrieval effectiveness and response consistency inform the preference pairs used to train the expansion generator. |
+
+For evidence on how retriever training and generator preference alignment contribute, see the [ExpandR ablations](https://arxiv.org/html/2502.17057#S5.SS2) and [BEIR results](https://aclanthology.org/2025.emnlp-main.963/). Compare the retriever and query representation used at evaluation time when reading results on query expansion.
+
 ## Earlier preprint
 
 The arXiv preprint first appeared under the title *LLM-QE: Improving Query Expansion by Aligning Large Language Models with Ranking Preferences*. The EMNLP proceedings publish it as ExpandR. [Source](https://arxiv.org/abs/2502.17057v1)
