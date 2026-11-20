@@ -17,7 +17,7 @@ Shaohua Duan, Pengcheng Huang, Xinze Li, Zhenghao Liu, Xiaoyuan Yi, Yukun Yan, S
 
 **ACL 2026**
 
-[Proceedings](https://aclanthology.org/2026.acl-long.161/) · [arXiv](https://arxiv.org/abs/2508.13993) · [Code](https://github.com/NEUIR/LongMab-PO) · [Hugging Face](https://huggingface.co/papers/2508.13993) · [ORKG](https://orkg.org/papers/R1994780)
+[Proceedings](https://aclanthology.org/2026.acl-long.161/) · [arXiv v2](https://arxiv.org/abs/2508.13993v2) · [Code](https://github.com/NEUIR/LongMab-PO) · [Hugging Face](https://huggingface.co/papers/2508.13993) · [ORKG](https://orkg.org/papers/R1994780)
 
 LongMab uses multi-armed bandit sampling to construct preference pairs for long-context language models. A context is divided into chunks, and each chunk is treated as a bandit arm.
 
@@ -39,7 +39,11 @@ The paper evaluates sample construction and downstream performance on long-conte
 
 [Section 4](https://arxiv.org/html/2508.13993v2#S4) describes the comparison settings. [Section 5](https://arxiv.org/html/2508.13993v2#S5) separates downstream long-context QA results from ablations on candidate sampling and preference data construction.
 
-DOI [10.18653/v1/2026.acl-long.161](https://doi.org/10.18653/v1/2026.acl-long.161) · [BibTeX](/selected-papers.bib)
+## Published citation
+
+The ACL 2026 proceedings and [arXiv v2](https://arxiv.org/abs/2508.13993v2) list the current authors. Use the proceedings entry for the publication year, page range, and DOI.
+
+[ACL proceedings BibTeX](https://aclanthology.org/2026.acl-long.161.bib) · [DOI 10.18653/v1/2026.acl-long.161](https://doi.org/10.18653/v1/2026.acl-long.161)
 
 <script type="application/ld+json">
 {
