@@ -9,6 +9,21 @@ lang_key: "en"
 nav_locale: "en"
 author_profile: false
 reading_page: true
+paper_authors:
+  - Xingjie Gao
+  - Pengcheng Huang
+  - Zhenghao Liu
+  - Yukun Yan
+  - Shuo Wang
+  - Zulong Chen
+  - Chen Qian
+  - Ge Yu
+  - Yu Gu
+citation_fields:
+  publication_date: "2026/01/19"
+  arxiv_id: "2601.12762"
+  doi: "10.48550/arXiv.2601.12762"
+citation_bibtex: "https://arxiv.org/bibtex/2601.12762"
 ---
 
 # Teaching LLMs to Learn Tool Trialing and Execution through Environment Interaction
@@ -17,7 +32,7 @@ Xingjie Gao, Pengcheng Huang, Zhenghao Liu, Yukun Yan, Shuo Wang, Zulong Chen, C
 
 **arXiv preprint**
 
-[arXiv](https://arxiv.org/abs/2601.12762) · [Code](https://github.com/NEUIR/ToolMaster) · [Hugging Face](https://huggingface.co/papers/2601.12762) · [ORKG](https://orkg.org/papers/R1994784)
+[arXiv](https://arxiv.org/abs/2601.12762) · [Code](https://github.com/NEUIR/ToolMaster) · [Hugging Face](https://huggingface.co/papers/2601.12762) · [ORKG](https://orkg.org/papers/R1994784) · [Full text (arXiv HTML)](https://arxiv.org/html/2601.12762)
 
 ToolMaster studies how language-model agents learn to use unfamiliar tools by interacting with an environment. A trial phase lets the agent probe available tools and use feedback before executing a task.
 
@@ -45,7 +60,7 @@ The table compares how methods acquire tool experience. Each paper uses its own 
 
 The [released SFT file](https://github.com/NEUIR/ToolMaster/blob/3bd49c8290a1a139b1a12371826f2911afa422e0/data/for_sft/G123_sft_train_data.json) contains 1,444 query records, each with one conversation. [Section 4](https://arxiv.org/html/2601.12762v1#S4) reports selecting 1,500 ToolBench queries to construct the SFT dataset. The two counts refer to the released file and the paper's query selection, respectively. The [ToolMaster-7B checkpoint](https://huggingface.co/Kfkcome/ToolMaster-7B) is linked from the official repository.
 
-DOI [10.48550/arXiv.2601.12762](https://doi.org/10.48550/arXiv.2601.12762) · [BibTeX](/selected-papers.bib)
+DOI [10.48550/arXiv.2601.12762](https://doi.org/10.48550/arXiv.2601.12762) · [BibTeX]({{ page.citation_bibtex }})
 
 <script type="application/ld+json">
 {
@@ -55,44 +70,7 @@ DOI [10.48550/arXiv.2601.12762](https://doi.org/10.48550/arXiv.2601.12762) · [B
   "headline": "Teaching LLMs to Learn Tool Trialing and Execution through Environment Interaction",
   "description": "ToolMaster studies how language-model agents learn to use unfamiliar tools by interacting with an environment. A trial phase lets the agent probe available tools and use feedback before executing a task.",
   "inLanguage": "en",
-  "author": [
-    {
-      "@type": "Person",
-      "name": "Xingjie Gao"
-    },
-    {
-      "@type": "Person",
-      "name": "Pengcheng Huang"
-    },
-    {
-      "@type": "Person",
-      "name": "Zhenghao Liu"
-    },
-    {
-      "@type": "Person",
-      "name": "Yukun Yan"
-    },
-    {
-      "@type": "Person",
-      "name": "Shuo Wang"
-    },
-    {
-      "@type": "Person",
-      "name": "Zulong Chen"
-    },
-    {
-      "@type": "Person",
-      "name": "Chen Qian"
-    },
-    {
-      "@type": "Person",
-      "name": "Ge Yu"
-    },
-    {
-      "@type": "Person",
-      "name": "Yu Gu"
-    }
-  ],
+  "author": [{% for name in page.paper_authors %}{"@type": "Person", "name": {{ name | jsonify }}}{% unless forloop.last %}, {% endunless %}{% endfor %}],
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

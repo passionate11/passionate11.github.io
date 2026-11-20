@@ -28,7 +28,7 @@
 `Pengcheng Huang`, Tianming Liu, Zhenghao Liu†, et&nbsp;al.
 {% endif %}
 
-<p class="paper-links"><a href="https://aclanthology.org/2026.acl-long.311/">{% if page.publication_view == 'full' %}ACL Anthology{% else %}论文{% endif %}</a><a href="https://arxiv.org/abs/2508.13021">arXiv</a><a href="https://github.com/NEUIR/Uncode">代码</a><a href="https://passionate11.github.io/Uncode-project-page/">{% if page.publication_view == 'full' %}项目主页{% else %}项目{% endif %}</a>{% if page.publication_view == 'full' %}<a href="/unmasking-order/">解掩码顺序导读（英文）</a>{% endif %}{% if page.publication_view == "full" %}<a href="https://huggingface.co/spaces/chengpingan/unmasking-order-in-diffusion-language-models">解码顺序对照</a>{% endif %}</p>
+<p class="paper-links"><a href="https://aclanthology.org/2026.acl-long.311/">{% if page.publication_view == 'full' %}ACL Anthology{% else %}论文{% endif %}</a><a href="https://arxiv.org/abs/2508.13021">arXiv</a><a href="https://github.com/NEUIR/Uncode">代码</a><a href="https://passionate11.github.io/Uncode-project-page/">{% if page.publication_view == 'full' %}项目主页{% else %}项目{% endif %}</a>{% if page.publication_view == 'full' %}<a href="/unmasking-order/">解掩码顺序导读（英文）</a>{% endif %}{% if page.publication_view == "full" %}<a href="https://huggingface.co/spaces/chengpingan/unmasking-order-in-diffusion-language-models">解码顺序对照</a>{% endif %}{% if page.publication_view == "full" %}<a href="https://arxiv.org/html/2508.13021">预印本全文（HTML）</a><a href="https://aclanthology.org/2026.acl-long.311.bib">BibTeX</a>{% endif %}</p>
 
 {% if page.publication_view == 'full' %}
 <p class="paper-takeaway">无需训练的解码校准，改善掩码扩散语言模型的系统性解码偏差。</p>
@@ -62,7 +62,7 @@
 `Pengcheng Huang`, Zhenghao Liu†, Yukun Yan, et&nbsp;al.
 {% endif %}
 
-<p class="paper-links"><a href="https://doi.org/10.52202/085713-3356">{% if page.publication_view == 'full' %}NeurIPS{% else %}论文{% endif %}</a><a href="https://arxiv.org/abs/2502.15543">arXiv</a><a href="https://github.com/OpenBMB/ParamMute">代码</a><a href="https://passionate11.github.io/ParamMute-project-page/">{% if page.publication_view == 'full' %}项目主页{% else %}项目{% endif %}</a>{% if page.publication_view == 'full' %}<a href="/rag-knowledge-conflicts/">知识冲突导读（英文）</a>{% endif %}{% if page.publication_view == "full" %}<a href="https://huggingface.co/spaces/chengpingan/rag-knowledge-conflicts">RAG 知识冲突案例</a>{% endif %}</p>
+<p class="paper-links"><a href="https://doi.org/10.52202/085713-3356">{% if page.publication_view == 'full' %}NeurIPS{% else %}论文{% endif %}</a><a href="https://arxiv.org/abs/2502.15543">arXiv</a><a href="https://github.com/OpenBMB/ParamMute">代码</a><a href="https://passionate11.github.io/ParamMute-project-page/">{% if page.publication_view == 'full' %}项目主页{% else %}项目{% endif %}</a>{% if page.publication_view == 'full' %}<a href="/rag-knowledge-conflicts/">知识冲突导读（英文）</a>{% endif %}{% if page.publication_view == "full" %}<a href="https://huggingface.co/spaces/chengpingan/rag-knowledge-conflicts">RAG 知识冲突案例</a>{% endif %}{% if page.publication_view == "full" %}<a href="https://arxiv.org/html/2502.15543">预印本全文（HTML）</a><a href="https://proceedings.neurips.cc/paper_files/paper/2025/file/90d1e515d74686ad148b469a3cecbbaa-Bibtex-Conference.bib">BibTeX</a>{% endif %}</p>
 
 {% if page.publication_view == 'full' %}
 <p class="paper-takeaway">抑制知识关键前馈网络，提升检索增强生成的忠实性。</p>
@@ -96,7 +96,7 @@
 `Pengcheng Huang`, Zhenghao Liu†, Shixin Ren, et&nbsp;al.
 {% endif %}
 
-<p class="paper-links"><a href="https://arxiv.org/abs/2610.17816">arXiv</a><a href="https://github.com/OpenBMB/EC2-Bench">代码</a><a href="https://passionate11.github.io/ec2-bench-project-page/">{% if page.publication_view == 'full' %}项目主页{% else %}项目{% endif %}</a><a href="https://huggingface.co/datasets/chengpingan/EC2-Bench">数据集</a>{% if page.publication_view == "full" %}<a href="https://huggingface.co/spaces/chengpingan/edge-cloud-agent-routing">端云路由对照</a>{% endif %}</p>
+<p class="paper-links"><a href="https://arxiv.org/abs/2610.17816">arXiv</a><a href="https://github.com/OpenBMB/EC2-Bench">代码</a><a href="https://passionate11.github.io/ec2-bench-project-page/">{% if page.publication_view == 'full' %}项目主页{% else %}项目{% endif %}</a><a href="https://huggingface.co/datasets/chengpingan/EC2-Bench">数据集</a>{% if page.publication_view == "full" %}<a href="https://huggingface.co/spaces/chengpingan/edge-cloud-agent-routing">端云路由对照</a>{% endif %}{% if page.publication_view == "full" %}<a href="https://arxiv.org/html/2610.17816">预印本全文（HTML）</a><a href="https://arxiv.org/bibtex/2610.17816">BibTeX</a>{% endif %}</p>
 
 {% if page.publication_view == 'full' %}
 <p class="paper-takeaway">系统分析端侧智能体何时求助云端，以及双方如何协作。</p>
@@ -131,7 +131,7 @@ Sijia Yao*, `Pengcheng Huang*`, Zhenghao Liu†, et&nbsp;al.
 {% endif %}
 
 
-<p class="paper-links"><a href="https://aclanthology.org/2025.emnlp-main.963/">论文</a><a href="https://arxiv.org/abs/2502.17057">arXiv</a><a href="https://github.com/NEUIR/ExpandR">代码</a>{% if page.publication_view == 'full' %}<a href="/papers/expandr/">项目页</a>{% endif %}{% if page.publication_view == "full" %}<a href="https://huggingface.co/spaces/chengpingan/query-expansion-for-dense-retrieval">查询扩展对照</a>{% endif %}</p>
+<p class="paper-links"><a href="https://aclanthology.org/2025.emnlp-main.963/">论文</a><a href="https://arxiv.org/abs/2502.17057">arXiv</a><a href="https://github.com/NEUIR/ExpandR">代码</a>{% if page.publication_view == 'full' %}<a href="/papers/expandr/">项目页</a>{% endif %}{% if page.publication_view == "full" %}<a href="https://huggingface.co/spaces/chengpingan/query-expansion-for-dense-retrieval">查询扩展对照</a>{% endif %}{% if page.publication_view == "full" %}<a href="https://arxiv.org/html/2502.17057">预印本全文（HTML）</a><a href="https://aclanthology.org/2025.emnlp-main.963.bib">BibTeX</a>{% endif %}</p>
 
 {% if page.publication_view == 'full' %}
 <p class="paper-takeaway">在大语言模型指导下联合优化查询扩展与稠密检索。</p>
@@ -165,7 +165,7 @@ Shaohua Duan\*, `Pengcheng Huang*`, Xinze Li\*, Zhenghao Liu†, Xiaoyuan Yi, Yu
 Shaohua Duan\*, `Pengcheng Huang*`, Xinze Li\*, et&nbsp;al.
 {% endif %}
 
-<p class="paper-links"><a href="https://aclanthology.org/2026.acl-long.161/">{% if page.publication_view == 'full' %}ACL Anthology{% else %}论文{% endif %}</a><a href="https://arxiv.org/abs/2508.13993v2">arXiv v2</a><a href="https://github.com/NEUIR/LongMab-PO">代码</a>{% if page.publication_view == 'full' %}<a href="/papers/longmab-po/">项目页</a>{% endif %}{% if page.publication_view == "full" %}<a href="https://huggingface.co/spaces/chengpingan/long-context-preference-optimization">长上下文采样对照</a>{% endif %}</p>
+<p class="paper-links"><a href="https://aclanthology.org/2026.acl-long.161/">{% if page.publication_view == 'full' %}ACL Anthology{% else %}论文{% endif %}</a><a href="https://arxiv.org/abs/2508.13993v2">arXiv v2</a><a href="https://github.com/NEUIR/LongMab-PO">代码</a>{% if page.publication_view == 'full' %}<a href="/papers/longmab-po/">项目页</a>{% endif %}{% if page.publication_view == "full" %}<a href="https://huggingface.co/spaces/chengpingan/long-context-preference-optimization">长上下文采样对照</a>{% endif %}{% if page.publication_view == "full" %}<a href="https://arxiv.org/html/2508.13993">预印本全文（HTML）</a><a href="https://aclanthology.org/2026.acl-long.161.bib">BibTeX</a>{% endif %}</p>
 
 {% if page.publication_view == 'full' %}
 <p class="paper-takeaway">以多臂老虎机策略采样长上下文偏好数据。</p>
@@ -229,7 +229,7 @@ Xin Liu\*, Runsong Zhao\*, `Pengcheng Huang`, et&nbsp;al.
 
 Xingjie Gao*, `Pengcheng Huang*`, Zhenghao Liu†, Yukun Yan, Shuo Wang, Zulong Chen, Chen Qian, Ge Yu, Yu Gu
 
-<p class="paper-links"><a href="https://arxiv.org/abs/2601.12762">arXiv</a><a href="https://github.com/NEUIR/ToolMaster">代码</a>{% if page.publication_view == 'full' %}<a href="/papers/toolmaster/">项目页</a>{% endif %}{% if page.publication_view == "full" %}<a href="https://huggingface.co/spaces/chengpingan/llm-tool-use-generalization">工具泛化案例</a>{% endif %}</p>
+<p class="paper-links"><a href="https://arxiv.org/abs/2601.12762">arXiv</a><a href="https://github.com/NEUIR/ToolMaster">代码</a>{% if page.publication_view == 'full' %}<a href="/papers/toolmaster/">项目页</a>{% endif %}{% if page.publication_view == "full" %}<a href="https://huggingface.co/spaces/chengpingan/llm-tool-use-generalization">工具泛化案例</a>{% endif %}{% if page.publication_view == "full" %}<a href="https://arxiv.org/html/2601.12762">预印本全文（HTML）</a><a href="https://arxiv.org/bibtex/2601.12762">BibTeX</a>{% endif %}</p>
 
 {% if page.publication_view == 'full' %}
 <details class="paper-abstract" markdown="1">
@@ -255,7 +255,7 @@ Xingjie Gao*, `Pengcheng Huang*`, Zhenghao Liu†, Yukun Yan, Shuo Wang, Zulong 
 
 Ruochang Li\*, `Pengcheng Huang*`, Zhenghao Liu†, Yukun Yan, Huiyuan Xie, Yu Gu, Ge Yu, Maosong Sun
 
-<p class="paper-links"><a href="https://arxiv.org/abs/2606.27786">arXiv</a><a href="https://github.com/OpenBMB/SPARK">代码</a>{% if page.publication_view == 'full' %}<a href="/papers/spark/">项目页</a>{% endif %}{% if page.publication_view == 'full' %}<a href="/rag-knowledge-conflicts/">知识冲突导读（英文）</a>{% endif %}{% if page.publication_view == "full" %}<a href="https://huggingface.co/spaces/chengpingan/rag-knowledge-conflicts">RAG 知识冲突案例</a>{% endif %}</p>
+<p class="paper-links"><a href="https://arxiv.org/abs/2606.27786">arXiv</a><a href="https://github.com/OpenBMB/SPARK">代码</a>{% if page.publication_view == 'full' %}<a href="/papers/spark/">项目页</a>{% endif %}{% if page.publication_view == 'full' %}<a href="/rag-knowledge-conflicts/">知识冲突导读（英文）</a>{% endif %}{% if page.publication_view == "full" %}<a href="https://huggingface.co/spaces/chengpingan/rag-knowledge-conflicts">RAG 知识冲突案例</a>{% endif %}{% if page.publication_view == "full" %}<a href="https://arxiv.org/html/2606.27786">预印本全文（HTML）</a><a href="https://arxiv.org/bibtex/2606.27786v3">BibTeX</a>{% endif %}</p>
 
 {% if page.publication_view == 'full' %}
 <details class="paper-abstract" markdown="1">
@@ -435,7 +435,7 @@ Junhao Ruan, Bei Li, Yongjing Yin, `Pengcheng Huang`, Xin Chen, Jingang Wang, Xu
 
 `Pengcheng Huang`, Yongyu Mu, Yuzhang Wu, Bei Li, Chunyang Xiao, Tong Xiao†, Jingbo Zhu
 
-<p class="paper-links"><a href="https://arxiv.org/abs/2407.13164">arXiv</a><a href="https://aclanthology.org/2024.ccl-1.82/">PDF</a><a href="https://passionate11.github.io/Translate-and-Revise-project-page/">项目主页</a>{% if page.publication_view == "full" %}<a href="https://huggingface.co/spaces/chengpingan/terminology-constrained-translation">试用术语检查</a>{% endif %}</p>
+<p class="paper-links"><a href="https://arxiv.org/abs/2407.13164">arXiv</a><a href="https://aclanthology.org/2024.ccl-1.82/">CCL 2024</a><a href="https://passionate11.github.io/Translate-and-Revise-project-page/">项目主页</a>{% if page.publication_view == "full" %}<a href="https://huggingface.co/spaces/chengpingan/terminology-constrained-translation">试用术语检查</a>{% endif %}{% if page.publication_view == "full" %}<a href="https://arxiv.org/html/2407.13164">预印本全文（HTML）</a><a href="https://api.crossref.org/works/10.1007/978-981-97-8367-0_8/transform/application/x-bibtex">Springer 版 BibTeX</a>{% endif %}</p>
 
 {% if page.publication_view == 'full' %}
 <details class="paper-abstract" markdown="1">

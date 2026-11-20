@@ -9,6 +9,25 @@ lang_key: "en"
 nav_locale: "en"
 author_profile: false
 reading_page: true
+paper_authors:
+  - Shaohua Duan
+  - Pengcheng Huang
+  - Xinze Li
+  - Zhenghao Liu
+  - Xiaoyuan Yi
+  - Yukun Yan
+  - Shuo Wang
+  - Yu Gu
+  - Ge Yu
+  - Maosong Sun
+citation_fields:
+  publication_date: "2026/07"
+  arxiv_id: "2508.13993"
+  doi: "10.18653/v1/2026.acl-long.161"
+  conference_title: "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"
+  firstpage: "3559"
+  lastpage: "3575"
+citation_bibtex: "https://aclanthology.org/2026.acl-long.161.bib"
 ---
 
 # Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Long-Context LLM Preference Optimization
@@ -17,7 +36,7 @@ Shaohua Duan, Pengcheng Huang, Xinze Li, Zhenghao Liu, Xiaoyuan Yi, Yukun Yan, S
 
 **ACL 2026**
 
-[Proceedings](https://aclanthology.org/2026.acl-long.161/) · [arXiv v2](https://arxiv.org/abs/2508.13993v2) · [Code](https://github.com/NEUIR/LongMab-PO) · [Hugging Face](https://huggingface.co/papers/2508.13993) · [ORKG](https://orkg.org/papers/R1994780)
+[Proceedings](https://aclanthology.org/2026.acl-long.161/) · [arXiv v2](https://arxiv.org/abs/2508.13993v2) · [Code](https://github.com/NEUIR/LongMab-PO) · [Hugging Face](https://huggingface.co/papers/2508.13993) · [ORKG](https://orkg.org/papers/R1994780) · [Full text (arXiv HTML)](https://arxiv.org/html/2508.13993)
 
 LongMab uses multi-armed bandit sampling to construct preference pairs for long-context language models. A context is divided into chunks, and each chunk is treated as a bandit arm.
 
@@ -43,7 +62,7 @@ The paper evaluates sample construction and downstream performance on long-conte
 
 The ACL 2026 proceedings and [arXiv v2](https://arxiv.org/abs/2508.13993v2) list the current authors. Use the proceedings entry for the publication year, page range, and DOI.
 
-[ACL proceedings BibTeX](https://aclanthology.org/2026.acl-long.161.bib) · [DOI 10.18653/v1/2026.acl-long.161](https://doi.org/10.18653/v1/2026.acl-long.161)
+[ACL proceedings BibTeX]({{ page.citation_bibtex }}) · [DOI 10.18653/v1/2026.acl-long.161](https://doi.org/10.18653/v1/2026.acl-long.161)
 
 <script type="application/ld+json">
 {
@@ -52,49 +71,9 @@ The ACL 2026 proceedings and [arXiv v2](https://arxiv.org/abs/2508.13993v2) list
   "@id": "https://doi.org/10.18653/v1/2026.acl-long.161",
   "headline": "Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Long-Context LLM Preference Optimization",
   "description": "LongMab uses multi-armed bandit sampling to construct preference pairs for long-context language models. A context is divided into chunks, and each chunk is treated as a bandit arm.",
+  "datePublished": "2026-07",
   "inLanguage": "en",
-  "author": [
-    {
-      "@type": "Person",
-      "name": "Shaohua Duan"
-    },
-    {
-      "@type": "Person",
-      "name": "Pengcheng Huang"
-    },
-    {
-      "@type": "Person",
-      "name": "Xinze Li"
-    },
-    {
-      "@type": "Person",
-      "name": "Zhenghao Liu"
-    },
-    {
-      "@type": "Person",
-      "name": "Xiaoyuan Yi"
-    },
-    {
-      "@type": "Person",
-      "name": "Yukun Yan"
-    },
-    {
-      "@type": "Person",
-      "name": "Shuo Wang"
-    },
-    {
-      "@type": "Person",
-      "name": "Yu Gu"
-    },
-    {
-      "@type": "Person",
-      "name": "Ge Yu"
-    },
-    {
-      "@type": "Person",
-      "name": "Maosong Sun"
-    }
-  ],
+  "author": [{% for name in page.paper_authors %}{"@type": "Person", "name": {{ name | jsonify }}}{% unless forloop.last %}, {% endunless %}{% endfor %}],
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

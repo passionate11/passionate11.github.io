@@ -2,6 +2,13 @@
 
 {% include seo.html %}
 
+{% if page.citation_fields %}
+<meta name="citation_title" content="{{ page.title | escape }}">
+{% for name in page.paper_authors %}<meta name="citation_author" content="{{ name | escape }}">
+{% endfor %}{% for field in page.citation_fields %}<meta name="citation_{{ field[0] }}" content="{{ field[1] | escape }}">
+{% endfor %}<link rel="alternate" type="application/x-bibtex" href="{{ page.citation_bibtex | escape }}">
+{% endif %}
+
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">

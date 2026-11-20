@@ -9,6 +9,20 @@ lang_key: "en"
 nav_locale: "en"
 author_profile: false
 reading_page: true
+paper_authors:
+  - Ruochang Li
+  - Pengcheng Huang
+  - Zhenghao Liu
+  - Yukun Yan
+  - Huiyuan Xie
+  - Yu Gu
+  - Ge Yu
+  - Maosong Sun
+citation_fields:
+  publication_date: "2026/06/26"
+  arxiv_id: "2606.27786"
+  doi: "10.48550/arXiv.2606.27786"
+citation_bibtex: "https://arxiv.org/bibtex/2606.27786v3"
 ---
 
 # SPARK: Adaptive Parametric Knowledge Participation for Faithful Retrieval-Augmented Generation
@@ -17,7 +31,7 @@ Ruochang Li, Pengcheng Huang, Zhenghao Liu, Yukun Yan, Huiyuan Xie, Yu Gu, Ge Yu
 
 **arXiv preprint**
 
-[arXiv](https://arxiv.org/abs/2606.27786) · [Code](https://github.com/OpenBMB/SPARK) · [Hugging Face](https://huggingface.co/papers/2606.27786) · [ORKG](https://orkg.org/papers/R1994772)
+[arXiv](https://arxiv.org/abs/2606.27786) · [Code](https://github.com/OpenBMB/SPARK) · [Hugging Face](https://huggingface.co/papers/2606.27786) · [ORKG](https://orkg.org/papers/R1994772) · [Full text (arXiv HTML)](https://arxiv.org/html/2606.27786)
 
 SPARK studies how a retrieval-augmented language model handles conflicts between retrieved evidence and its parametric knowledge. A lightweight policy adjusts the contribution of feed-forward network states during decoding while the backbone stays frozen.
 
@@ -39,7 +53,7 @@ When comparing these interventions, distinguish inaccurate parametric memory wit
 
 The first arXiv version was titled *SHIFT: Gate-Modulated Activation Steering for Knowledge Conflict Mitigation in Retrieval-Augmented Generation*. [Source](https://arxiv.org/abs/2606.27786v1)
 
-DOI [10.48550/arXiv.2606.27786](https://doi.org/10.48550/arXiv.2606.27786) · [BibTeX](/selected-papers.bib)
+DOI [10.48550/arXiv.2606.27786](https://doi.org/10.48550/arXiv.2606.27786) · [BibTeX]({{ page.citation_bibtex }})
 
 [Research guide on conflicts between model memory and retrieved evidence](/rag-knowledge-conflicts/)
 
@@ -51,40 +65,7 @@ DOI [10.48550/arXiv.2606.27786](https://doi.org/10.48550/arXiv.2606.27786) · [B
   "headline": "SPARK: Adaptive Parametric Knowledge Participation for Faithful Retrieval-Augmented Generation",
   "description": "SPARK studies how a retrieval-augmented language model handles conflicts between retrieved evidence and its parametric knowledge. A lightweight policy adjusts the contribution of feed-forward network states during decoding while the backbone stays frozen.",
   "inLanguage": "en",
-  "author": [
-    {
-      "@type": "Person",
-      "name": "Ruochang Li"
-    },
-    {
-      "@type": "Person",
-      "name": "Pengcheng Huang"
-    },
-    {
-      "@type": "Person",
-      "name": "Zhenghao Liu"
-    },
-    {
-      "@type": "Person",
-      "name": "Yukun Yan"
-    },
-    {
-      "@type": "Person",
-      "name": "Huiyuan Xie"
-    },
-    {
-      "@type": "Person",
-      "name": "Yu Gu"
-    },
-    {
-      "@type": "Person",
-      "name": "Ge Yu"
-    },
-    {
-      "@type": "Person",
-      "name": "Maosong Sun"
-    }
-  ],
+  "author": [{% for name in page.paper_authors %}{"@type": "Person", "name": {{ name | jsonify }}}{% unless forloop.last %}, {% endunless %}{% endfor %}],
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",
