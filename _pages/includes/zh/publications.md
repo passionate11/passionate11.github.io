@@ -131,7 +131,7 @@ Sijia Yao*, `Pengcheng Huang*`, Zhenghao Liu†, et&nbsp;al.
 {% endif %}
 
 
-<p class="paper-links"><a href="https://aclanthology.org/2025.emnlp-main.963/">论文</a><a href="https://arxiv.org/abs/2502.17057">arXiv</a><a href="https://github.com/NEUIR/ExpandR">代码</a></p>
+<p class="paper-links"><a href="https://aclanthology.org/2025.emnlp-main.963/">论文</a><a href="https://arxiv.org/abs/2502.17057">arXiv</a><a href="https://github.com/NEUIR/ExpandR">代码</a>{% if page.publication_view == 'full' %}<a href="/papers/expandr/">项目页</a>{% endif %}</p>
 
 {% if page.publication_view == 'full' %}
 <p class="paper-takeaway">在大语言模型指导下联合优化查询扩展与稠密检索。</p>
@@ -165,7 +165,7 @@ Shaohua Duan\*, `Pengcheng Huang*`, Xinze Li\*, Zhenghao Liu†, Xiaoyuan Yi, Yu
 Shaohua Duan\*, `Pengcheng Huang*`, Xinze Li\*, et&nbsp;al.
 {% endif %}
 
-<p class="paper-links"><a href="https://aclanthology.org/2026.acl-long.161/">{% if page.publication_view == 'full' %}ACL Anthology{% else %}论文{% endif %}</a><a href="https://arxiv.org/abs/2508.13993">arXiv</a><a href="https://github.com/NEUIR/LongMab-PO">代码</a></p>
+<p class="paper-links"><a href="https://aclanthology.org/2026.acl-long.161/">{% if page.publication_view == 'full' %}ACL Anthology{% else %}论文{% endif %}</a><a href="https://arxiv.org/abs/2508.13993">arXiv</a><a href="https://github.com/NEUIR/LongMab-PO">代码</a>{% if page.publication_view == 'full' %}<a href="/papers/longmab-po/">项目页</a>{% endif %}</p>
 
 {% if page.publication_view == 'full' %}
 <p class="paper-takeaway">以多臂老虎机策略采样长上下文偏好数据。</p>
@@ -229,7 +229,7 @@ Xin Liu\*, Runsong Zhao\*, `Pengcheng Huang`, et&nbsp;al.
 
 Xingjie Gao*, `Pengcheng Huang*`, Zhenghao Liu†, Yukun Yan, Shuo Wang, Zulong Chen, Chen Qian, Ge Yu, Yu Gu
 
-<p class="paper-links"><a href="https://arxiv.org/abs/2601.12762">arXiv</a><a href="https://github.com/NEUIR/ToolMaster">代码</a></p>
+<p class="paper-links"><a href="https://arxiv.org/abs/2601.12762">arXiv</a><a href="https://github.com/NEUIR/ToolMaster">代码</a>{% if page.publication_view == 'full' %}<a href="/papers/toolmaster/">项目页</a>{% endif %}</p>
 
 {% if page.publication_view == 'full' %}
 <details class="paper-abstract" markdown="1">
@@ -255,7 +255,7 @@ Xingjie Gao*, `Pengcheng Huang*`, Zhenghao Liu†, Yukun Yan, Shuo Wang, Zulong 
 
 Ruochang Li\*, `Pengcheng Huang*`, Zhenghao Liu†, Yukun Yan, Huiyuan Xie, Yu Gu, Ge Yu, Maosong Sun
 
-<p class="paper-links"><a href="https://arxiv.org/abs/2606.27786">arXiv</a><a href="https://github.com/OpenBMB/SPARK">代码</a>{% if page.publication_view == 'full' %}<a href="/rag-knowledge-conflicts/">知识冲突导读（英文）</a>{% endif %}</p>
+<p class="paper-links"><a href="https://arxiv.org/abs/2606.27786">arXiv</a><a href="https://github.com/OpenBMB/SPARK">代码</a>{% if page.publication_view == 'full' %}<a href="/papers/spark/">项目页</a>{% endif %}{% if page.publication_view == 'full' %}<a href="/rag-knowledge-conflicts/">知识冲突导读（英文）</a>{% endif %}</p>
 
 {% if page.publication_view == 'full' %}
 <details class="paper-abstract" markdown="1">
