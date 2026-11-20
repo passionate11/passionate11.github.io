@@ -28,7 +28,7 @@
 `Pengcheng Huang`, Tianming Liu, Zhenghao Liu†, et&nbsp;al.
 {% endif %}
 
-<p class="paper-links"><a href="https://aclanthology.org/2026.acl-long.311/">{% if page.publication_view == 'full' %}ACL Anthology{% else %}Paper{% endif %}</a><a href="https://arxiv.org/abs/2508.13021">arXiv</a><a href="https://github.com/NEUIR/Uncode">Code</a><a href="https://passionate11.github.io/Uncode-project-page/">{% if page.publication_view == 'full' %}Project Page{% else %}Project{% endif %}</a>{% if page.publication_view == 'full' %}<a href="/unmasking-order/">Unmasking Order Guide</a>{% endif %}</p>
+<p class="paper-links"><a href="https://aclanthology.org/2026.acl-long.311/">{% if page.publication_view == 'full' %}ACL Anthology{% else %}Paper{% endif %}</a><a href="https://arxiv.org/abs/2508.13021">arXiv</a><a href="https://github.com/NEUIR/Uncode">Code</a><a href="https://passionate11.github.io/Uncode-project-page/">{% if page.publication_view == 'full' %}Project Page{% else %}Project{% endif %}</a>{% if page.publication_view == 'full' %}<a href="/unmasking-order/">Unmasking Order Guide</a>{% endif %}{% if page.publication_view == "full" %}<a href="https://huggingface.co/spaces/chengpingan/unmasking-order-in-diffusion-language-models">Decoding Order Explorer</a>{% endif %}</p>
 
 {% if page.publication_view == 'full' %}
 <p class="paper-takeaway">Training-free decoding calibration for masked diffusion language models.</p>
@@ -62,7 +62,7 @@
 `Pengcheng Huang`, Zhenghao Liu†, Yukun Yan, et&nbsp;al.
 {% endif %}
 
-<p class="paper-links"><a href="https://doi.org/10.52202/085713-3356">{% if page.publication_view == 'full' %}NeurIPS{% else %}Paper{% endif %}</a><a href="https://arxiv.org/abs/2502.15543">arXiv</a><a href="https://github.com/OpenBMB/ParamMute">Code</a><a href="https://passionate11.github.io/ParamMute-project-page/">{% if page.publication_view == 'full' %}Project Page{% else %}Project{% endif %}</a>{% if page.publication_view == 'full' %}<a href="/rag-knowledge-conflicts/">Knowledge Conflict Guide</a>{% endif %}</p>
+<p class="paper-links"><a href="https://doi.org/10.52202/085713-3356">{% if page.publication_view == 'full' %}NeurIPS{% else %}Paper{% endif %}</a><a href="https://arxiv.org/abs/2502.15543">arXiv</a><a href="https://github.com/OpenBMB/ParamMute">Code</a><a href="https://passionate11.github.io/ParamMute-project-page/">{% if page.publication_view == 'full' %}Project Page{% else %}Project{% endif %}</a>{% if page.publication_view == 'full' %}<a href="/rag-knowledge-conflicts/">Knowledge Conflict Guide</a>{% endif %}{% if page.publication_view == "full" %}<a href="https://huggingface.co/spaces/chengpingan/rag-knowledge-conflicts">RAG Conflict Examples</a>{% endif %}</p>
 
 {% if page.publication_view == 'full' %}
 <p class="paper-takeaway">Suppressing knowledge-critical FFNs for more faithful retrieval-augmented generation.</p>
@@ -96,7 +96,7 @@
 `Pengcheng Huang`, Zhenghao Liu†, Shixin Ren, et&nbsp;al.
 {% endif %}
 
-<p class="paper-links"><a href="https://arxiv.org/abs/2610.17816">arXiv</a><a href="https://github.com/OpenBMB/EC2-Bench">Code</a><a href="https://passionate11.github.io/ec2-bench-project-page/">{% if page.publication_view == 'full' %}Project Page{% else %}Project{% endif %}</a><a href="https://huggingface.co/datasets/chengpingan/EC2-Bench">Dataset</a></p>
+<p class="paper-links"><a href="https://arxiv.org/abs/2610.17816">arXiv</a><a href="https://github.com/OpenBMB/EC2-Bench">Code</a><a href="https://passionate11.github.io/ec2-bench-project-page/">{% if page.publication_view == 'full' %}Project Page{% else %}Project{% endif %}</a><a href="https://huggingface.co/datasets/chengpingan/EC2-Bench">Dataset</a>{% if page.publication_view == "full" %}<a href="https://huggingface.co/spaces/chengpingan/edge-cloud-agent-routing">Edge-Cloud Routing Explorer</a>{% endif %}</p>
 
 {% if page.publication_view == 'full' %}
 <p class="paper-takeaway">A systematic study of when and how edge agents should collaborate with the cloud.</p>
@@ -131,7 +131,7 @@ Sijia Yao*, `Pengcheng Huang*`, Zhenghao Liu†, et&nbsp;al.
 {% endif %}
 
 
-<p class="paper-links"><a href="https://aclanthology.org/2025.emnlp-main.963/">ACL Anthology</a><a href="https://arxiv.org/abs/2502.17057">arXiv</a><a href="https://github.com/NEUIR/ExpandR">Code</a>{% if page.publication_view == 'full' %}<a href="/papers/expandr/">Project Page</a>{% endif %}</p>
+<p class="paper-links"><a href="https://aclanthology.org/2025.emnlp-main.963/">ACL Anthology</a><a href="https://arxiv.org/abs/2502.17057">arXiv</a><a href="https://github.com/NEUIR/ExpandR">Code</a>{% if page.publication_view == 'full' %}<a href="/papers/expandr/">Project Page</a>{% endif %}{% if page.publication_view == "full" %}<a href="https://huggingface.co/spaces/chengpingan/query-expansion-for-dense-retrieval">Query Expansion Explorer</a>{% endif %}</p>
 
 {% if page.publication_view == 'full' %}
 <p class="paper-takeaway">Jointly learning query expansion and dense retrieval with LLM guidance.</p>
@@ -165,7 +165,7 @@ Shaohua Duan\*, `Pengcheng Huang*`, Xinze Li\*, Zhenghao Liu†, Xiaoyuan Yi, Yu
 Shaohua Duan\*, `Pengcheng Huang*`, Xinze Li\*, et&nbsp;al.
 {% endif %}
 
-<p class="paper-links"><a href="https://aclanthology.org/2026.acl-long.161/">{% if page.publication_view == 'full' %}ACL Anthology{% else %}Paper{% endif %}</a><a href="https://arxiv.org/abs/2508.13993v2">arXiv v2</a><a href="https://github.com/NEUIR/LongMab-PO">Code</a>{% if page.publication_view == 'full' %}<a href="/papers/longmab-po/">Project Page</a>{% endif %}</p>
+<p class="paper-links"><a href="https://aclanthology.org/2026.acl-long.161/">{% if page.publication_view == 'full' %}ACL Anthology{% else %}Paper{% endif %}</a><a href="https://arxiv.org/abs/2508.13993v2">arXiv v2</a><a href="https://github.com/NEUIR/LongMab-PO">Code</a>{% if page.publication_view == 'full' %}<a href="/papers/longmab-po/">Project Page</a>{% endif %}{% if page.publication_view == "full" %}<a href="https://huggingface.co/spaces/chengpingan/long-context-preference-optimization">Chunk Sampling Explorer</a>{% endif %}</p>
 
 {% if page.publication_view == 'full' %}
 <p class="paper-takeaway">Bandit-guided preference data sampling for long-context language models.</p>
@@ -229,7 +229,7 @@ Xin Liu\*, Runsong Zhao\*, `Pengcheng Huang`, et&nbsp;al.
 
 Xingjie Gao*, `Pengcheng Huang*`, Zhenghao Liu†, Yukun Yan, Shuo Wang, Zulong Chen, Chen Qian, Ge Yu, Yu Gu
 
-<p class="paper-links"><a href="https://arxiv.org/abs/2601.12762">arXiv</a><a href="https://github.com/NEUIR/ToolMaster">Code</a>{% if page.publication_view == 'full' %}<a href="/papers/toolmaster/">Project Page</a>{% endif %}</p>
+<p class="paper-links"><a href="https://arxiv.org/abs/2601.12762">arXiv</a><a href="https://github.com/NEUIR/ToolMaster">Code</a>{% if page.publication_view == 'full' %}<a href="/papers/toolmaster/">Project Page</a>{% endif %}{% if page.publication_view == "full" %}<a href="https://huggingface.co/spaces/chengpingan/llm-tool-use-generalization">Tool Use Explorer</a>{% endif %}</p>
 
 {% if page.publication_view == 'full' %}
 <details class="paper-abstract" markdown="1">
@@ -255,7 +255,7 @@ Xingjie Gao*, `Pengcheng Huang*`, Zhenghao Liu†, Yukun Yan, Shuo Wang, Zulong 
 
 Ruochang Li\*, `Pengcheng Huang*`, Zhenghao Liu†, Yukun Yan, Huiyuan Xie, Yu Gu, Ge Yu, Maosong Sun
 
-<p class="paper-links"><a href="https://arxiv.org/abs/2606.27786">arXiv</a><a href="https://github.com/OpenBMB/SPARK">Code</a>{% if page.publication_view == 'full' %}<a href="/papers/spark/">Project Page</a>{% endif %}{% if page.publication_view == 'full' %}<a href="/rag-knowledge-conflicts/">Knowledge Conflict Guide</a>{% endif %}</p>
+<p class="paper-links"><a href="https://arxiv.org/abs/2606.27786">arXiv</a><a href="https://github.com/OpenBMB/SPARK">Code</a>{% if page.publication_view == 'full' %}<a href="/papers/spark/">Project Page</a>{% endif %}{% if page.publication_view == 'full' %}<a href="/rag-knowledge-conflicts/">Knowledge Conflict Guide</a>{% endif %}{% if page.publication_view == "full" %}<a href="https://huggingface.co/spaces/chengpingan/rag-knowledge-conflicts">RAG Conflict Examples</a>{% endif %}</p>
 
 {% if page.publication_view == 'full' %}
 <details class="paper-abstract" markdown="1">
@@ -435,7 +435,7 @@ Junhao Ruan, Bei Li, Yongjing Yin, `Pengcheng Huang`, Xin Chen, Jingang Wang, Xu
 
 `Pengcheng Huang`, Yongyu Mu, Yuzhang Wu, Bei Li, Chunyang Xiao, Tong Xiao†, Jingbo Zhu
 
-<p class="paper-links"><a href="https://arxiv.org/abs/2407.13164">arXiv</a><a href="https://aclanthology.org/2024.ccl-1.82/">PDF</a><a href="https://passionate11.github.io/Translate-and-Revise-project-page/">Project Page</a></p>
+<p class="paper-links"><a href="https://arxiv.org/abs/2407.13164">arXiv</a><a href="https://aclanthology.org/2024.ccl-1.82/">PDF</a><a href="https://passionate11.github.io/Translate-and-Revise-project-page/">Project Page</a>{% if page.publication_view == "full" %}<a href="https://huggingface.co/spaces/chengpingan/terminology-constrained-translation">Try the Glossary Checker</a>{% endif %}</p>
 
 {% if page.publication_view == 'full' %}
 <details class="paper-abstract" markdown="1">
