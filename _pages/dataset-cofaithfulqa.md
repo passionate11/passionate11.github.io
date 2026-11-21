@@ -21,4 +21,6 @@ The passage in `context` supports an answer in `answers`. The `parametric_answer
 
 For a new model, first answer the same `question` without the passage. A disagreement identified for the original model may disappear for yours. Report how many disagreements remain before measuring how often the retrieved passage resolves them. The Hub groups the six files under a split called `train`. The paper uses the examples for evaluation. The download counts below describe the raw public files. Table 1 in the paper reports counts after deduplication.
 
+The [source-specific Croissant descriptor](https://huggingface.co/datasets/chengpingan/CoFaithfulQA/resolve/main/metadata/cofaithfulqa.croissant.jsonld) lets a loader select individual record sets, such as `hotpotqa` or `newsqa`, and verify the checksum of the original file.
+
 [Benchmark construction and evaluation in the paper](https://arxiv.org/html/2502.15543v4#S4)

@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://passionate11.github.io/research-data/lexically-constrained-translation-scores/#dataset",
+  "name": "BLEU and constraint completion on IATE and Wiktionary",
+  "description": "This CSV transcribes Table 2 of Translate-and-Revise. It gives BLEU and constraint completion rate for eight systems or prompting settings on two English-to-German lexically constrained translation test sets.",
+  "url": "https://passionate11.github.io/research-data/lexically-constrained-translation-scores/",
+  "citation": "https://aclanthology.org/2024.ccl-1.82/",
+  "isAccessibleForFree": true,
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "Download Table 2 · 16 method–test-set rows",
+      "contentUrl": "https://passionate11.github.io/assets/research-data/tar-table-2.csv",
+      "encodingFormat": "text/csv"
+    }
+  ],
+  "isBasedOn": "https://aclanthology.org/2024.ccl-1.82.pdf"
+}

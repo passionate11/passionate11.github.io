@@ -6,11 +6,11 @@ layout: default
 <p>{{ dataset.description | escape }}</p>
 {{ content }}
 <h2>Data files</h2>
-<p>These JSON Lines downloads point to a fixed dataset revision. The <a href="{{ dataset.sameAs }}">Hugging Face dataset card</a> tracks subsequent releases.</p>
+{% if dataset.sameAs %}<p><a href="{{ dataset.sameAs }}">{{ page.source_label | default: 'Hugging Face dataset card' | escape }}</a>{% if dataset.version %} · The downloads below use a fixed revision.{% endif %}</p>{% endif %}
 <ul>
-  {% for file in dataset.distribution %}<li><a href="{{ file.contentUrl }}">{{ file.name | escape }}</a></li>{% endfor %}
+  {% for file in dataset.distribution %}<li><a href="{{ file.contentUrl | escape }}">{{ file.name | escape }}</a></li>{% endfor %}
 </ul>
 <h2>Related paper</h2>
 <p><a href="{{ dataset.citation }}">{{ page.paper_title | escape }}</a> · <a href="{{ page.paper_resource }}">{{ page.paper_resource_label | escape }}</a></p>
-<p><a href="{{ '/research-data/catalog.jsonld' | relative_url }}">Download the dataset catalog (JSON-LD)</a></p>
+<p><a href="{{ '/research-data/' | relative_url }}">Browse research data</a> · <a href="{{ '/research-data/catalog.jsonld' | relative_url }}">Download catalog (JSON-LD)</a></p>
 <script type="application/ld+json">{{ dataset | jsonify }}</script>

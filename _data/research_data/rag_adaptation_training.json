@@ -1,0 +1,20 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://passionate11.github.io/research-data/rag-adaptation-training/#dataset",
+  "name": "ParamMute RAG training examples",
+  "description": "The ParamMute release contains 32,580 JSON Lines records for training retrieval-augmented language models. Each record includes a retrieval-conditioned input, a plain input and an output.",
+  "url": "https://passionate11.github.io/research-data/rag-adaptation-training/",
+  "citation": "https://doi.org/10.52202/085713-3356",
+  "isAccessibleForFree": true,
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "Training examples · 32,580 rows",
+      "contentUrl": "https://huggingface.co/datasets/chengpingan/ParamMute-Training-Data/resolve/a40db9e30a02142a704f2fd940a75fdcb06576a7/pip_kag_train.jsonl",
+      "encodingFormat": "application/x-ndjson"
+    }
+  ],
+  "sameAs": "https://huggingface.co/datasets/chengpingan/ParamMute-Training-Data",
+  "version": "a40db9e30a02142a704f2fd940a75fdcb06576a7"
+}

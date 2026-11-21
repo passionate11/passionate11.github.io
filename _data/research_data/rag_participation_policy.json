@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://passionate11.github.io/research-data/rag-participation-policy/#dataset",
+  "name": "SPARK training data for context–memory conflicts",
+  "description": "SPARK releases two sets of training and validation records for a policy that regulates how much an LLM relies on parametric knowledge during retrieval-augmented generation. The two archives correspond to Qwen3-1.7B and Qwen3-8B.",
+  "url": "https://passionate11.github.io/research-data/rag-participation-policy/",
+  "citation": "https://doi.org/10.48550/arXiv.2606.27786",
+  "isAccessibleForFree": true,
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "Qwen3-1.7B training and validation data",
+      "contentUrl": "https://huggingface.co/datasets/ITcoder/SPARK_Training_Data/resolve/667c99e92288e4819d7e9243e50c40b68d766b90/SPARK-Qwen3-1.7B.zip",
+      "encodingFormat": "application/zip"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "Qwen3-8B training and validation data",
+      "contentUrl": "https://huggingface.co/datasets/ITcoder/SPARK_Training_Data/resolve/667c99e92288e4819d7e9243e50c40b68d766b90/SPARK-Qwen3-8B.zip",
+      "encodingFormat": "application/zip"
+    }
+  ],
+  "sameAs": "https://huggingface.co/datasets/ITcoder/SPARK_Training_Data",
+  "version": "667c99e92288e4819d7e9243e50c40b68d766b90"
+}

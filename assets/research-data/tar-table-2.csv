@@ -1,0 +1,17 @@
+test_set,source_language,target_language,model_group,method,BLEU,constraint_completion_rate_percent
+IATE,en,de,NMT,Transformer,25.8,76.3
+Wiktionary,en,de,NMT,Transformer,26.0,76.9
+IATE,en,de,NMT,Const. Dec.,25.3,82.0
+Wiktionary,en,de,NMT,Const. Dec.,25.8,99.5
+IATE,en,de,NMT,Code-switching,26.0,94.5
+Wiktionary,en,de,NMT,Code-switching,26.3,93.4
+IATE,en,de,NMT,Append,26.0,92.8
+Wiktionary,en,de,NMT,Append,26.9,90.7
+IATE,en,de,NMT,RTT,27.2,99.6
+Wiktionary,en,de,NMT,RTT,27.8,98.3
+IATE,en,de,gpt-3.5-turbo-0613,LLM Trans.,32.0,85.4
+Wiktionary,en,de,gpt-3.5-turbo-0613,LLM Trans.,32.0,88.7
+IATE,en,de,gpt-3.5-turbo-0613,LLM Const. Trans.,32.0,96.2
+Wiktionary,en,de,gpt-3.5-turbo-0613,LLM Const. Trans.,32.1,97.2
+IATE,en,de,gpt-3.5-turbo-0613,+ Revision (TAR),32.0,98.9
+Wiktionary,en,de,gpt-3.5-turbo-0613,+ Revision (TAR),32.0,98.9

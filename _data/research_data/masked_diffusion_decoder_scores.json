@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://passionate11.github.io/research-data/masked-diffusion-decoder-scores/#dataset",
+  "name": "Masked diffusion decoder scores on seven benchmarks",
+  "description": "This CSV transcribes the complete first results table from the UNCODE paper. It contains 19 model or sampler rows, seven benchmark scores per row and the averages reported in the ACL proceedings.",
+  "url": "https://passionate11.github.io/research-data/masked-diffusion-decoder-scores/",
+  "citation": "https://doi.org/10.18653/v1/2026.acl-long.311",
+  "isAccessibleForFree": true,
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "Download Table 1 · 19 rows",
+      "contentUrl": "https://passionate11.github.io/assets/research-data/uncode-table-1.csv",
+      "encodingFormat": "text/csv"
+    }
+  ],
+  "isBasedOn": "https://aclanthology.org/2026.acl-long.311.pdf"
+}

@@ -6,7 +6,7 @@ sitemap: false
 {
   "@context": "https://schema.org",
   "@type": "DataCatalog",
-  "name": "Datasets for retrieval and edge–cloud agent research",
+  "name": "Research datasets and published benchmark scores",
   "url": "{{ '/research-data/catalog.jsonld' | absolute_url }}",
   "dataset": [
     {% for entry in site.data.research_data %}{{ entry[1] | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %}

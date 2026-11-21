@@ -20,6 +20,8 @@ reading_page: true
 
 When a system gives a bad answer, the experiment you need depends on where it failed. These notes pair common symptoms with a comparison you can run and papers that support different claims. I coauthored ExpandR, ParamMute, SPARK, LongMab-PO, ToolMaster, EC²-Bench, Translate-and-Revise and UNCODE.
 
+[Browse the training data, evaluation tasks and benchmark scores for these eight papers](/research-data/).
+
 ## Search misses the document that contains the answer
 {: #search }
 
@@ -40,7 +42,7 @@ Keep three items for each error: the answer without retrieval, the passage actua
 
 CoFaithfulQA, introduced in ParamMute, identifies conflicts where an original, accurate passage disagrees with a model's stable closed-book answer. ClashEval deliberately alters information in a passage. ParamMute studies suppressing knowledge-critical feed-forward networks; SPARK learns to vary their contribution during generation and separately examines reliable and misleading evidence. Cite the benchmark that matches the direction of your conflict. [ParamMute and CoFaithfulQA](https://arxiv.org/html/2502.15543v4#S4) · [ClashEval](https://proceedings.neurips.cc/paper_files/paper/2024/hash/3aa291abc426d7a29fb08418c1244177-Abstract-Datasets_and_Benchmarks_Track.html) · [SPARK, §6.3](https://arxiv.org/html/2606.27786v3#S6.SS3)
 
-The [CoFaithfulQA data record](/research-data/cofaithfulqa/) links each source file and explains how to check conflicts for a different model.
+The [CoFaithfulQA data record](/research-data/cofaithfulqa/) links each source file and explains how to check conflicts for a different model. For training, see the [ParamMute examples](/research-data/rag-adaptation-training/) and [model-specific SPARK data](/research-data/rag-participation-policy/).
 
 [Download 4 references (BibTeX)](/assets/bibliographies/rag-knowledge-conflicts.bib) · [Annotated reading list](https://huggingface.co/collections/chengpingan/query-expansion-and-faithfulness-in-rag-6b01281f23ae3179f1563119)
 
@@ -53,6 +55,8 @@ LongReward supplies AI feedback on candidate answers. LongMab-PO changes how can
 
 LongAlign is a supervised long-instruction baseline. LongPO builds preferences from short- and long-context responses to a task. These give two further comparisons when asking where the training signal comes from. [LongAlign](https://aclanthology.org/2024.findings-emnlp.74/) · [LongPO](https://proceedings.iclr.cc/paper_files/paper/2025/hash/1332893b662f655660c9abdf793230cf-Abstract-Conference.html)
 
+Compare the released [Llama and Qwen long-document preference pairs](/research-data/long-document-preference-pairs/).
+
 [Download 5 references (BibTeX)](/assets/bibliographies/long-context-training.bib) · [Annotated reading list](https://huggingface.co/collections/chengpingan/long-context-evaluation-and-preference-training-6b012827d9f89cf858898e78)
 
 ## An agent can call familiar tools but fails on a new API
@@ -63,6 +67,8 @@ A well-formed call can still use the wrong argument or do the wrong thing. To te
 ToolLLM trains on instruction and API-solution data. ToolMaster studies learning to trial tools and correct errors from execution feedback before completing the task. ToolHop provides multi-hop tasks for testing tool use; ToolMaster reports familiar and unfamiliar subsets in its evaluation. [ToolLLM](https://arxiv.org/abs/2307.16789) · [ToolMaster, Table 2](https://arxiv.org/html/2601.12762#S5.T2) · [ToolHop](https://aclanthology.org/2025.acl-long.150/)
 
 ToolAlpaca generates instruction data using simulated tool interactions. When comparing training data, record which calls were simulated and which produced feedback from the execution environment. [ToolAlpaca](https://arxiv.org/abs/2306.05301)
+
+The [ToolMaster SFT file](/research-data/tool-trialing-trajectories/) contains 1,444 query records with tool descriptions and interactions.
 
 [Download 4 references (BibTeX)](/assets/bibliographies/llm-tool-use.bib) · [Annotated reading list](https://huggingface.co/collections/chengpingan/tool-use-and-model-routing-for-llm-agents-6b0128231ddb96b53fe17b17)
 
@@ -84,6 +90,8 @@ First check whether the required source–target pair reached the model. Then in
 
 For a comparison of constrained decoding and terminology prompting, see the WMT terminology study. Translate-and-Revise evaluates giving the model feedback on unmet constraints after its first translation. Report term compliance alongside translation quality; each can change while the other stays similar. [WMT terminology study](https://aclanthology.org/2023.wmt-1.80/) · [Translate-and-Revise, experiments](https://arxiv.org/html/2407.13164)
 
+Compare [BLEU and constraint completion for eight settings](/research-data/lexically-constrained-translation-scores/) on the same two English–German test sets.
+
 [Download 4 references (BibTeX)](/assets/bibliographies/terminology-constrained-translation.bib) · [Annotated reading list](https://huggingface.co/collections/chengpingan/terminology-constrained-machine-translation-6b0128299b5e79f5fafdb234)
 
 ## Two diffusion decoders give different reasoning results on the same model
@@ -92,5 +100,7 @@ For a comparison of constrained decoding and terminology prompting, see the WMT 
 Hold the checkpoint, generation length and forward-pass budget fixed. Record which positions each decoder unmasks first as well as whether the final answer is correct. This separates a difference in token order from a difference in compute.
 
 LLaDA provides a masked diffusion language model and sampling baseline. UNCODE studies how confidence-based selection favors certain positions and easy tokens, then tests training-free corrections to those choices. Its analysis of token-selection trajectories is relevant when the question is why two decoding policies diverge. [LLaDA](https://arxiv.org/abs/2502.09992) · [UNCODE, decoding-bias analysis](https://arxiv.org/html/2508.13021v4#S3)
+
+Download the [seven-benchmark decoder comparison](/research-data/masked-diffusion-decoder-scores/) to compare samplers within a backbone.
 
 [Download 3 references (BibTeX)](/assets/bibliographies/diffusion-language-model-decoding.bib) · [Annotated reading list](https://huggingface.co/collections/chengpingan/decoding-strategies-for-diffusion-language-models-6b01282deef963f2d0bb3c58)
