@@ -17,7 +17,7 @@
       </button>
       <div class="lang-menu__panel" id="lang-menu-panel" hidden>
         {% for language in languages %}
-        {% assign language_path = language.path %}
+        {% assign language_path = language.path | append: page.translation_slug %}
         {% if page.publication_view == 'full' %}{% assign language_path = language_path | append: 'publications/' %}{% endif %}
         {% if language.key == page.lang_key %}
         <span class="lang-menu__option is-current" lang="{{ language.lang }}" aria-current="page">{{ language.label }}</span>

@@ -7,6 +7,8 @@
 {% endif %}
 
 {% if page.publication_view == 'full' %}
+[按研究问题查找相关论文](/zh/research-questions/)
+
 > 更多文章请参见我的 [Google Scholar 主页](https://scholar.google.com/citations?user=VA9mUOsAAAAJ)。注：\* 表示共同一作；† 表示通讯作者。
 {% else %}
 <p class="publication-note">全部论文见 <a href="https://scholar.google.com/citations?user=VA9mUOsAAAAJ">Google Scholar</a>。* 共同一作；† 通讯作者。</p>

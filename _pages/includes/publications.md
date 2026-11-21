@@ -7,6 +7,8 @@
 {% endif %}
 
 {% if page.publication_view == 'full' %}
+[Find papers by research question](/research-questions/)
+
 > You can also find my articles on my [Google Scholar profile](https://scholar.google.com/citations?user=VA9mUOsAAAAJ). Note: \* indicates equal contribution; † indicates the corresponding author.
 {% else %}
 <p class="publication-note">All papers on <a href="https://scholar.google.com/citations?user=VA9mUOsAAAAJ">Google Scholar</a>. &nbsp; * Equal contribution; † corresponding author.</p>
