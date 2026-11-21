@@ -27,7 +27,9 @@ reading_page: true
 
 如果检索器已经固定，可以用 Query2doc 作对照，让大模型写一段与查询有关的伪文档。若允许训练稠密检索器，ExpandR 研究的是另一种设置：利用相关文档的排序反馈训练扩写模型，同时让检索器适应扩写后的查询。论文的消融实验分别检查了两边训练的作用。[Query2doc](https://aclanthology.org/2023.emnlp-main.585/) · [ExpandR 第 5.2 节](https://arxiv.org/html/2502.17057#S5.SS2)
 
-[下载本节 3 篇参考文献（BibTeX）](/assets/bibliographies/query-expansion.bib) · [带阅读说明的文献清单](https://huggingface.co/collections/chengpingan/query-expansion-and-faithfulness-in-rag-6b01281f23ae3179f1563119)
+如果系统已经返回一批文档，CSQE 会利用这些文档引导查询扩写。把它和只看原始查询的扩写作对照，可以检验第一轮检索到底提供了多少有用信息。[CSQE 论文](https://aclanthology.org/2024.eacl-short.34/)
+
+[下载本节 4 篇参考文献（BibTeX）](/assets/bibliographies/query-expansion.bib) · [带阅读说明的文献清单](https://huggingface.co/collections/chengpingan/query-expansion-and-faithfulness-in-rag-6b01281f23ae3179f1563119)
 
 ## RAG 已经检索到证据，模型为什么还答错
 {: #grounding }
@@ -45,7 +47,9 @@ ParamMute 提出的 CoFaithfulQA 从原始问答数据里找出「真实段落�
 
 LongReward 研究怎样用模型反馈给候选回答打分。LongMab-PO 研究候选从哪里来：在生成回答时抽取不同文档片段，根据得到的奖励调整下一轮的抽样，再用这些回答构造偏好对。若讨论的是偏好数据质量，两种方案应在相同的候选生成预算下比较。[LongReward](https://aclanthology.org/2025.acl-long.187/) · [LongMab-PO 的方法和消融](https://aclanthology.org/2026.acl-long.161/)
 
-[下载本节 3 篇参考文献（BibTeX）](/assets/bibliographies/long-context-training.bib) · [带阅读说明的文献清单](https://huggingface.co/collections/chengpingan/long-context-evaluation-and-preference-training-6b012827d9f89cf858898e78)
+LongAlign 可以作长指令监督微调的基线。LongPO 则从同一任务的短上下文和长上下文回答构造偏好。比较训练方法时，可以分别考察监督信号来自指令示例、回答间的偏好，还是文档片段的采样。[LongAlign](https://aclanthology.org/2024.findings-emnlp.74/) · [LongPO](https://proceedings.iclr.cc/paper_files/paper/2025/hash/1332893b662f655660c9abdf793230cf-Abstract-Conference.html)
+
+[下载本节 5 篇参考文献（BibTeX）](/assets/bibliographies/long-context-training.bib) · [带阅读说明的文献清单](https://huggingface.co/collections/chengpingan/long-context-evaluation-and-preference-training-6b012827d9f89cf858898e78)
 
 ## 工具调用格式对了，换一个 API 就不会用
 {: #tool-use }
@@ -54,7 +58,9 @@ LongReward 研究怎样用模型反馈给候选回答打分。LongMab-PO 研究�
 
 ToolLLM 从指令和成功的 API 调用轨迹构造训练数据。ToolMaster 研究如何让模型试用工具、根据环境反馈纠错并完成任务。需要多次调用的测试可看 ToolHop；ToolMaster 论文还把熟悉和陌生工具分开报告。[ToolLLM](https://arxiv.org/abs/2307.16789) · [ToolMaster 表 2](https://arxiv.org/html/2601.12762#S5.T2) · [ToolHop](https://aclanthology.org/2025.acl-long.150/)
 
-[下载本节 3 篇参考文献（BibTeX）](/assets/bibliographies/llm-tool-use.bib) · [带阅读说明的文献清单](https://huggingface.co/collections/chengpingan/tool-use-and-model-routing-for-llm-agents-6b0128231ddb96b53fe17b17)
+ToolAlpaca 用模拟的工具交互生成训练样本。比较两种训练数据时，值得标明哪些调用结果来自模拟，哪些来自实际执行环境的反馈。[ToolAlpaca 论文](https://arxiv.org/abs/2306.05301)
+
+[下载本节 4 篇参考文献（BibTeX）](/assets/bibliographies/llm-tool-use.bib) · [带阅读说明的文献清单](https://huggingface.co/collections/chengpingan/tool-use-and-model-routing-for-llm-agents-6b0128231ddb96b53fe17b17)
 
 ## 端侧小模型什么时候该求助云端大模型
 {: #edge-cloud }

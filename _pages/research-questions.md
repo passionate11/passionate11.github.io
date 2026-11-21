@@ -27,7 +27,9 @@ Suppose a user types “refund deadline” and the relevant passage says “retu
 
 Query2doc is a baseline for adding a generated pseudo-document with a fixed retriever. ExpandR addresses a different experimental choice: when the dense retriever can also be trained, use ranking feedback to teach the generator which expansions help. The paper's ablations separate the effects of training the retriever and the expansion model. [Query2doc](https://aclanthology.org/2023.emnlp-main.585/) · [ExpandR, §5.2](https://arxiv.org/html/2502.17057#S5.SS2)
 
-[Download 3 references (BibTeX)](/assets/bibliographies/query-expansion.bib) · [Annotated reading list](https://huggingface.co/collections/chengpingan/query-expansion-and-faithfulness-in-rag-6b01281f23ae3179f1563119)
+When first-pass documents are available, CSQE uses them to steer expansion. Compare this setting with generating an expansion from the query alone. [Corpus-Steered Query Expansion](https://aclanthology.org/2024.eacl-short.34/)
+
+[Download 4 references (BibTeX)](/assets/bibliographies/query-expansion.bib) · [Annotated reading list](https://huggingface.co/collections/chengpingan/query-expansion-and-faithfulness-in-rag-6b01281f23ae3179f1563119)
 
 ## The evidence is in the prompt, but the RAG answer is wrong
 {: #grounding }
@@ -45,7 +47,9 @@ Move an answer-bearing passage between the beginning, middle and end while keepi
 
 LongReward supplies AI feedback on candidate answers. LongMab-PO changes how candidates are obtained: it samples document chunks, updates their sampling scores from rollout rewards, and uses the resulting answers to construct preference pairs. Compare these choices at the same candidate budget if the claim concerns preference-data quality. [LongReward](https://aclanthology.org/2025.acl-long.187/) · [LongMab-PO, method and ablations](https://aclanthology.org/2026.acl-long.161/)
 
-[Download 3 references (BibTeX)](/assets/bibliographies/long-context-training.bib) · [Annotated reading list](https://huggingface.co/collections/chengpingan/long-context-evaluation-and-preference-training-6b012827d9f89cf858898e78)
+LongAlign is a supervised long-instruction baseline. LongPO builds preferences from short- and long-context responses to a task. These give two further comparisons when asking where the training signal comes from. [LongAlign](https://aclanthology.org/2024.findings-emnlp.74/) · [LongPO](https://proceedings.iclr.cc/paper_files/paper/2025/hash/1332893b662f655660c9abdf793230cf-Abstract-Conference.html)
+
+[Download 5 references (BibTeX)](/assets/bibliographies/long-context-training.bib) · [Annotated reading list](https://huggingface.co/collections/chengpingan/long-context-evaluation-and-preference-training-6b012827d9f89cf858898e78)
 
 ## An agent can call familiar tools but fails on a new API
 {: #tool-use }
@@ -54,7 +58,9 @@ A well-formed call can still use the wrong argument or do the wrong thing. To te
 
 ToolLLM trains on instruction and API-solution data. ToolMaster studies learning to trial tools and correct errors from execution feedback before completing the task. ToolHop provides multi-hop tasks for testing tool use; ToolMaster reports familiar and unfamiliar subsets in its evaluation. [ToolLLM](https://arxiv.org/abs/2307.16789) · [ToolMaster, Table 2](https://arxiv.org/html/2601.12762#S5.T2) · [ToolHop](https://aclanthology.org/2025.acl-long.150/)
 
-[Download 3 references (BibTeX)](/assets/bibliographies/llm-tool-use.bib) · [Annotated reading list](https://huggingface.co/collections/chengpingan/tool-use-and-model-routing-for-llm-agents-6b0128231ddb96b53fe17b17)
+ToolAlpaca generates instruction data using simulated tool interactions. When comparing training data, record which calls were simulated and which produced feedback from the execution environment. [ToolAlpaca](https://arxiv.org/abs/2306.05301)
+
+[Download 4 references (BibTeX)](/assets/bibliographies/llm-tool-use.bib) · [Annotated reading list](https://huggingface.co/collections/chengpingan/tool-use-and-model-routing-for-llm-agents-6b0128231ddb96b53fe17b17)
 
 ## A local assistant is cheap to run, but occasionally needs a cloud model
 {: #edge-cloud }
