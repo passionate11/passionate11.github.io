@@ -15,5 +15,6 @@
       "encodingFormat": "text/csv"
     }
   ],
-  "isBasedOn": "https://aclanthology.org/2026.acl-long.311.pdf"
+  "isBasedOn": "https://aclanthology.org/2026.acl-long.311.pdf",
+  "sameAs": "https://huggingface.co/datasets/chengpingan/masked-diffusion-decoder-results"
 }

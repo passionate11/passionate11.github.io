@@ -15,5 +15,6 @@
       "encodingFormat": "text/csv"
     }
   ],
-  "isBasedOn": "https://aclanthology.org/2024.ccl-1.82.pdf"
+  "isBasedOn": "https://aclanthology.org/2024.ccl-1.82.pdf",
+  "sameAs": "https://huggingface.co/datasets/chengpingan/lexically-constrained-translation-results"
 }
