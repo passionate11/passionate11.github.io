@@ -1,0 +1,24 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://passionate11.github.io/research-data/edge-cloud-agent-tasks/#dataset",
+  "name": "EC²-Bench (EC2-Bench)",
+  "description": "EC²-Bench contains 128 English and Chinese digital-workspace tasks for evaluating local agents that consult cloud models. The task index connects completion and resource-use measurements with privacy annotations available for 100 tasks.",
+  "url": "https://passionate11.github.io/research-data/edge-cloud-agent-tasks/",
+  "sameAs": "https://huggingface.co/datasets/chengpingan/EC2-Bench",
+  "version": "f9478e192f43d4a7ddf31794694c70f67fe86dc9",
+  "citation": "https://doi.org/10.48550/arXiv.2610.17816",
+  "isAccessibleForFree": true,
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "Task index · 128 rows",
+      "contentUrl": "https://huggingface.co/datasets/chengpingan/EC2-Bench/resolve/f9478e192f43d4a7ddf31794694c70f67fe86dc9/data/tasks.jsonl",
+      "encodingFormat": "application/x-ndjson"
+    }
+  ],
+  "inLanguage": [
+    "en",
+    "zh"
+  ]
+}

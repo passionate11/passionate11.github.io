@@ -29,6 +29,8 @@ reading_page: true
 
 如果系统已经返回一批文档，CSQE 会利用这些文档引导查询扩写。把它和只看原始查询的扩写作对照，可以检验第一轮检索到底提供了多少有用信息。[CSQE 论文](https://aclanthology.org/2024.eacl-short.34/)
 
+公开数据分为[训练查询扩写的偏好对](/research-data/query-expansion-preferences/)和[训练检索器的正负样本](/research-data/dense-retriever-training/)。
+
 [下载本节 4 篇参考文献（BibTeX）](/assets/bibliographies/query-expansion.bib) · [带阅读说明的文献清单](https://huggingface.co/collections/chengpingan/query-expansion-and-faithfulness-in-rag-6b01281f23ae3179f1563119)
 
 ## RAG 已经检索到证据，模型为什么还答错
@@ -37,6 +39,8 @@ reading_page: true
 保存模型闭卷时的答案、真正放进提示的段落，以及读完段落后的答案。以博物馆调整闭馆时间为例，旧记忆与新公告冲突时，采用新时间是对的。若时间是公告里的一处笔误，同样的行为就会把正确答案改错。把两类样本分开统计，才能解释「更相信检索」究竟改善了什么。
 
 ParamMute 提出的 CoFaithfulQA 从原始问答数据里找出「真实段落正确、模型稳定地答成另一个答案」的样本。ClashEval 则主动改动段落内容，观察模型会不会跟着犯错。比较干预方法时，ParamMute 研究抑制与参数记忆相关的前馈网络，SPARK 研究在生成过程中调节这些网络的参与程度，并单独分析资料可靠或误导时的表现。[ParamMute 与 CoFaithfulQA](https://arxiv.org/html/2502.15543v4#S4) · [ClashEval](https://proceedings.neurips.cc/paper_files/paper/2024/hash/3aa291abc426d7a29fb08418c1244177-Abstract-Datasets_and_Benchmarks_Track.html) · [SPARK 第 6.3 节](https://arxiv.org/html/2606.27786v3#S6.SS3)
+
+[CoFaithfulQA 数据页](/research-data/cofaithfulqa/)列出了六份原始文件，以及换模型时如何重新判断知识冲突。
 
 [下载本节 4 篇参考文献（BibTeX）](/assets/bibliographies/rag-knowledge-conflicts.bib) · [带阅读说明的文献清单](https://huggingface.co/collections/chengpingan/query-expansion-and-faithfulness-in-rag-6b01281f23ae3179f1563119)
 
@@ -68,6 +72,8 @@ ToolAlpaca 用模拟的工具交互生成训练样本。比较两种训练数据
 把一个请求整段交给大模型，与端侧助手处理表格时只把一个困难步骤交给云端，成本和暴露的数据都可能不同。比较时保留完整任务轨迹，记录完成度、云端开销、哪些敏感信息进入了云端上下文。只数调用次数看不到每次发出了什么。
 
 RouteLLM 可以作为整条请求路由的参照。EC²-Bench 在 128 个可执行任务上比较不同路由、委托和咨询策略，其中 100 个任务带隐私标注。这里的暴露指标衡量云端能看到的信息；要比较手机上的实际等待时间，还需要真机测量。[RouteLLM](https://arxiv.org/abs/2406.18665) · [EC²-Bench 实验](https://arxiv.org/html/2610.17816v2)
+
+[EC²-Bench 数据页](/research-data/edge-cloud-agent-tasks/)给出了 128 项任务的索引、可执行工作区和隐私标注的覆盖范围。
 
 [下载本节 3 篇参考文献（BibTeX）](/assets/bibliographies/llm-routing.bib) · [带阅读说明的文献清单](https://huggingface.co/collections/chengpingan/tool-use-and-model-routing-for-llm-agents-6b0128231ddb96b53fe17b17)
 

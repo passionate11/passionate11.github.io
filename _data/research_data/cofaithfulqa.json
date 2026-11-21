@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://passionate11.github.io/research-data/cofaithfulqa/#dataset",
+  "name": "CoFaithfulQA",
+  "description": "CoFaithfulQA contains 8,529 question–passage examples from six QA sources. It supports evaluation of retrieval-augmented generation when an accurate passage conflicts with the answer a language model gives from memory.",
+  "url": "https://passionate11.github.io/research-data/cofaithfulqa/",
+  "sameAs": "https://huggingface.co/datasets/chengpingan/CoFaithfulQA",
+  "version": "ee0f08be4dda757ea871dc822c12f573cf454f90",
+  "citation": "https://doi.org/10.52202/085713-3356",
+  "isAccessibleForFree": true,
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "HotpotQA · 1,476 rows",
+      "contentUrl": "https://huggingface.co/datasets/chengpingan/CoFaithfulQA/resolve/ee0f08be4dda757ea871dc822c12f573cf454f90/hotpotq_kc.jsonl",
+      "encodingFormat": "application/x-ndjson"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "NewsQA · 934 rows",
+      "contentUrl": "https://huggingface.co/datasets/chengpingan/CoFaithfulQA/resolve/ee0f08be4dda757ea871dc822c12f573cf454f90/NewsQA_kc.jsonl",
+      "encodingFormat": "application/x-ndjson"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "Natural Questions · 1,479 rows",
+      "contentUrl": "https://huggingface.co/datasets/chengpingan/CoFaithfulQA/resolve/ee0f08be4dda757ea871dc822c12f573cf454f90/NaturalQuestionsShort_kc.jsonl",
+      "encodingFormat": "application/x-ndjson"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "SearchQA · 1,497 rows",
+      "contentUrl": "https://huggingface.co/datasets/chengpingan/CoFaithfulQA/resolve/ee0f08be4dda757ea871dc822c12f573cf454f90/SearchQA_kc.jsonl",
+      "encodingFormat": "application/x-ndjson"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "SQuAD · 2,351 rows",
+      "contentUrl": "https://huggingface.co/datasets/chengpingan/CoFaithfulQA/resolve/ee0f08be4dda757ea871dc822c12f573cf454f90/SQuAD_kc.jsonl",
+      "encodingFormat": "application/x-ndjson"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "TriviaQA · 792 rows",
+      "contentUrl": "https://huggingface.co/datasets/chengpingan/CoFaithfulQA/resolve/ee0f08be4dda757ea871dc822c12f573cf454f90/TriviaQA-web_kc.jsonl",
+      "encodingFormat": "application/x-ndjson"
+    }
+  ],
+  "inLanguage": "en"
+}

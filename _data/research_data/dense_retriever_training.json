@@ -1,0 +1,20 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://passionate11.github.io/research-data/dense-retriever-training/#dataset",
+  "name": "ExpandR dense retriever training data",
+  "description": "This dataset contains 708,740 contrastive training examples for dense passage retrieval. Each row pairs a search query and its generated pseudo-document with positive and negative retrieval examples used by ExpandR.",
+  "url": "https://passionate11.github.io/research-data/dense-retriever-training/",
+  "sameAs": "https://huggingface.co/datasets/chengpingan/ExpandR_retriever_training_data",
+  "version": "5740945bd1a3733d3eb0280aa4f3123a7385ab00",
+  "citation": "https://doi.org/10.18653/v1/2025.emnlp-main.963",
+  "isAccessibleForFree": true,
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "Retriever training examples · 708,740 rows",
+      "contentUrl": "https://huggingface.co/datasets/chengpingan/ExpandR_retriever_training_data/resolve/5740945bd1a3733d3eb0280aa4f3123a7385ab00/ExpandR_retriever_training_data.jsonl",
+      "encodingFormat": "application/x-ndjson"
+    }
+  ]
+}

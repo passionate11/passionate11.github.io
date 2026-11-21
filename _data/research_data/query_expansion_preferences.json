@@ -1,0 +1,20 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://passionate11.github.io/research-data/query-expansion-preferences/#dataset",
+  "name": "ExpandR query expansion preference data",
+  "description": "This dataset contains 30,000 preference pairs for training a language model to expand search queries. Each conversation is paired with a preferred and a rejected response for direct preference optimization in ExpandR.",
+  "url": "https://passionate11.github.io/research-data/query-expansion-preferences/",
+  "sameAs": "https://huggingface.co/datasets/chengpingan/ExpandR_llm_training_data",
+  "version": "981df0a3852fa5ce0a64dfa423b73c8bb3130b7f",
+  "citation": "https://doi.org/10.18653/v1/2025.emnlp-main.963",
+  "isAccessibleForFree": true,
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "Generator preference pairs · 30,000 rows",
+      "contentUrl": "https://huggingface.co/datasets/chengpingan/ExpandR_llm_training_data/resolve/981df0a3852fa5ce0a64dfa423b73c8bb3130b7f/ExpandR_llm_dpo_training_data.jsonl",
+      "encodingFormat": "application/x-ndjson"
+    }
+  ]
+}

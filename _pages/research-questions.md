@@ -29,6 +29,8 @@ Query2doc is a baseline for adding a generated pseudo-document with a fixed retr
 
 When first-pass documents are available, CSQE uses them to steer expansion. Compare this setting with generating an expansion from the query alone. [Corpus-Steered Query Expansion](https://aclanthology.org/2024.eacl-short.34/)
 
+Explore the released [query expansion preference pairs](/research-data/query-expansion-preferences/) and [contrastive retriever examples](/research-data/dense-retriever-training/).
+
 [Download 4 references (BibTeX)](/assets/bibliographies/query-expansion.bib) · [Annotated reading list](https://huggingface.co/collections/chengpingan/query-expansion-and-faithfulness-in-rag-6b01281f23ae3179f1563119)
 
 ## The evidence is in the prompt, but the RAG answer is wrong
@@ -37,6 +39,8 @@ When first-pass documents are available, CSQE uses them to steer expansion. Comp
 Keep three items for each error: the answer without retrieval, the passage actually passed to the model, and the answer with retrieval. A museum changing its closing time gives two different tests. Does the model abandon the old time when shown an accurate update? Would it also abandon the correct time for a passage containing a typo? Combining those outcomes into one “follows context” score rewards some mistakes.
 
 CoFaithfulQA, introduced in ParamMute, identifies conflicts where an original, accurate passage disagrees with a model's stable closed-book answer. ClashEval deliberately alters information in a passage. ParamMute studies suppressing knowledge-critical feed-forward networks; SPARK learns to vary their contribution during generation and separately examines reliable and misleading evidence. Cite the benchmark that matches the direction of your conflict. [ParamMute and CoFaithfulQA](https://arxiv.org/html/2502.15543v4#S4) · [ClashEval](https://proceedings.neurips.cc/paper_files/paper/2024/hash/3aa291abc426d7a29fb08418c1244177-Abstract-Datasets_and_Benchmarks_Track.html) · [SPARK, §6.3](https://arxiv.org/html/2606.27786v3#S6.SS3)
+
+The [CoFaithfulQA data record](/research-data/cofaithfulqa/) links each source file and explains how to check conflicts for a different model.
 
 [Download 4 references (BibTeX)](/assets/bibliographies/rag-knowledge-conflicts.bib) · [Annotated reading list](https://huggingface.co/collections/chengpingan/query-expansion-and-faithfulness-in-rag-6b01281f23ae3179f1563119)
 
@@ -68,6 +72,8 @@ ToolAlpaca generates instruction data using simulated tool interactions. When co
 A request router chooses a model for an incoming prompt. An agent filling out a spreadsheet has a second decision: it could ask the cloud for help at one step and finish the rest locally. Compare full trajectories at matched task difficulty. Record completion, cloud cost, and which annotated sensitive items became visible to the cloud; the number of calls alone misses what each call disclosed.
 
 RouteLLM is a reference for the prompt-level quality–cost trade-off. EC²-Bench compares routing, delegation and advisory strategies on 128 executable tasks, including 100 with privacy annotations. Its exposure metric describes information in the cloud model's context; device latency requires its own measurement. [RouteLLM](https://arxiv.org/abs/2406.18665) · [EC²-Bench, evaluation](https://arxiv.org/html/2610.17816v2)
+
+The [EC²-Bench task index](/research-data/edge-cloud-agent-tasks/) distinguishes the 128 task descriptions from the executable workspaces and privacy annotations.
 
 [Download 3 references (BibTeX)](/assets/bibliographies/llm-routing.bib) · [Annotated reading list](https://huggingface.co/collections/chengpingan/tool-use-and-model-routing-for-llm-agents-6b0128231ddb96b53fe17b17)
 
