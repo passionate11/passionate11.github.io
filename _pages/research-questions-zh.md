@@ -31,9 +31,11 @@ reading_page: true
 
 如果系统已经返回一批文档，CSQE 会利用这些文档引导查询扩写。把它和只看原始查询的扩写作对照，可以检验第一轮检索到底提供了多少有用信息。[CSQE 论文](https://aclanthology.org/2024.eacl-short.34/)
 
+如果想比较排序信号怎样传给查询扩写模型，DEPT 在 Qwen3 和 LLaMA-3.2 上都评测了 ExpandR，并交代了生成器与编码器的配置。[训练目标与对照实验](/papers/expandr/#retrieval-feedback)
+
 公开数据分为[训练查询扩写的偏好对](/research-data/query-expansion-preferences/)和[训练检索器的正负样本](/research-data/dense-retriever-training/)。
 
-[下载本节 4 篇参考文献（BibTeX）](/assets/bibliographies/query-expansion.bib) · [带阅读说明的文献清单](https://huggingface.co/collections/chengpingan/query-expansion-and-faithfulness-in-rag-6b01281f23ae3179f1563119)
+[下载本节 5 篇参考文献（BibTeX）](/assets/bibliographies/query-expansion.bib) · [带阅读说明的文献清单](https://huggingface.co/collections/chengpingan/query-expansion-and-faithfulness-in-rag-6b01281f23ae3179f1563119)
 
 ## RAG 已经检索到证据，模型为什么还答错
 {: #grounding }

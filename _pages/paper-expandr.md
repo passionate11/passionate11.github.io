@@ -50,6 +50,13 @@ The retriever is trained contrastively on expanded queries. The language model i
 
 For evidence on how retriever training and generator preference alignment contribute, see the [ExpandR ablations](https://arxiv.org/html/2502.17057#S5.SS2) and [BEIR results](https://aclanthology.org/2025.emnlp-main.963/). Compare the retriever and query representation used at evaluation time when reading results on query expansion.
 
+## How does retrieval feedback reach the query generator?
+{: #retrieval-feedback }
+
+ExpandR uses document rankings to build preference pairs for the query generator. The generator learns from those pairs using direct preference optimization, and the retriever learns from a contrastive loss on expanded queries. DEPT studies an alternative in which the final retrieval loss also trains expansion. [ExpandR training objectives](https://arxiv.org/html/2502.17057#S3) · [DEPT on retrieval supervision](https://arxiv.org/html/2608.17632#Sx1.p3.1)
+
+Wang and colleagues compared the approaches using Qwen3-4B-Instruct-2507 and LLaMA-3.2-3B-Instruct. Their ExpandR configuration uses separate generator and encoder instances of the same backbone. Use their paper for that controlled comparison and the EMNLP paper for the original released system. [DEPT experimental setup](https://arxiv.org/html/2608.17632#Sx4.SSx1.SSS0.Px3.p1.1) · [Original ExpandR results](https://aclanthology.org/2025.emnlp-main.963/)
+
 ## Earlier preprint
 
 The arXiv preprint first appeared under the title *LLM-QE: Improving Query Expansion by Aligning Large Language Models with Ranking Preferences*. The EMNLP proceedings publish it as ExpandR. [Source](https://arxiv.org/abs/2502.17057v1)

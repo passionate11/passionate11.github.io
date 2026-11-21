@@ -31,9 +31,11 @@ Query2doc is a baseline for adding a generated pseudo-document with a fixed retr
 
 When first-pass documents are available, CSQE uses them to steer expansion. Compare this setting with generating an expansion from the query alone. [Corpus-Steered Query Expansion](https://aclanthology.org/2024.eacl-short.34/)
 
+For a comparison across newer backbones, DEPT evaluates ExpandR on Qwen3 and LLaMA-3.2 and explains how the generator receives retrieval feedback. [Training objectives and experimental setup](/papers/expandr/#retrieval-feedback)
+
 Explore the released [query expansion preference pairs](/research-data/query-expansion-preferences/) and [contrastive retriever examples](/research-data/dense-retriever-training/).
 
-[Download 4 references (BibTeX)](/assets/bibliographies/query-expansion.bib) · [Annotated reading list](https://huggingface.co/collections/chengpingan/query-expansion-and-faithfulness-in-rag-6b01281f23ae3179f1563119)
+[Download 5 references (BibTeX)](/assets/bibliographies/query-expansion.bib) · [Annotated reading list](https://huggingface.co/collections/chengpingan/query-expansion-and-faithfulness-in-rag-6b01281f23ae3179f1563119)
 
 ## The evidence is in the prompt, but the RAG answer is wrong
 {: #grounding }
