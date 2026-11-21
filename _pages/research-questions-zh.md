@@ -27,12 +27,16 @@ reading_page: true
 
 如果检索器已经固定，可以用 Query2doc 作对照，让大模型写一段与查询有关的伪文档。若允许训练稠密检索器，ExpandR 研究的是另一种设置：利用相关文档的排序反馈训练扩写模型，同时让检索器适应扩写后的查询。论文的消融实验分别检查了两边训练的作用。[Query2doc](https://aclanthology.org/2023.emnlp-main.585/) · [ExpandR 第 5.2 节](https://arxiv.org/html/2502.17057#S5.SS2)
 
+[下载本节 3 篇参考文献（BibTeX）](/assets/bibliographies/query-expansion.bib) · [带阅读说明的文献清单](https://huggingface.co/collections/chengpingan/query-expansion-and-faithfulness-in-rag-6b01281f23ae3179f1563119)
+
 ## RAG 已经检索到证据，模型为什么还答错
 {: #grounding }
 
 保存模型闭卷时的答案、真正放进提示的段落，以及读完段落后的答案。以博物馆调整闭馆时间为例，旧记忆与新公告冲突时，采用新时间是对的。若时间是公告里的一处笔误，同样的行为就会把正确答案改错。把两类样本分开统计，才能解释「更相信检索」究竟改善了什么。
 
 ParamMute 提出的 CoFaithfulQA 从原始问答数据里找出「真实段落正确、模型稳定地答成另一个答案」的样本。ClashEval 则主动改动段落内容，观察模型会不会跟着犯错。比较干预方法时，ParamMute 研究抑制与参数记忆相关的前馈网络，SPARK 研究在生成过程中调节这些网络的参与程度，并单独分析资料可靠或误导时的表现。[ParamMute 与 CoFaithfulQA](https://arxiv.org/html/2502.15543v4#S4) · [ClashEval](https://proceedings.neurips.cc/paper_files/paper/2024/hash/3aa291abc426d7a29fb08418c1244177-Abstract-Datasets_and_Benchmarks_Track.html) · [SPARK 第 6.3 节](https://arxiv.org/html/2606.27786v3#S6.SS3)
+
+[下载本节 4 篇参考文献（BibTeX）](/assets/bibliographies/rag-knowledge-conflicts.bib) · [带阅读说明的文献清单](https://huggingface.co/collections/chengpingan/query-expansion-and-faithfulness-in-rag-6b01281f23ae3179f1563119)
 
 ## 长文档能放进去，模型却用不上关键段落
 {: #long-documents }
@@ -41,12 +45,16 @@ ParamMute 提出的 CoFaithfulQA 从原始问答数据里找出「真实段落�
 
 LongReward 研究怎样用模型反馈给候选回答打分。LongMab-PO 研究候选从哪里来：在生成回答时抽取不同文档片段，根据得到的奖励调整下一轮的抽样，再用这些回答构造偏好对。若讨论的是偏好数据质量，两种方案应在相同的候选生成预算下比较。[LongReward](https://aclanthology.org/2025.acl-long.187/) · [LongMab-PO 的方法和消融](https://aclanthology.org/2026.acl-long.161/)
 
+[下载本节 3 篇参考文献（BibTeX）](/assets/bibliographies/long-context-training.bib) · [带阅读说明的文献清单](https://huggingface.co/collections/chengpingan/long-context-evaluation-and-preference-training-6b012827d9f89cf858898e78)
+
 ## 工具调用格式对了，换一个 API 就不会用
 {: #tool-use }
 
 可以留出一组训练时没见过的工具，检查它们的说明与训练工具有多相似，然后按任务是否完成计分。一次函数调用能通过参数校验，也可能填错参数。固定交互次数，再比较允许先试用一次和直接执行，才能判断试用是否值得这一次调用。
 
 ToolLLM 从指令和成功的 API 调用轨迹构造训练数据。ToolMaster 研究如何让模型试用工具、根据环境反馈纠错并完成任务。需要多次调用的测试可看 ToolHop；ToolMaster 论文还把熟悉和陌生工具分开报告。[ToolLLM](https://arxiv.org/abs/2307.16789) · [ToolMaster 表 2](https://arxiv.org/html/2601.12762#S5.T2) · [ToolHop](https://aclanthology.org/2025.acl-long.150/)
+
+[下载本节 3 篇参考文献（BibTeX）](/assets/bibliographies/llm-tool-use.bib) · [带阅读说明的文献清单](https://huggingface.co/collections/chengpingan/tool-use-and-model-routing-for-llm-agents-6b0128231ddb96b53fe17b17)
 
 ## 端侧小模型什么时候该求助云端大模型
 {: #edge-cloud }
@@ -55,6 +63,8 @@ ToolLLM 从指令和成功的 API 调用轨迹构造训练数据。ToolMaster �
 
 RouteLLM 可以作为整条请求路由的参照。EC²-Bench 在 128 个可执行任务上比较不同路由、委托和咨询策略，其中 100 个任务带隐私标注。这里的暴露指标衡量云端能看到的信息；要比较手机上的实际等待时间，还需要真机测量。[RouteLLM](https://arxiv.org/abs/2406.18665) · [EC²-Bench 实验](https://arxiv.org/html/2610.17816v2)
 
+[下载本节 3 篇参考文献（BibTeX）](/assets/bibliographies/llm-routing.bib) · [带阅读说明的文献清单](https://huggingface.co/collections/chengpingan/tool-use-and-model-routing-for-llm-agents-6b0128231ddb96b53fe17b17)
+
 ## 给了术语表，译文还是把专业词换成近义词
 {: #translation }
 
@@ -62,9 +72,13 @@ RouteLLM 可以作为整条请求路由的参照。EC²-Bench 在 128 个可执�
 
 WMT 的术语研究比较了约束解码和术语提示。Translate-and-Revise 在初稿生成后识别未满足的约束并反馈给模型。评测时一起报告术语满足率和译文质量，才看得出修订有没有引入新的问题。[WMT 术语研究](https://aclanthology.org/2023.wmt-1.80/) · [Translate-and-Revise 实验](https://arxiv.org/html/2407.13164)
 
+[下载本节 4 篇参考文献（BibTeX）](/assets/bibliographies/terminology-constrained-translation.bib) · [带阅读说明的文献清单](https://huggingface.co/collections/chengpingan/terminology-constrained-machine-translation-6b0128299b5e79f5fafdb234)
+
 ## 同一个扩散语言模型，换个解码器，推理正确率就变了
 {: #diffusion }
 
 固定模型、生成长度和前向计算预算，再记录每一步最先解除掩码的是哪些位置，最后核对答案。这样才能区分效果来自额外计算，还是来自生成顺序。
 
 LLaDA 提供掩码扩散语言模型及其采样基线。UNCODE 分析基于置信度的选择为何偏爱某些位置和容易预测的词，并在同一模型上评估无需重新训练的校准方法。如果关心不同策略从哪一步开始产生差异，可以直接看论文里的生成轨迹。[LLaDA](https://arxiv.org/abs/2502.09992) · [UNCODE 解码偏差分析](https://arxiv.org/html/2508.13021v4#S3)
+
+[下载本节 3 篇参考文献（BibTeX）](/assets/bibliographies/diffusion-language-model-decoding.bib) · [带阅读说明的文献清单](https://huggingface.co/collections/chengpingan/decoding-strategies-for-diffusion-language-models-6b01282deef963f2d0bb3c58)
